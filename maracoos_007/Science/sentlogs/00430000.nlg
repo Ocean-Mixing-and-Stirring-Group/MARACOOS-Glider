@@ -1,0 +1,41 @@
+the8x3_filename:    00430000
+full_filename:    unit_1232-2025-197-0-0
+ 49.00    00430000.nlg LOG FILE OPENED
+ 49.00    Version 
+ 49.00    report_heap_size(): SCI_M_FREE_HEAP=212.7K(217844 bytes)
+ 49.00                        SCI_M_MIN_FREE_HEAP=212.7K(217844 bytes)
+ 49.00                        SCI_M_SRAM_FREE_HEAP=2943.0K(3013592 bytes)
+ 49.00                        SCI_M_SRAM_MIN_FREE_HEAP=2943.0K(3013584 bytes)
+  1196  1 SCIENCE SWITCHING TO COMMAND MODE
+  1196    stopping all proglets....
+  1445    PROGLET house_elf start() called
+  1445           house_elf_run(): 0 error(s) in a row. (5 is fatal)
+  1445           house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+  2442  7 PROGLET flbbcd start() called
+  2442      Opening port 2:J2
+  2442      19200 baud, N81, line buf: 256, no input data timeout(secs): 15
+  2442    bit_raise: Raising bit(0).
+  2442           flbbcd_run(): 0 error(s) in a row. (5 is fatal)
+  2442           flbbcd_run(): 0 error(s) since flbbcd_begin(). (50 is fatal)
+  2442  8 PROGLET ctd41cp start() called
+  2442      Opening port 4:J0
+  2442      9600 baud, N81, line buf: 50, no input data timeout(secs): 15
+  2442    bit_raise: Raising bit(0).
+  2442           ctd41cp_run(): 0 error(s) in a row. (5 is fatal)
+  2442           ctd41cp_run(): 0 error(s) since ctd41cp_begin(). (50 is fatal)
+  2442    PROGLET oxy4 start() called
+  2442      Opening port 8:J1
+  2442      9600 baud, N81, line buf: 150, no input data timeout(secs): 60
+  2442    bit_raise: Raising bit(2).
+  2442           oxy4_run(): 0 error(s) in a row. (5 is fatal)
+  2442           oxy4_run(): 0 error(s) since oxy4_begin(). (50 is fatal)
+  2588 45 sci_uart_close(2): Closing J2
+  2588    bit_lower: bit(0) is remaining raised.
+  2588    Bit(0) raise count is now 1.
+  2588    Bit(0) raise count is now 0.
+  2588    sci_uart_close(4): Closing J0
+  2588    bit_close: bit(0) is still in use.
+  2588    Bit(0) use count is now 1.
+  2588    sci_uart_close(8): Closing J1
+  2588    Bit(2) raise count is now 0.
+  5865 43 00430000.nlg LOG FILE CLOSED

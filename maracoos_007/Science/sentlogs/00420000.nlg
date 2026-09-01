@@ -1,0 +1,27 @@
+the8x3_filename:    00420000
+full_filename:    unit_1232-2025-162-1-0
+ 28.00    00420000.nlg LOG FILE OPENED
+ 28.00    Version 
+ 28.00    report_heap_size(): SCI_M_FREE_HEAP=212.7K(217844 bytes)
+ 28.00                        SCI_M_MIN_FREE_HEAP=212.7K(217844 bytes)
+ 28.00                        SCI_M_SRAM_FREE_HEAP=2943.0K(3013592 bytes)
+ 28.00                        SCI_M_SRAM_MIN_FREE_HEAP=2943.0K(3013584 bytes)
+ 39.00  2 PROGLET flbbcd start() called
+ 39.00      Opening port 2:J2
+ 39.00      19200 baud, N81, line buf: 256, no input data timeout(secs): 15
+ 39.00    bit_raise: Raising bit(0).
+ 39.00           flbbcd_run(): 0 error(s) in a row. (5 is fatal)
+ 39.00           flbbcd_run(): 0 error(s) since flbbcd_begin(). (50 is fatal)
+ 39.00  3 PROGLET ctd41cp start() called
+ 39.00      Opening port 4:J0
+ 39.00      9600 baud, N81, line buf: 50, no input data timeout(secs): 15
+ 39.00    bit_raise: Raising bit(0).
+ 39.00           ctd41cp_run(): 0 error(s) in a row. (5 is fatal)
+ 39.00           ctd41cp_run(): 0 error(s) since ctd41cp_begin(). (50 is fatal)
+ 39.00    PROGLET oxy4 start() called
+ 39.00      Opening port 8:J1
+ 39.00      9600 baud, N81, line buf: 150, no input data timeout(secs): 60
+ 39.00    bit_raise: Raising bit(2).
+ 39.00           oxy4_run(): 0 error(s) in a row. (5 is fatal)
+ 39.00           oxy4_run(): 0 error(s) since oxy4_begin(). (50 is fatal)
+236.00 49 00420000.nlg LOG FILE CLOSED

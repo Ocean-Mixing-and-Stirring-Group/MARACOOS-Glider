@@ -4,9 +4,10 @@
 # 02-14-2025    adam.ritterbush@teledyne.com   	initial setting
 # 05-15-2025	daniel.sciortino@teledyne.com	Updated Autoexec with new Aft Hull SN
 # 08-24-2026	tydknapp@gmail.com		Updating primary iridium # from: 17818711614 to 88160000592
+# 09-01-2026	tydknapp@gmail.com		Updated name from: unit_1232 to maracoos_007
 
 
-name unit_1232
+name maracoos_007
 
 # SERIAL NUMBER RECORD						
 

@@ -1,0 +1,46 @@
+the8x3_filename:    00450000
+full_filename:    unit_1232-2026-209-0-0
+ 81.00    00450000.nlg LOG FILE OPENED
+ 81.00    Version 
+ 81.00    report_heap_size(): SCI_M_FREE_HEAP=212.7K(217844 bytes)
+ 81.00                        SCI_M_MIN_FREE_HEAP=212.7K(217844 bytes)
+ 81.00                        SCI_M_SRAM_FREE_HEAP=2943.0K(3013592 bytes)
+ 81.00                        SCI_M_SRAM_MIN_FREE_HEAP=2943.0K(3013584 bytes)
+  2096 83 SCIENCE SWITCHING TO COMMAND MODE
+  2096    stopping all proglets....
+  2483    PROGLET house_elf start() called
+  2483           house_elf_run(): 0 error(s) in a row. (5 is fatal)
+  2483           house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+  2555 94 SCIENCE SWITCHING TO COMMAND MODE
+  2555    stopping all proglets....
+  2790    PROGLET house_elf start() called
+  2790           house_elf_run(): 0 error(s) in a row. (5 is fatal)
+  2790           house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+  3074 48 PROGLET flbbcd start() called
+  3074      Opening port 2:J2
+  3074      19200 baud, N81, line buf: 256, no input data timeout(secs): 15
+  3074    bit_raise: Raising bit(0).
+  3074           flbbcd_run(): 0 error(s) in a row. (5 is fatal)
+  3074           flbbcd_run(): 0 error(s) since flbbcd_begin(). (50 is fatal)
+  3074 49 PROGLET ctd41cp start() called
+  3074      Opening port 4:J0
+  3074      9600 baud, N81, line buf: 50, no input data timeout(secs): 15
+  3074    bit_raise: Raising bit(0).
+  3074           ctd41cp_run(): 0 error(s) in a row. (5 is fatal)
+  3074           ctd41cp_run(): 0 error(s) since ctd41cp_begin(). (50 is fatal)
+  3074    PROGLET oxy4 start() called
+  3074      Opening port 8:J1
+  3074      9600 baud, N81, line buf: 150, no input data timeout(secs): 60
+  3074    bit_raise: Raising bit(2).
+  3074           oxy4_run(): 0 error(s) in a row. (5 is fatal)
+  3074           oxy4_run(): 0 error(s) since oxy4_begin(). (50 is fatal)
+  3159 72 sci_uart_close(2): Closing J2
+  3159    bit_lower: bit(0) is remaining raised.
+  3159    Bit(0) raise count is now 1.
+  3159    Bit(0) raise count is now 0.
+  3159    sci_uart_close(4): Closing J0
+  3159    bit_close: bit(0) is still in use.
+  3159    Bit(0) use count is now 1.
+  3159    sci_uart_close(8): Closing J1
+  3159    Bit(2) raise count is now 0.
+  6334  6 00450000.nlg LOG FILE CLOSED

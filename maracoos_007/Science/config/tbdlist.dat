@@ -1,0 +1,25 @@
+# tbdlist.dat
+# A small subset of a dbd file intended to be transmitted in real time.
+#
+# 2009-10-06 fnj@omegatech.hatchescreek.com  Initial.
+#
+SCI_M_PRESENT_TIME
+SCI_M_PRESENT_SECS_INTO_MISSION
+SCI_WATER_COND
+SCI_WATER_TEMP
+SCI_WATER_PRESSURE	
+SCI_FLBBCD_CHLOR_UNITS	30
+SCI_FLBBCD_BB_UNITS	30
+SCI_FLBBCD_CDOM_UNITS	30	
+SCI_OXY4_OXYGEN
+SCI_OXY4_SATURATION
+SCI_OXY4_TEMP
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+the8x3_filename:    00410000
+full_filename:    unit_1232-2025-162-0-0
+275.00    00410000.nlg LOG FILE OPENED
+275.00    Version 
+275.00    report_heap_size(): SCI_M_FREE_HEAP=212.7K(217844 bytes)
+275.00                        SCI_M_MIN_FREE_HEAP=212.7K(217844 bytes)
+275.00                        SCI_M_SRAM_FREE_HEAP=2943.0K(3013592 bytes)
+275.00                        SCI_M_SRAM_MIN_FREE_HEAP=2943.0K(3013584 bytes)
+286.00  2 PROGLET flbbcd start() called
+286.00      Opening port 2:J2
+286.00      19200 baud, N81, line buf: 256, no input data timeout(secs): 15
+286.00    bit_raise: Raising bit(0).
+286.00           flbbcd_run(): 0 error(s) in a row. (5 is fatal)
+286.00           flbbcd_run(): 0 error(s) since flbbcd_begin(). (50 is fatal)
+286.00  3 PROGLET ctd41cp start() called
+286.00      Opening port 4:J0
+286.00      9600 baud, N81, line buf: 50, no input data timeout(secs): 15
+286.00    bit_raise: Raising bit(0).
+286.00           ctd41cp_run(): 0 error(s) in a row. (5 is fatal)
+286.00           ctd41cp_run(): 0 error(s) since ctd41cp_begin(). (50 is fatal)
+286.00    PROGLET oxy4 start() called
+286.00      Opening port 8:J1
+286.00      9600 baud, N81, line buf: 150, no input data timeout(secs): 60
+286.00    bit_raise: Raising bit(2).
+286.00           oxy4_run(): 0 error(s) in a row. (5 is fatal)
+286.00           oxy4_run(): 0 error(s) since oxy4_begin(). (50 is fatal)
+477.00 46 sci_uart_close(2): Closing J2
+477.00    bit_lower: bit(0) is remaining raised.
+477.00    Bit(0) raise count is now 1.
+477.00    Bit(0) raise count is now 0.
+477.00    sci_uart_close(4): Closing J0
+477.00    bit_close: bit(0) is still in use.
+477.00    Bit(0) use count is now 1.
+477.00    sci_uart_close(8): Closing J1
+477.00    Bit(2) raise count is now 0.
+497.00 48 00410000.nlg LOG FILE CLOSED

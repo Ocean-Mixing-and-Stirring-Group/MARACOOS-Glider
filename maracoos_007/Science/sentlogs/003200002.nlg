@@ -1,0 +1,9 @@
+the8x3_filename:    00320000
+full_filename:    unit_1232-2025-133-5-0
+ 44.00    00320000.nlg LOG FILE OPENED
+ 44.00    Version 
+ 44.00    report_heap_size(): SCI_M_FREE_HEAP=212.7K(217844 bytes)
+ 44.00                        SCI_M_MIN_FREE_HEAP=212.7K(217844 bytes)
+ 44.00                        SCI_M_SRAM_FREE_HEAP=2943.0K(3013592 bytes)
+ 44.00                        SCI_M_SRAM_MIN_FREE_HEAP=2943.0K(3013584 bytes)
+ 55567 93 00320000.nlg LOG FILE CLOSED
