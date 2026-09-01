@@ -1,0 +1,2780 @@
+the8x3_filename:    00450000
+full_filename:    unit_1232-2026-209-0-0
+634.71 43 00450000.mlg LOG FILE OPENED
+  1912 61 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: 0.000, delta bar: -0.029, delta meters: -0.335
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  1925 67 sensor: c_alt_time = 0 sec
+  1925 68 Iridium has been powered on for 1.0 secs
+  1925    Iridium, waiting for 3.0 secs after power on
+  1931 69 Iridium has been powered on for 6.7 secs
+  1931    Waking up Iridium... sending:ATE1
+  1931    Iridium driver dropped 1 chars
+  1931    Iridium, modem making attempt #2 at primary number (17818711614)
+  1933 70 Iridium modem matched: OK
+  1933    Waking up Iridium... sending:AT+cbst=6,0,1
+  1934 71 Iridium modem matched: OK
+  1934    Waking up Iridium... sending:AT+CSQ
+  1978 86 sensor: m_altimeter_voltage = 2.44178266178266 volts
+  1979    sensor: m_altimeter_voltage = 2.4431746031746 volts
+  1982 87 sensor: m_altimeter_voltage = 2.44131868131868 volts
+  1983    sensor: m_altimeter_voltage = 2.44197802197802 volts
+  1988 88 sensor: m_altimeter_voltage = 2.44175824175824 volts
+  1988    sensor: m_altimeter_voltage = 2.4430525030525 volts
+  1992 89 sensor: m_altimeter_voltage = 2.44129426129426 volts
+  1993    sensor: m_altimeter_voltage = 2.44175824175824 volts
+  1996 90 sensor: m_altimeter_voltage = 2.44612942612943 volts
+  1997    sensor: m_altimeter_voltage = 2.4413431013431 volts
+  2000 91 sensor: m_altimeter_voltage = 2.44434676434676 volts
+  2001    sensor: m_altimeter_voltage = 2.44642246642247 volts
+  2004 92 sensor: m_altimeter_voltage = 2.44129426129426 volts
+  2005    sensor: m_altimeter_voltage = 2.44173382173382 volts
+  2008 93 sensor: m_altimeter_voltage = 2.44139194139194 volts
+  2009    sensor: m_altimeter_voltage = 2.44139194139194 volts
+  2012 94 sensor: m_altimeter_voltage = 2.4439072039072 volts
+  2012    sensor: m_altimeter_voltage = 2.44700854700855 volts
+  2014 95 sensor: m_altimeter_voltage = 2.44319902319902 volts
+  2014    sensor: m_altimeter_voltage = 2.44656898656899 volts
+  2015 96 sensor: m_altimeter_voltage = 2.44100122100122 volts
+  2016    sensor: m_altimeter_voltage = 2.44141636141636 volts
+  2016 97 sensor: m_altimeter_voltage = 2.44212454212454 volts
+  2017    sensor: m_altimeter_voltage = 2.44407814407814 volts
+  2020 98 sensor: m_altimeter_voltage = 2.44246642246642 volts
+  2020    sensor: m_altimeter_voltage = 2.44124542124542 volts
+  2021 99 sensor: m_altimeter_voltage = 2.4414652014652 volts
+  2022    sensor: m_altimeter_voltage = 2.44202686202686 volts
+  2022  0 sensor: m_altimeter_voltage = 2.44173382173382 volts
+  2023    sensor: m_altimeter_voltage = 2.4428083028083 volts
+  2026  1 sensor: m_altimeter_voltage = 2.44112332112332 volts
+  2026    sensor: m_altimeter_voltage = 2.44131868131868 volts
+  2027  2 sensor: m_altimeter_voltage = 2.44153846153846 volts
+  2028    sensor: m_altimeter_voltage = 2.4413431013431 volts
+  2029  3 sensor: m_altimeter_voltage = 2.44144078144078 volts
+  2029    sensor: m_altimeter_voltage = 2.44175824175824 volts
+  2029    sensor: c_alt_time = -1 sec
+CONSCI REQUESTED (using FREEWAVE as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via FREEWAVE
+SWITCHING TO SCIENCE COMMAND MODE over FREEWAVE
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+CONSCI REQUESTED (using FREEWAVE as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via FREEWAVE
+SWITCHING TO SCIENCE COMMAND MODE over FREEWAVE
+  3155  7 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: -0.000, delta bar: 0.026, delta meters: 0.000
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+  3344 53 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: 0.000, delta bar: -0.040, delta meters: -0.310
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  3348 55 sensor: m_depth = 0 m
+  3352 56 sensor: m_depth = 0 m
+  3356 57 sensor: m_depth = 0 m
+  3360 58 sensor: m_depth = 0 m
+  3453 94 sensor: m_ballast_pumped = 532.681815628816 cc
+  3453    sensor: m_ballast_pumped = 528.820531135531 cc
+  3454    sensor: m_ballast_pumped = 525.924567765568 cc
+  3454    sensor: m_ballast_pumped = 523.028604395604 cc
+  3454    sensor: m_ballast_pumped = 520.132641025641 cc
+  3454    sensor: m_ballast_pumped = 517.236677655678 cc
+  3454    sensor: m_ballast_pumped = 514.340714285714 cc
+  3454    sensor: m_ballast_pumped = 510.47942979243 cc
+  3454    sensor: m_ballast_pumped = 508.548787545788 cc
+  3454    sensor: m_ballast_pumped = 504.687503052503 cc
+  3454    sensor: m_ballast_pumped = 501.79153968254 cc
+  3454    sensor: m_ballast_pumped = 498.895576312576 cc
+  3455    sensor: m_ballast_pumped = 495.516952380952 cc
+  3455    sensor: m_ballast_pumped = 493.10364957265 cc
+  3455    sensor: m_ballast_pumped = 489.725025641026 cc
+  3455    sensor: m_ballast_pumped = 487.311722832723 cc
+  3455    sensor: m_ballast_pumped = 483.933098901099 cc
+  3455    sensor: m_ballast_pumped = 481.037135531136 cc
+  3455    sensor: m_ballast_pumped = 477.658511599512 cc
+  3455    sensor: m_ballast_pumped = 474.762548229548 cc
+  3455    sensor: m_ballast_pumped = 472.349245421246 cc
+  3456    sensor: m_ballast_pumped = 468.970621489622 cc
+  3456    sensor: m_ballast_pumped = 466.074658119658 cc
+  3456    sensor: m_ballast_pumped = 463.178694749695 cc
+  3456    sensor: m_ballast_pumped = 459.800070818071 cc
+  3456    sensor: m_ballast_pumped = 456.904107448108 cc
+  3456    sensor: m_ballast_pumped = 454.008144078144 cc
+  3456    sensor: m_ballast_pumped = 451.112180708181 cc
+  3456    sensor: m_ballast_pumped = 447.733556776557 cc
+  3457 95 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  3457    sensor: m_ballast_pumped = 421.187225885226 cc
+  3457    sensor: m_ballast_pumped = 415.395299145299 cc
+  3458    sensor: m_ballast_pumped = 411.534014652015 cc
+  3458    sensor: m_ballast_pumped = 409.120711843712 cc
+  3458    sensor: m_ballast_pumped = 405.742087912088 cc
+  3458    sensor: m_ballast_pumped = 402.846124542125 cc
+  3458    sensor: m_ballast_pumped = 399.950161172161 cc
+  3458    sensor: m_ballast_pumped = 396.571537240537 cc
+  3458    sensor: m_ballast_pumped = 393.675573870574 cc
+  3458    sensor: m_ballast_pumped = 390.77961050061 cc
+  3458    sensor: m_ballast_pumped = 387.400986568987 cc
+  3458    sensor: m_ballast_pumped = 384.505023199023 cc
+  3459    sensor: m_ballast_pumped = 381.126399267399 cc
+  3459    sensor: m_ballast_pumped = 378.713096459097 cc
+  3459    sensor: m_ballast_pumped = 375.334472527473 cc
+  3459    sensor: m_ballast_pumped = 372.438509157509 cc
+  3459    sensor: m_ballast_pumped = 369.542545787546 cc
+  3459    sensor: m_ballast_pumped = 366.163921855922 cc
+  3459    sensor: m_ballast_pumped = 363.267958485959 cc
+  3459    sensor: m_ballast_pumped = 360.371995115995 cc
+  3459    sensor: m_ballast_pumped = 356.993371184371 cc
+  3459    sensor: m_ballast_pumped = 354.097407814408 cc
+  3460    sensor: m_ballast_pumped = 351.201444444445 cc
+  3460    sensor: m_ballast_pumped = 347.82282051282 cc
+  3460    sensor: m_ballast_pumped = 344.444196581197 cc
+  3460    sensor: m_ballast_pumped = 341.548233211233 cc
+  3460    sensor: m_ballast_pumped = 338.65226984127 cc
+  3460    sensor: m_ballast_pumped = 335.756306471307 cc
+  3460    sensor: m_ballast_pumped = 332.377682539683 cc
+  3460    sensor: m_ballast_pumped = 329.481719169719 cc
+  3461 96 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  3461    sensor: m_ballast_pumped = 302.452727716728 cc
+  3462    sensor: m_ballast_pumped = 278.3196996337 cc
+  3462    sensor: m_ballast_pumped = 275.906396825397 cc
+  3462    sensor: m_ballast_pumped = 273.010433455433 cc
+  3462    sensor: m_ballast_pumped = 269.63180952381 cc
+  3463    sensor: m_ballast_pumped = 266.735846153846 cc
+  3463    sensor: m_ballast_pumped = 263.357222222222 cc
+  3463    sensor: m_ballast_pumped = 260.461258852259 cc
+  3463    sensor: m_ballast_pumped = 257.565295482296 cc
+  3463    sensor: m_ballast_pumped = 254.669332112332 cc
+  3463    sensor: m_ballast_pumped = 251.290708180708 cc
+  3463    sensor: m_ballast_pumped = 248.877405372405 cc
+  3463    sensor: m_ballast_pumped = 245.498781440781 cc
+  3463    sensor: m_ballast_pumped = 242.602818070818 cc
+  3463    sensor: m_ballast_pumped = 239.224194139194 cc
+  3464    sensor: m_ballast_pumped = 236.328230769231 cc
+  3464    sensor: m_ballast_pumped = 233.432267399267 cc
+  3464    sensor: m_ballast_pumped = 230.536304029304 cc
+  3464    sensor: m_ballast_pumped = 227.640340659341 cc
+  3464    sensor: m_ballast_pumped = 224.744377289377 cc
+  3464    sensor: m_ballast_pumped = 221.365753357753 cc
+  3464    sensor: m_ballast_pumped = 218.952450549451 cc
+  3464    sensor: m_ballast_pumped = 215.573826617827 cc
+  3464    sensor: m_ballast_pumped = 212.677863247863 cc
+  3465 97 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  3465    sensor: m_ballast_pumped = 183.71822954823 cc
+  3466    sensor: m_ballast_pumped = 177.443642246642 cc
+  3466    sensor: m_ballast_pumped = 174.547678876679 cc
+  3466    sensor: m_ballast_pumped = 171.169054945055 cc
+  3466    sensor: m_ballast_pumped = 168.273091575092 cc
+  3466    sensor: m_ballast_pumped = 164.894467643468 cc
+  3466    sensor: m_ballast_pumped = 161.998504273504 cc
+  3466    sensor: m_ballast_pumped = 159.102540903541 cc
+  3466    sensor: m_ballast_pumped = 156.206577533578 cc
+  3466    sensor: m_ballast_pumped = 153.310614163614 cc
+  3467    sensor: m_ballast_pumped = 149.93199023199 cc
+  3467    sensor: m_ballast_pumped = 147.036026862027 cc
+  3467    sensor: m_ballast_pumped = 144.622724053724 cc
+  3467    sensor: m_ballast_pumped = 141.2441001221 cc
+  3467    sensor: m_ballast_pumped = 138.348136752137 cc
+  3467    sensor: m_ballast_pumped = 135.452173382173 cc
+  3467    sensor: m_ballast_pumped = 132.073549450549 cc
+  3467    sensor: m_ballast_pumped = 129.177586080586 cc
+  3467    sensor: m_ballast_pumped = 126.281622710623 cc
+  3467    sensor: m_ballast_pumped = 123.385659340659 cc
+  3468    sensor: m_ballast_pumped = 120.007035409035 cc
+  3468    sensor: m_ballast_pumped = 117.111072039072 cc
+  3468    sensor: m_ballast_pumped = 113.732448107448 cc
+  3468    sensor: m_ballast_pumped = 111.319145299145 cc
+  3468    sensor: m_ballast_pumped = 107.940521367521 cc
+  3468    sensor: m_ballast_pumped = 105.044557997558 cc
+  3468    sensor: m_ballast_pumped = 102.148594627595 cc
+  3468    sensor: m_ballast_pumped = 99.2526312576313 cc
+  3468    sensor: m_ballast_pumped = 96.356667887668 cc
+  3469    sensor: m_ballast_pumped = 93.4607045177046 cc
+  3469 98 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  3469    sensor: m_ballast_pumped = 69.3276764346765 cc
+  3470    sensor: m_ballast_pumped = 60.6397863247863 cc
+  3470    sensor: m_ballast_pumped = 57.2611623931624 cc
+  3470    sensor: m_ballast_pumped = 54.365199023199 cc
+  3470    sensor: m_ballast_pumped = 50.9865750915751 cc
+  3470    sensor: m_ballast_pumped = 48.0906117216117 cc
+  3470    sensor: m_ballast_pumped = 45.1946483516484 cc
+  3470    sensor: m_ballast_pumped = 42.298684981685 cc
+  3470    sensor: m_ballast_pumped = 38.920061050061 cc
+  3470    sensor: m_ballast_pumped = 36.0240976800977 cc
+  3471    sensor: m_ballast_pumped = 33.6107948717948 cc
+  3471    sensor: m_ballast_pumped = 30.2321709401709 cc
+  3471    sensor: m_ballast_pumped = 27.3362075702075 cc
+  3471    sensor: m_ballast_pumped = 24.4402442002443 cc
+  3471    sensor: m_ballast_pumped = 21.5442808302809 cc
+  3471    sensor: m_ballast_pumped = 18.1656568986569 cc
+  3471    sensor: m_ballast_pumped = 15.7523540903542 cc
+  3471    sensor: m_ballast_pumped = 12.3737301587302 cc
+  3471    sensor: m_ballast_pumped = 9.47776678876676 cc
+  3472    sensor: m_ballast_pumped = 6.09914285714285 cc
+  3472    sensor: m_ballast_pumped = 3.20317948717945 cc
+  3472    sensor: m_ballast_pumped = 0.789876678876681 cc
+  3472    sensor: m_ballast_pumped = 0.307216117216171 cc
+  3473 99 sensor: m_ballast_pumped = 0.307216117216171 cc
+  3478  0 sensor: m_ballast_pumped = 0.307216117216171 cc
+  3481  1 sensor: m_ballast_pumped = 0.307216117216171 cc
+  3482  2 sensor: m_ballast_pumped = 0.307216117216171 cc
+  3483  3 sensor: m_ballast_pumped = 0.307216117216171 cc
+  3484  4 sensor: m_ballast_pumped = 0.307216117216171 cc
+  3527 17 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: -0.000, delta bar: 0.036, delta meters: 0.000
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  3623 49 Sent science:s:c_flbbcd_on(sec) 0-
+  3623    Sent science:s:c_oxy4_on(sec) 0-
+  3623    Sent science:s:c_profile_on(sec) 0-
+  3623    Sent science:s:c_science_send_all(bool) 1-
+  3623    Sent science:s:m_cycle_number(nodim) 949-
+  3626    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3626    Sent science:sensor_num:sci_flbbcd_bb_ref(nodim) 1253-
+  3626    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3626    Sent science:sensor_num:sci_flbbcd_bb_sig(nodim) 1254-
+  3626    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3626    Sent science:sensor_num:sci_flbbcd_bb_units(nodim) 1255-
+  3626    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3626    Sent science:sensor_num:sci_flbbcd_cdom_ref(nodim) 1256-
+  3626    science wrote:sci_flbbcd_cdom_sig(nodim) 375
+  3626    Sent science:sensor_num:sci_flbbcd_cdom_sig(nodim) 1257-
+  3626    science wrote:sci_flbbcd_cdom_units(ppb) 29.7824
+  3626    Sent science:sensor_num:sci_flbbcd_cdom_units(ppb) 1258-
+  3626    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3626    Sent science:sensor_num:sci_flbbcd_chlor_ref(nodim) 1259-
+  3626    science wrote:sci_flbbcd_chlor_sig(nodim) 2014
+  3626    Sent science:sensor_num:sci_flbbcd_chlor_sig(nodim) 1260-
+  3626    science wrote:sci_flbbcd_chlor_units(ug/l) 14.184
+  3626    Sent science:sensor_num:sci_flbbcd_chlor_units(ug/l) 1261-
+  3626    science wrote:sci_flbbcd_therm(nodim) 536
+  3626    Sent science:sensor_num:sci_flbbcd_therm(nodim) 1263-
+  3627    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3627    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3627    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3627    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3627    science wrote:sci_flbbcd_cdom_sig(nodim) 374
+  3627    science wrote:sci_flbbcd_cdom_units(ppb) 29.6916
+  3627    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3627    science wrote:sci_flbbcd_chlor_sig(nodim) 2014
+  3627    science wrote:sci_flbbcd_chlor_units(ug/l) 14.184
+  3627    science wrote:sci_flbbcd_therm(nodim) 536
+  3627    science wrote:sci_m_present_secs_into_mission(sec) 3629.23300004005
+  3627    science wrote:sci_m_present_time(timestamp) 1785350463.339
+  3627 50 Sent science:s:m_cycle_number(nodim) 950-
+  3628    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350463.994
+  3628    Sent science:sensor_num:sci_ctd41cp_timestamp(timestamp) 1098-
+  3628    science wrote:sci_water_cond(S/m) 0
+  3628    Sent science:sensor_num:sci_water_cond(s/m) 1784-
+  3628    science wrote:sci_water_pressure(bar) -0.025
+  3628    Sent science:sensor_num:sci_water_pressure(bar) 1786-
+  3628    science wrote:sci_water_temp(degC) 21.7943
+  3628    Sent science:sensor_num:sci_water_temp(degc) 1788-
+  3628    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3628    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3628    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3628    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3628    science wrote:sci_flbbcd_cdom_sig(nodim) 375
+  3628    science wrote:sci_flbbcd_cdom_units(ppb) 29.7824
+  3628    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3628    science wrote:sci_flbbcd_chlor_sig(nodim) 2014
+  3628    science wrote:sci_flbbcd_chlor_units(ug/l) 14.184
+  3628    science wrote:sci_flbbcd_therm(nodim) 536
+  3629    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3629    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3629    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3629    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3629    science wrote:sci_flbbcd_cdom_sig(nodim) 380
+  3629    science wrote:sci_flbbcd_cdom_units(ppb) 30.2364
+  3629    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3629    science wrote:sci_flbbcd_chlor_sig(nodim) 2011
+  3629    science wrote:sci_flbbcd_chlor_units(ug/l) 14.1624
+  3629    science wrote:sci_flbbcd_therm(nodim) 536
+  3630    science wrote:sci_oxy4_c1amp(mV) 908.9
+  3630    Sent science:sensor_num:sci_oxy4_c1amp(mv) 1576-
+  3630    science wrote:sci_oxy4_c1rph(deg) 38.469
+  3630    Sent science:sensor_num:sci_oxy4_c1rph(deg) 1577-
+  3630    science wrote:sci_oxy4_c2amp(mV) 792.2
+  3630    Sent science:sensor_num:sci_oxy4_c2amp(mv) 1578-
+  3630    science wrote:sci_oxy4_c2rph(deg) 8.593
+  3630    Sent science:sensor_num:sci_oxy4_c2rph(deg) 1579-
+  3630    science wrote:sci_oxy4_calphase(deg) 28.177
+  3630    Sent science:sensor_num:sci_oxy4_calphase(deg) 1580-
+  3630    science wrote:sci_oxy4_oxygen(uM) 217.185
+  3630    Sent science:sensor_num:sci_oxy4_oxygen(um) 1582-
+  3630    science wrote:sci_oxy4_rawtemp(mV) 137.7
+  3630    Sent science:sensor_num:sci_oxy4_rawtemp(mv) 1583-
+  3630    science wrote:sci_oxy4_saturation(%) 97.061
+  3630    Sent science:sensor_num:sci_oxy4_saturation(%) 1584-
+  3630    science wrote:sci_oxy4_tcphase(deg) 29.876
+  3630    Sent science:sensor_num:sci_oxy4_tcphase(deg) 1585-
+  3630    science wrote:sci_oxy4_temp(degC) 21.725
+  3630    Sent science:sensor_num:sci_oxy4_temp(degc) 1586-
+  3630    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350465.994
+  3630    science wrote:sci_water_cond(S/m) 0.00022
+  3630    science wrote:sci_water_pressure(bar) -0.025
+  3630    science wrote:sci_water_temp(degC) 21.7943
+  3630    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3630    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3630    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3630    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3630    science wrote:sci_flbbcd_cdom_sig(nodim) 381
+  3630    science wrote:sci_flbbcd_cdom_units(ppb) 30.3272
+  3630    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3630    science wrote:sci_flbbcd_chlor_sig(nodim) 2010
+  3630    science wrote:sci_flbbcd_chlor_units(ug/l) 14.1552
+  3630    science wrote:sci_flbbcd_therm(nodim) 535
+  3631    science wrote:sci_m_present_secs_into_mission(sec) 3633.23500013351
+  3631    science wrote:sci_m_present_time(timestamp) 1785350467.341
+  3631    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3631    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3631    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3631    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3631    science wrote:sci_flbbcd_cdom_sig(nodim) 384
+  3631    science wrote:sci_flbbcd_cdom_units(ppb) 30.5996
+  3631    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3631    science wrote:sci_flbbcd_chlor_sig(nodim) 2009
+  3631    science wrote:sci_flbbcd_chlor_units(ug/l) 14.148
+  3631    science wrote:sci_flbbcd_therm(nodim) 535
+  3631 51 Sent science:s:m_cycle_number(nodim) 951-
+  3632    science wrote:sci_oxy4_c1amp(mV) 908.1
+  3632    science wrote:sci_oxy4_c1rph(deg) 38.453
+  3632    science wrote:sci_oxy4_c2amp(mV) 791.8
+  3632    science wrote:sci_oxy4_c2rph(deg) 8.594
+  3632    science wrote:sci_oxy4_calphase(deg) 28.16
+  3632    science wrote:sci_oxy4_oxygen(uM) 217.51
+  3632    science wrote:sci_oxy4_rawtemp(mV) 137.7
+  3632    science wrote:sci_oxy4_saturation(%) 97.206
+  3632    science wrote:sci_oxy4_tcphase(deg) 29.859
+  3632    science wrote:sci_oxy4_temp(degC) 21.725
+  3632    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350467.995
+  3632    science wrote:sci_water_cond(S/m) 0.00021
+  3632    science wrote:sci_water_pressure(bar) -0.025
+  3632    science wrote:sci_water_temp(degC) 21.7945
+  3637 52 science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3637    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3637    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3637    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3637    science wrote:sci_flbbcd_cdom_sig(nodim) 384
+  3637    science wrote:sci_flbbcd_cdom_units(ppb) 30.5996
+  3637    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3637    science wrote:sci_flbbcd_chlor_sig(nodim) 2007
+  3637    science wrote:sci_flbbcd_chlor_units(ug/l) 14.1336
+  3637    science wrote:sci_flbbcd_therm(nodim) 535
+  3637    science wrote:sci_oxy4_c1amp(mV) 907.6
+  3637    science wrote:sci_oxy4_c1rph(deg) 38.442
+  3637    science wrote:sci_oxy4_c2amp(mV) 791.5
+  3637    science wrote:sci_oxy4_c2rph(deg) 8.596
+  3637    science wrote:sci_oxy4_calphase(deg) 28.147
+  3637    science wrote:sci_oxy4_oxygen(uM) 217.764
+  3637    science wrote:sci_oxy4_rawtemp(mV) 137.7
+  3637    science wrote:sci_oxy4_saturation(%) 97.32
+  3637    science wrote:sci_oxy4_tcphase(deg) 29.846
+  3637    science wrote:sci_oxy4_temp(degC) 21.725
+  3637    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3637    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3637    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3637    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3637    science wrote:sci_flbbcd_cdom_sig(nodim) 381
+  3637    science wrote:sci_flbbcd_cdom_units(ppb) 30.3272
+  3637    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3637    science wrote:sci_flbbcd_chlor_sig(nodim) 2007
+  3637    science wrote:sci_flbbcd_chlor_units(ug/l) 14.1336
+  3637    science wrote:sci_flbbcd_therm(nodim) 535
+  3637    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350469.995
+  3637    science wrote:sci_water_cond(S/m) 5.99999991306807E-05
+  3637    science wrote:sci_water_pressure(bar) -0.025
+  3637    science wrote:sci_water_temp(degC) 21.7951
+  3637    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3637    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3637    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3637    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3637    science wrote:sci_flbbcd_cdom_sig(nodim) 387
+  3637    science wrote:sci_flbbcd_cdom_units(ppb) 30.872
+  3637    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3637    science wrote:sci_flbbcd_chlor_sig(nodim) 2006
+  3637    science wrote:sci_flbbcd_chlor_units(ug/l) 14.1264
+  3637    science wrote:sci_flbbcd_therm(nodim) 535
+  3637    science wrote:sci_m_present_secs_into_mission(sec) 3637.23699998856
+  3637    science wrote:sci_m_present_time(timestamp) 1785350471.343
+  3637    science wrote:sci_oxy4_c1amp(mV) 907.1
+  3637    science wrote:sci_oxy4_c1rph(deg) 38.438
+  3637    science wrote:sci_oxy4_c2amp(mV) 791.2
+  3637    science wrote:sci_oxy4_c2rph(deg) 8.598
+  3637    science wrote:sci_oxy4_calphase(deg) 28.141
+  3637    science wrote:sci_oxy4_oxygen(uM) 217.87
+  3637    science wrote:sci_oxy4_rawtemp(mV) 137.6
+  3637    science wrote:sci_oxy4_saturation(%) 97.369
+  3637    science wrote:sci_oxy4_tcphase(deg) 29.84
+  3637    science wrote:sci_oxy4_temp(degC) 21.727
+  3637    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350471.995
+  3637    science wrote:sci_water_cond(S/m) 2.99999995653404E-05
+  3637    science wrote:sci_water_pressure(bar) -0.025
+  3637    science wrote:sci_water_temp(degC) 21.7948
+  3637    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3637    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3637    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3637    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3637    science wrote:sci_flbbcd_cdom_sig(nodim) 385
+  3637    science wrote:sci_flbbcd_cdom_units(ppb) 30.6904
+  3637    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3637    science wrote:sci_flbbcd_chlor_sig(nodim) 2005
+  3637    science wrote:sci_flbbcd_chlor_units(ug/l) 14.1192
+  3637    science wrote:sci_flbbcd_therm(nodim) 535
+  3637    Sent science:s:m_cycle_number(nodim) 952-
+  3638    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3638    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3638    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3638    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3638    science wrote:sci_flbbcd_cdom_sig(nodim) 384
+  3638    science wrote:sci_flbbcd_cdom_units(ppb) 30.5996
+  3638    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3638    science wrote:sci_flbbcd_chlor_sig(nodim) 2004
+  3638    science wrote:sci_flbbcd_chlor_units(ug/l) 14.112
+  3638    science wrote:sci_flbbcd_therm(nodim) 535
+  3638    science wrote:sci_oxy4_c1amp(mV) 906.7
+  3638    science wrote:sci_oxy4_c1rph(deg) 38.434
+  3638    science wrote:sci_oxy4_c2amp(mV) 791
+  3638    science wrote:sci_oxy4_c2rph(deg) 8.601
+  3638    science wrote:sci_oxy4_calphase(deg) 28.134
+  3638    science wrote:sci_oxy4_oxygen(uM) 218.013
+  3638    science wrote:sci_oxy4_rawtemp(mV) 137.6
+  3638    science wrote:sci_oxy4_saturation(%) 97.433
+  3638    science wrote:sci_oxy4_tcphase(deg) 29.833
+  3638    science wrote:sci_oxy4_temp(degC) 21.726
+  3638    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350473.994
+  3638    science wrote:sci_water_cond(S/m) 2.99999995653404E-05
+  3638    science wrote:sci_water_pressure(bar) -0.025
+  3638    science wrote:sci_water_temp(degC) 21.7952
+  3638    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3638    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3638    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3638    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3638    science wrote:sci_flbbcd_cdom_sig(nodim) 387
+  3638    science wrote:sci_flbbcd_cdom_units(ppb) 30.872
+  3638    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3638    science wrote:sci_flbbcd_chlor_sig(nodim) 2004
+  3638    science wrote:sci_flbbcd_chlor_units(ug/l) 14.112
+  3638    science wrote:sci_flbbcd_therm(nodim) 535
+  3639    science wrote:sci_m_present_secs_into_mission(sec) 3641.24000000954
+  3639    science wrote:sci_m_present_time(timestamp) 1785350475.346
+  3639    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3639    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3639    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3639    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3639    science wrote:sci_flbbcd_cdom_sig(nodim) 386
+  3639    science wrote:sci_flbbcd_cdom_units(ppb) 30.7812
+  3639    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3639    science wrote:sci_flbbcd_chlor_sig(nodim) 2003
+  3639    science wrote:sci_flbbcd_chlor_units(ug/l) 14.1048
+  3639    science wrote:sci_flbbcd_therm(nodim) 535
+  3640    science wrote:sci_oxy4_c1amp(mV) 906.5
+  3640    science wrote:sci_oxy4_c1rph(deg) 38.43
+  3640    science wrote:sci_oxy4_c2amp(mV) 790.9
+  3640    science wrote:sci_oxy4_c2rph(deg) 8.603
+  3640    science wrote:sci_oxy4_calphase(deg) 28.128
+  3640    science wrote:sci_oxy4_oxygen(uM) 218.111
+  3640    science wrote:sci_oxy4_rawtemp(mV) 137.6
+  3640    science wrote:sci_oxy4_saturation(%) 97.478
+  3640    science wrote:sci_oxy4_tcphase(deg) 29.827
+  3640    science wrote:sci_oxy4_temp(degC) 21.727
+  3640    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350475.994
+  3640    science wrote:sci_water_cond(S/m) 3.99999994204538E-05
+  3640    science wrote:sci_water_pressure(bar) -0.025
+  3640    science wrote:sci_water_temp(degC) 21.7949
+  3640    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3640    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3640    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3640    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3640    science wrote:sci_flbbcd_cdom_sig(nodim) 382
+  3640    science wrote:sci_flbbcd_cdom_units(ppb) 30.418
+  3640    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3640    science wrote:sci_flbbcd_chlor_sig(nodim) 2002
+  3640    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0976
+  3640    science wrote:sci_flbbcd_therm(nodim) 535
+  3641 53 Sent science:s:m_cycle_number(nodim) 953-
+  3642    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3642    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3642    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3642    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3642    science wrote:sci_flbbcd_cdom_sig(nodim) 379
+  3642    science wrote:sci_flbbcd_cdom_units(ppb) 30.1456
+  3642    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3642    science wrote:sci_flbbcd_chlor_sig(nodim) 2002
+  3642    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0976
+  3642    science wrote:sci_flbbcd_therm(nodim) 535
+  3642    science wrote:sci_oxy4_c1amp(mV) 906.3
+  3642    science wrote:sci_oxy4_c1rph(deg) 38.431
+  3642    science wrote:sci_oxy4_c2amp(mV) 790.8
+  3642    science wrote:sci_oxy4_c2rph(deg) 8.605
+  3642    science wrote:sci_oxy4_calphase(deg) 28.127
+  3642    science wrote:sci_oxy4_oxygen(uM) 218.141
+  3642    science wrote:sci_oxy4_rawtemp(mV) 137.6
+  3642    science wrote:sci_oxy4_saturation(%) 97.493
+  3642    science wrote:sci_oxy4_tcphase(deg) 29.826
+  3642    science wrote:sci_oxy4_temp(degC) 21.728
+  3642    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350477.994
+  3642    science wrote:sci_water_cond(S/m) 0.00024
+  3642    science wrote:sci_water_pressure(bar) -0.025
+  3642    science wrote:sci_water_temp(degC) 21.7948
+  3643    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3643    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3643    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3643    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3643    science wrote:sci_flbbcd_cdom_sig(nodim) 379
+  3643    science wrote:sci_flbbcd_cdom_units(ppb) 30.1456
+  3643    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3643    science wrote:sci_flbbcd_chlor_sig(nodim) 2002
+  3643    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0976
+  3643    science wrote:sci_flbbcd_therm(nodim) 535
+  3643    science wrote:sci_m_present_secs_into_mission(sec) 3645.242000103
+  3643    science wrote:sci_m_present_time(timestamp) 1785350479.348
+  3644    science wrote:sci_oxy4_c1amp(mV) 906.1
+  3644    science wrote:sci_oxy4_c1rph(deg) 38.43
+  3644    science wrote:sci_oxy4_c2amp(mV) 790.6
+  3644    science wrote:sci_oxy4_c2rph(deg) 8.608
+  3644    science wrote:sci_oxy4_calphase(deg) 28.123
+  3644    science wrote:sci_oxy4_oxygen(uM) 218.204
+  3644    science wrote:sci_oxy4_rawtemp(mV) 137.6
+  3644    science wrote:sci_oxy4_saturation(%) 97.522
+  3644    science wrote:sci_oxy4_tcphase(deg) 29.822
+  3644    science wrote:sci_oxy4_temp(degC) 21.729
+  3644    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350479.994
+  3644    science wrote:sci_water_cond(S/m) 2.99999995653404E-05
+  3644    science wrote:sci_water_pressure(bar) -0.025
+  3644    science wrote:sci_water_temp(degC) 21.7954
+  3644    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3644    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3644    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3644    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3644    science wrote:sci_flbbcd_cdom_sig(nodim) 379
+  3644    science wrote:sci_flbbcd_cdom_units(ppb) 30.1456
+  3644    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3644    science wrote:sci_flbbcd_chlor_sig(nodim) 2000
+  3644    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0832
+  3644    science wrote:sci_flbbcd_therm(nodim) 535
+  3645 54 Sent science:s:m_cycle_number(nodim) 954-
+  3646    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3646    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3646    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3646    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3646    science wrote:sci_flbbcd_cdom_sig(nodim) 383
+  3646    science wrote:sci_flbbcd_cdom_units(ppb) 30.5088
+  3646    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3646    science wrote:sci_flbbcd_chlor_sig(nodim) 1999
+  3646    science wrote:sci_flbbcd_chlor_units(ug/l) 14.076
+  3646    science wrote:sci_flbbcd_therm(nodim) 535
+  3646    science wrote:sci_oxy4_c1amp(mV) 906
+  3646    science wrote:sci_oxy4_c1rph(deg) 38.43
+  3646    science wrote:sci_oxy4_c2amp(mV) 790.4
+  3646    science wrote:sci_oxy4_c2rph(deg) 8.61
+  3646    science wrote:sci_oxy4_calphase(deg) 28.121
+  3646    science wrote:sci_oxy4_oxygen(uM) 218.244
+  3646    science wrote:sci_oxy4_rawtemp(mV) 137.5
+  3646    science wrote:sci_oxy4_saturation(%) 97.542
+  3646    science wrote:sci_oxy4_tcphase(deg) 29.82
+  3646    science wrote:sci_oxy4_temp(degC) 21.73
+  3646    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350481.994
+  3646    science wrote:sci_water_cond(S/m) -3.99999994204538E-05
+  3646    science wrote:sci_water_pressure(bar) -0.025
+  3646    science wrote:sci_water_temp(degC) 21.7964
+  3646    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3646    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3646    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3646    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3646    science wrote:sci_flbbcd_cdom_sig(nodim) 381
+  3646    science wrote:sci_flbbcd_cdom_units(ppb) 30.3272
+  3646    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3646    science wrote:sci_flbbcd_chlor_sig(nodim) 1997
+  3646    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0616
+  3646    science wrote:sci_flbbcd_therm(nodim) 535
+  3647    science wrote:sci_m_present_secs_into_mission(sec) 3649.24399995804
+  3647    science wrote:sci_m_present_time(timestamp) 1785350483.35
+  3647    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3647    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3647    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3647    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3647    science wrote:sci_flbbcd_cdom_sig(nodim) 381
+  3647    science wrote:sci_flbbcd_cdom_units(ppb) 30.3272
+  3647    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3647    science wrote:sci_flbbcd_chlor_sig(nodim) 1998
+  3647    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0688
+  3647    science wrote:sci_flbbcd_therm(nodim) 535
+  3648    science wrote:sci_oxy4_c1amp(mV) 905.8
+  3648    science wrote:sci_oxy4_c1rph(deg) 38.43
+  3648    science wrote:sci_oxy4_c2amp(mV) 790.4
+  3648    science wrote:sci_oxy4_c2rph(deg) 8.612
+  3648    science wrote:sci_oxy4_calphase(deg) 28.119
+  3648    science wrote:sci_oxy4_oxygen(uM) 218.261
+  3648    science wrote:sci_oxy4_rawtemp(mV) 137.5
+  3648    science wrote:sci_oxy4_saturation(%) 97.552
+  3648    science wrote:sci_oxy4_tcphase(deg) 29.818
+  3648    science wrote:sci_oxy4_temp(degC) 21.731
+  3648    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350483.994
+  3648    science wrote:sci_water_cond(S/m) -0.00017
+  3648    science wrote:sci_water_pressure(bar) -0.025
+  3648    science wrote:sci_water_temp(degC) 21.7967
+  3648    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3648    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3648    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3648    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3648    science wrote:sci_flbbcd_cdom_sig(nodim) 385
+  3648    science wrote:sci_flbbcd_cdom_units(ppb) 30.6904
+  3648    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3648    science wrote:sci_flbbcd_chlor_sig(nodim) 1998
+  3648    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0688
+  3648    science wrote:sci_flbbcd_therm(nodim) 535
+  3649 55 Sent science:s:m_cycle_number(nodim) 955-
+  3650    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3650    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3650    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3650    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3650    science wrote:sci_flbbcd_cdom_sig(nodim) 386
+  3650    science wrote:sci_flbbcd_cdom_units(ppb) 30.7812
+  3650    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3650    science wrote:sci_flbbcd_chlor_sig(nodim) 1999
+  3650    science wrote:sci_flbbcd_chlor_units(ug/l) 14.076
+  3650    science wrote:sci_flbbcd_therm(nodim) 535
+  3650    science wrote:sci_oxy4_c1amp(mV) 905.7
+  3650    science wrote:sci_oxy4_c1rph(deg) 38.43
+  3650    science wrote:sci_oxy4_c2amp(mV) 790.2
+  3650    science wrote:sci_oxy4_c2rph(deg) 8.614
+  3650    science wrote:sci_oxy4_calphase(deg) 28.116
+  3650    science wrote:sci_oxy4_oxygen(uM) 218.306
+  3650    science wrote:sci_oxy4_rawtemp(mV) 137.4
+  3650    science wrote:sci_oxy4_saturation(%) 97.574
+  3650    science wrote:sci_oxy4_tcphase(deg) 29.815
+  3650    science wrote:sci_oxy4_temp(degC) 21.732
+  3650    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350485.995
+  3650    science wrote:sci_water_cond(S/m) -0.99999998551134E-05
+  3650    science wrote:sci_water_pressure(bar) -0.025
+  3650    science wrote:sci_water_temp(degC) 21.7961
+  3651    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3651    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3651    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3651    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3651    science wrote:sci_flbbcd_cdom_sig(nodim) 388
+  3651    science wrote:sci_flbbcd_cdom_units(ppb) 30.9628
+  3651    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3651    science wrote:sci_flbbcd_chlor_sig(nodim) 1997
+  3651    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0616
+  3651    science wrote:sci_flbbcd_therm(nodim) 534
+  3651    science wrote:sci_m_present_secs_into_mission(sec) 3653.24699997902
+  3651    science wrote:sci_m_present_time(timestamp) 1785350487.353
+  3652    science wrote:sci_oxy4_c1amp(mV) 905.6
+  3652    science wrote:sci_oxy4_c1rph(deg) 38.43
+  3652    science wrote:sci_oxy4_c2amp(mV) 790.1
+  3652    science wrote:sci_oxy4_c2rph(deg) 8.617
+  3652    science wrote:sci_oxy4_calphase(deg) 28.114
+  3652    science wrote:sci_oxy4_oxygen(uM) 218.335
+  3652    science wrote:sci_oxy4_rawtemp(mV) 137.4
+  3652    science wrote:sci_oxy4_saturation(%) 97.59
+  3652    science wrote:sci_oxy4_tcphase(deg) 29.813
+  3652    science wrote:sci_oxy4_temp(degC) 21.734
+  3652    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350487.994
+  3652    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3652    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3652    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3652    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3652    science wrote:sci_flbbcd_cdom_sig(nodim) 389
+  3652    science wrote:sci_flbbcd_cdom_units(ppb) 31.0536
+  3652    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3652    science wrote:sci_flbbcd_chlor_sig(nodim) 1996
+  3652    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0544
+  3652    science wrote:sci_flbbcd_therm(nodim) 534
+  3652    science wrote:sci_water_cond(S/m) 5.99999991306807E-05
+  3652    science wrote:sci_water_pressure(bar) -0.025
+  3652    science wrote:sci_water_temp(degC) 21.7973
+  3653    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3653    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3653    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3653    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3653    science wrote:sci_flbbcd_cdom_sig(nodim) 387
+  3653    science wrote:sci_flbbcd_cdom_units(ppb) 30.872
+  3653    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3653    science wrote:sci_flbbcd_chlor_sig(nodim) 1996
+  3653    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0544
+  3653    science wrote:sci_flbbcd_therm(nodim) 534
+  3653 56 Sent science:s:m_cycle_number(nodim) 956-
+  3654    science wrote:sci_oxy4_c1amp(mV) 905.5
+  3654    science wrote:sci_oxy4_c1rph(deg) 38.434
+  3654    science wrote:sci_oxy4_c2amp(mV) 790
+  3654    science wrote:sci_oxy4_c2rph(deg) 8.618
+  3654    science wrote:sci_oxy4_calphase(deg) 28.117
+  3654    science wrote:sci_oxy4_oxygen(uM) 218.266
+  3654    science wrote:sci_oxy4_rawtemp(mV) 137.3
+  3654    science wrote:sci_oxy4_saturation(%) 97.562
+  3654    science wrote:sci_oxy4_tcphase(deg) 29.816
+  3654    science wrote:sci_oxy4_temp(degC) 21.736
+  3654    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350489.995
+  3654    science wrote:sci_water_cond(S/m) -5.99999991306807E-05
+  3654    science wrote:sci_water_pressure(bar) -0.026
+  3654    science wrote:sci_water_temp(degC) 21.7973
+  3654    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3654    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3654    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3654    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3654    science wrote:sci_flbbcd_cdom_sig(nodim) 390
+  3654    science wrote:sci_flbbcd_cdom_units(ppb) 31.1444
+  3654    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3654    science wrote:sci_flbbcd_chlor_sig(nodim) 1996
+  3654    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0544
+  3654    science wrote:sci_flbbcd_therm(nodim) 534
+  3655    science wrote:sci_m_present_secs_into_mission(sec) 3657.24900007248
+  3655    science wrote:sci_m_present_time(timestamp) 1785350491.355
+  3655    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3655    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3655    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3655    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3655    science wrote:sci_flbbcd_cdom_sig(nodim) 387
+  3655    science wrote:sci_flbbcd_cdom_units(ppb) 30.872
+  3655    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3655    science wrote:sci_flbbcd_chlor_sig(nodim) 1995
+  3655    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0472
+  3655    science wrote:sci_flbbcd_therm(nodim) 534
+  3656    science wrote:sci_oxy4_c1amp(mV) 905.4
+  3656    science wrote:sci_oxy4_c1rph(deg) 38.433
+  3656    science wrote:sci_oxy4_c2amp(mV) 789.8
+  3656    science wrote:sci_oxy4_c2rph(deg) 8.62
+  3656    science wrote:sci_oxy4_calphase(deg) 28.114
+  3656    science wrote:sci_oxy4_oxygen(uM) 218.308
+  3656    science wrote:sci_oxy4_rawtemp(mV) 137.3
+  3656    science wrote:sci_oxy4_saturation(%) 97.584
+  3656    science wrote:sci_oxy4_tcphase(deg) 29.813
+  3656    science wrote:sci_oxy4_temp(degC) 21.737
+  3656    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350491.995
+  3656    science wrote:sci_water_cond(S/m) 2.99999995653404E-05
+  3656    science wrote:sci_water_pressure(bar) -0.025
+  3656    science wrote:sci_water_temp(degC) 21.7974
+  3656    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3656    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3656    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3656    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3656    science wrote:sci_flbbcd_cdom_sig(nodim) 386
+  3656    science wrote:sci_flbbcd_cdom_units(ppb) 30.7812
+  3656    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3656    science wrote:sci_flbbcd_chlor_sig(nodim) 1994
+  3656    science wrote:sci_flbbcd_chlor_units(ug/l) 14.04
+  3656    science wrote:sci_flbbcd_therm(nodim) 534
+  3657 57 Sent science:s:m_cycle_number(nodim) 957-
+  3658    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3658    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3658    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3658    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3658    science wrote:sci_flbbcd_cdom_sig(nodim) 385
+  3658    science wrote:sci_flbbcd_cdom_units(ppb) 30.6904
+  3658    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3658    science wrote:sci_flbbcd_chlor_sig(nodim) 1994
+  3658    science wrote:sci_flbbcd_chlor_units(ug/l) 14.04
+  3658    science wrote:sci_flbbcd_therm(nodim) 534
+  3658    science wrote:sci_oxy4_c1amp(mV) 905.2
+  3658    science wrote:sci_oxy4_c1rph(deg) 38.434
+  3658    science wrote:sci_oxy4_c2amp(mV) 789.7
+  3658    science wrote:sci_oxy4_c2rph(deg) 8.622
+  3658    science wrote:sci_oxy4_calphase(deg) 28.112
+  3658    science wrote:sci_oxy4_oxygen(uM) 218.327
+  3658    science wrote:sci_oxy4_rawtemp(mV) 137.2
+  3658    science wrote:sci_oxy4_saturation(%) 97.596
+  3658    science wrote:sci_oxy4_tcphase(deg) 29.811
+  3658    science wrote:sci_oxy4_temp(degC) 21.739
+  3658    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350493.995
+  3658    science wrote:sci_water_cond(S/m) 5.99999991306807E-05
+  3658    science wrote:sci_water_pressure(bar) -0.025
+  3658    science wrote:sci_water_temp(degC) 21.7985
+  3658    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3658    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3658    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3658    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3658    science wrote:sci_flbbcd_cdom_sig(nodim) 381
+  3658    science wrote:sci_flbbcd_cdom_units(ppb) 30.3272
+  3658    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3658    science wrote:sci_flbbcd_chlor_sig(nodim) 1993
+  3658    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0328
+  3658    science wrote:sci_flbbcd_therm(nodim) 534
+  3659    science wrote:sci_m_present_secs_into_mission(sec) 3661.25100016594
+  3659    science wrote:sci_m_present_time(timestamp) 1785350495.357
+  3660    science wrote:sci_oxy4_c1amp(mV) 905.2
+  3660    science wrote:sci_oxy4_c1rph(deg) 38.436
+  3660    science wrote:sci_oxy4_c2amp(mV) 789.6
+  3660    science wrote:sci_oxy4_c2rph(deg) 8.624
+  3660    science wrote:sci_oxy4_calphase(deg) 28.112
+  3660    science wrote:sci_oxy4_oxygen(uM) 218.315
+  3660    science wrote:sci_oxy4_rawtemp(mV) 137.2
+  3660    science wrote:sci_oxy4_saturation(%) 97.594
+  3660    science wrote:sci_oxy4_tcphase(deg) 29.811
+  3660    science wrote:sci_oxy4_temp(degC) 21.741
+  3660    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3660    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3660    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3660    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3660    science wrote:sci_flbbcd_cdom_sig(nodim) 382
+  3660    science wrote:sci_flbbcd_cdom_units(ppb) 30.418
+  3660    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3660    science wrote:sci_flbbcd_chlor_sig(nodim) 1995
+  3660    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0472
+  3660    science wrote:sci_flbbcd_therm(nodim) 534
+  3660    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350495.995
+  3660    science wrote:sci_water_cond(S/m) 2.99999995653404E-05
+  3660    science wrote:sci_water_pressure(bar) -0.025
+  3660    science wrote:sci_water_temp(degC) 21.7979
+  3661    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3661    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3661    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3661    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3661    science wrote:sci_flbbcd_cdom_sig(nodim) 382
+  3661    science wrote:sci_flbbcd_cdom_units(ppb) 30.418
+  3661    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3661    science wrote:sci_flbbcd_chlor_sig(nodim) 1992
+  3661    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0256
+  3661    science wrote:sci_flbbcd_therm(nodim) 534
+  3661 58 Sent science:s:m_cycle_number(nodim) 958-
+  3662    science wrote:sci_oxy4_c1amp(mV) 905
+  3662    science wrote:sci_oxy4_c1rph(deg) 38.437
+  3662    science wrote:sci_oxy4_c2amp(mV) 789.4
+  3662    science wrote:sci_oxy4_c2rph(deg) 8.627
+  3662    science wrote:sci_oxy4_calphase(deg) 28.111
+  3662    science wrote:sci_oxy4_oxygen(uM) 218.318
+  3662    science wrote:sci_oxy4_rawtemp(mV) 137.1
+  3662    science wrote:sci_oxy4_saturation(%) 97.599
+  3662    science wrote:sci_oxy4_tcphase(deg) 29.81
+  3662    science wrote:sci_oxy4_temp(degC) 21.743
+  3662    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350497.995
+  3662    science wrote:sci_water_cond(S/m) -5.99999991306807E-05
+  3662    science wrote:sci_water_pressure(bar) -0.025
+  3662    science wrote:sci_water_temp(degC) 21.7983
+  3662    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3662    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3662    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3662    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3662    science wrote:sci_flbbcd_cdom_sig(nodim) 382
+  3662    science wrote:sci_flbbcd_cdom_units(ppb) 30.418
+  3662    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3662    science wrote:sci_flbbcd_chlor_sig(nodim) 1992
+  3662    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0256
+  3662    science wrote:sci_flbbcd_therm(nodim) 534
+  3663    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3663    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3663    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3663    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3663    science wrote:sci_flbbcd_cdom_sig(nodim) 383
+  3663    science wrote:sci_flbbcd_cdom_units(ppb) 30.5088
+  3663    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3663    science wrote:sci_flbbcd_chlor_sig(nodim) 1991
+  3663    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0184
+  3663    science wrote:sci_flbbcd_therm(nodim) 534
+  3663    science wrote:sci_m_present_secs_into_mission(sec) 3665.2539999485
+  3663    science wrote:sci_m_present_time(timestamp) 1785350499.36
+  3664    science wrote:sci_oxy4_c1amp(mV) 905
+  3664    science wrote:sci_oxy4_c1rph(deg) 38.436
+  3664    science wrote:sci_oxy4_c2amp(mV) 789.3
+  3664    science wrote:sci_oxy4_c2rph(deg) 8.628
+  3664    science wrote:sci_oxy4_calphase(deg) 28.109
+  3664    science wrote:sci_oxy4_oxygen(uM) 218.343
+  3664    science wrote:sci_oxy4_rawtemp(mV) 137
+  3664    science wrote:sci_oxy4_saturation(%) 97.614
+  3664    science wrote:sci_oxy4_tcphase(deg) 29.808
+  3664    science wrote:sci_oxy4_temp(degC) 21.745
+  3664    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350499.995
+  3664    science wrote:sci_water_cond(S/m) 2.99999995653404E-05
+  3664    science wrote:sci_water_pressure(bar) -0.026
+  3664    science wrote:sci_water_temp(degC) 21.7993
+  3664    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3664    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3664    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3664    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3664    science wrote:sci_flbbcd_cdom_sig(nodim) 385
+  3664    science wrote:sci_flbbcd_cdom_units(ppb) 30.6904
+  3664    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3664    science wrote:sci_flbbcd_chlor_sig(nodim) 1993
+  3664    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0328
+  3664    science wrote:sci_flbbcd_therm(nodim) 534
+  3665 59 Sent science:s:m_cycle_number(nodim) 959-
+  3666    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3666    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3666    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3666    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3666    science wrote:sci_flbbcd_cdom_sig(nodim) 383
+  3666    science wrote:sci_flbbcd_cdom_units(ppb) 30.5088
+  3666    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3666    science wrote:sci_flbbcd_chlor_sig(nodim) 1991
+  3666    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0184
+  3666    science wrote:sci_flbbcd_therm(nodim) 534
+  3666    science wrote:sci_oxy4_c1amp(mV) 904.9
+  3666    science wrote:sci_oxy4_c1rph(deg) 38.438
+  3666    science wrote:sci_oxy4_c2amp(mV) 789.2
+  3666    science wrote:sci_oxy4_c2rph(deg) 8.63
+  3666    science wrote:sci_oxy4_calphase(deg) 28.109
+  3666    science wrote:sci_oxy4_oxygen(uM) 218.327
+  3666    science wrote:sci_oxy4_rawtemp(mV) 136.9
+  3666    science wrote:sci_oxy4_saturation(%) 97.611
+  3666    science wrote:sci_oxy4_tcphase(deg) 29.808
+  3666    science wrote:sci_oxy4_temp(degC) 21.748
+  3666    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350501.995
+  3666    science wrote:sci_water_cond(S/m) 1.99999997102269E-05
+  3666    science wrote:sci_water_pressure(bar) -0.026
+  3666    science wrote:sci_water_temp(degC) 21.7987
+  3666    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3666    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3666    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3666    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3666    science wrote:sci_flbbcd_cdom_sig(nodim) 383
+  3666    science wrote:sci_flbbcd_cdom_units(ppb) 30.5088
+  3666    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3666    science wrote:sci_flbbcd_chlor_sig(nodim) 1990
+  3666    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0112
+  3666    science wrote:sci_flbbcd_therm(nodim) 534
+  3667    science wrote:sci_m_present_secs_into_mission(sec) 3669.25600004196
+  3667    science wrote:sci_m_present_time(timestamp) 1785350503.362
+  3667    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3667    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3667    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3667    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3667    science wrote:sci_flbbcd_cdom_sig(nodim) 380
+  3667    science wrote:sci_flbbcd_cdom_units(ppb) 30.2364
+  3667    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3667    science wrote:sci_flbbcd_chlor_sig(nodim) 1991
+  3667    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0184
+  3667    science wrote:sci_flbbcd_therm(nodim) 534
+  3668    science wrote:sci_oxy4_c1amp(mV) 904.9
+  3668    science wrote:sci_oxy4_c1rph(deg) 38.439
+  3668    science wrote:sci_oxy4_c2amp(mV) 789.1
+  3668    science wrote:sci_oxy4_c2rph(deg) 8.631
+  3668    science wrote:sci_oxy4_calphase(deg) 28.109
+  3668    science wrote:sci_oxy4_oxygen(uM) 218.304
+  3668    science wrote:sci_oxy4_rawtemp(mV) 136.9
+  3668    science wrote:sci_oxy4_saturation(%) 97.605
+  3668    science wrote:sci_oxy4_tcphase(deg) 29.808
+  3668    science wrote:sci_oxy4_temp(degC) 21.75
+  3668    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350503.995
+  3668    science wrote:sci_water_cond(S/m) 2.99999995653404E-05
+  3668    science wrote:sci_water_pressure(bar) -0.026
+  3668    science wrote:sci_water_temp(degC) 21.799
+  3669    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3669    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3669    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3669    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3669    science wrote:sci_flbbcd_cdom_sig(nodim) 383
+  3669    science wrote:sci_flbbcd_cdom_units(ppb) 30.5088
+  3669    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3669    science wrote:sci_flbbcd_chlor_sig(nodim) 1990
+  3669    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0112
+  3669    science wrote:sci_flbbcd_therm(nodim) 534
+  3669 60 Sent science:s:m_cycle_number(nodim) 960-
+  3670    science wrote:sci_oxy4_c1amp(mV) 904.8
+  3670    science wrote:sci_oxy4_c1rph(deg) 38.439
+  3670    science wrote:sci_oxy4_c2amp(mV) 788.9
+  3670    science wrote:sci_oxy4_c2rph(deg) 8.632
+  3670    science wrote:sci_oxy4_calphase(deg) 28.108
+  3670    science wrote:sci_oxy4_oxygen(uM) 218.315
+  3670    science wrote:sci_oxy4_rawtemp(mV) 136.8
+  3670    science wrote:sci_oxy4_saturation(%) 97.614
+  3670    science wrote:sci_oxy4_tcphase(deg) 29.807
+  3670    science wrote:sci_oxy4_temp(degC) 21.752
+  3670    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350505.995
+  3670    science wrote:sci_water_cond(S/m) -1.99999997102269E-05
+  3670    science wrote:sci_water_pressure(bar) -0.025
+  3670    science wrote:sci_water_temp(degC) 21.7995
+  3670    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3670    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3670    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3670    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3670    science wrote:sci_flbbcd_cdom_sig(nodim) 384
+  3670    science wrote:sci_flbbcd_cdom_units(ppb) 30.5996
+  3670    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3670    science wrote:sci_flbbcd_chlor_sig(nodim) 1990
+  3670    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0112
+  3670    science wrote:sci_flbbcd_therm(nodim) 534
+  3671    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3671    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3671    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3671    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3671    science wrote:sci_flbbcd_cdom_sig(nodim) 385
+  3671    science wrote:sci_flbbcd_cdom_units(ppb) 30.6904
+  3671    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3671    science wrote:sci_flbbcd_chlor_sig(nodim) 1990
+  3671    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0112
+  3671    science wrote:sci_flbbcd_therm(nodim) 534
+  3671    science wrote:sci_m_present_secs_into_mission(sec) 3673.25900006294
+  3671    science wrote:sci_m_present_time(timestamp) 1785350507.365
+  3672    science wrote:sci_oxy4_c1amp(mV) 904.8
+  3672    science wrote:sci_oxy4_c1rph(deg) 38.442
+  3672    science wrote:sci_oxy4_c2amp(mV) 788.9
+  3672    science wrote:sci_oxy4_c2rph(deg) 8.635
+  3672    science wrote:sci_oxy4_calphase(deg) 28.108
+  3672    science wrote:sci_oxy4_oxygen(uM) 218.296
+  3672    science wrote:sci_oxy4_rawtemp(mV) 136.7
+  3672    science wrote:sci_oxy4_saturation(%) 97.61
+  3672    science wrote:sci_oxy4_tcphase(deg) 29.807
+  3672    science wrote:sci_oxy4_temp(degC) 21.755
+  3672    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350507.995
+  3672    science wrote:sci_water_cond(S/m) 0.00019
+  3672    science wrote:sci_water_pressure(bar) -0.025
+  3672    science wrote:sci_water_temp(degC) 21.7997
+  3672    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3672    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3672    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3672    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3672    science wrote:sci_flbbcd_cdom_sig(nodim) 385
+  3672    science wrote:sci_flbbcd_cdom_units(ppb) 30.6904
+  3672    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3672    science wrote:sci_flbbcd_chlor_sig(nodim) 1990
+  3672    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0112
+  3672    science wrote:sci_flbbcd_therm(nodim) 534
+  3673    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3673    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3673    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3673    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3673    science wrote:sci_flbbcd_cdom_sig(nodim) 384
+  3673    science wrote:sci_flbbcd_cdom_units(ppb) 30.5996
+  3673    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3673    science wrote:sci_flbbcd_chlor_sig(nodim) 1989
+  3673    science wrote:sci_flbbcd_chlor_units(ug/l) 14.004
+  3673    science wrote:sci_flbbcd_therm(nodim) 534
+  3673 61 Sent science:s:m_cycle_number(nodim) 961-
+  3674    science wrote:sci_oxy4_c1amp(mV) 904.7
+  3674    science wrote:sci_oxy4_c1rph(deg) 38.443
+  3674    science wrote:sci_oxy4_c2amp(mV) 788.7
+  3674    science wrote:sci_oxy4_c2rph(deg) 8.637
+  3674    science wrote:sci_oxy4_calphase(deg) 28.107
+  3674    science wrote:sci_oxy4_oxygen(uM) 218.295
+  3674    science wrote:sci_oxy4_rawtemp(mV) 136.6
+  3674    science wrote:sci_oxy4_saturation(%) 97.614
+  3674    science wrote:sci_oxy4_tcphase(deg) 29.806
+  3674    science wrote:sci_oxy4_temp(degC) 21.758
+  3674    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350509.995
+  3674    science wrote:sci_water_cond(S/m) 5.99999991306807E-05
+  3674    science wrote:sci_water_pressure(bar) -0.025
+  3674    science wrote:sci_water_temp(degC) 21.8
+  3674    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3674    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3674    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3674    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3674    science wrote:sci_flbbcd_cdom_sig(nodim) 384
+  3674    science wrote:sci_flbbcd_cdom_units(ppb) 30.5996
+  3674    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3674    science wrote:sci_flbbcd_chlor_sig(nodim) 1989
+  3674    science wrote:sci_flbbcd_chlor_units(ug/l) 14.004
+  3674    science wrote:sci_flbbcd_therm(nodim) 534
+  3675    science wrote:sci_m_present_secs_into_mission(sec) 3677.2610001564
+  3675    science wrote:sci_m_present_time(timestamp) 1785350511.367
+  3675    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3675    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3675    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3675    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3675    science wrote:sci_flbbcd_cdom_sig(nodim) 382
+  3675    science wrote:sci_flbbcd_cdom_units(ppb) 30.418
+  3675    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3675    science wrote:sci_flbbcd_chlor_sig(nodim) 1990
+  3675    science wrote:sci_flbbcd_chlor_units(ug/l) 14.0112
+  3675    science wrote:sci_flbbcd_therm(nodim) 533
+  3676    science wrote:sci_oxy4_c1amp(mV) 904.6
+  3676    science wrote:sci_oxy4_c1rph(deg) 38.444
+  3676    science wrote:sci_oxy4_c2amp(mV) 788.6
+  3676    science wrote:sci_oxy4_c2rph(deg) 8.639
+  3676    science wrote:sci_oxy4_calphase(deg) 28.107
+  3676    science wrote:sci_oxy4_oxygen(uM) 218.276
+  3676    science wrote:sci_oxy4_rawtemp(mV) 136.5
+  3676    science wrote:sci_oxy4_saturation(%) 97.61
+  3676    science wrote:sci_oxy4_tcphase(deg) 29.806
+  3676    science wrote:sci_oxy4_temp(degC) 21.761
+  3676    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350511.995
+  3676    science wrote:sci_water_cond(S/m) 0.00035
+  3676    science wrote:sci_water_pressure(bar) -0.025
+  3676    science wrote:sci_water_temp(degC) 21.7997
+  3676    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3677    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3677    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3677    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3677    science wrote:sci_flbbcd_cdom_sig(nodim) 382
+  3677    science wrote:sci_flbbcd_cdom_units(ppb) 30.418
+  3677    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3677    science wrote:sci_flbbcd_chlor_sig(nodim) 1988
+  3677    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9968
+  3677    science wrote:sci_flbbcd_therm(nodim) 533
+  3677 62 Sent science:s:m_cycle_number(nodim) 962-
+  3678    science wrote:sci_oxy4_c1amp(mV) 904.6
+  3678    science wrote:sci_oxy4_c1rph(deg) 38.446
+  3678    science wrote:sci_oxy4_c2amp(mV) 788.5
+  3678    science wrote:sci_oxy4_c2rph(deg) 8.639
+  3678    science wrote:sci_oxy4_calphase(deg) 28.109
+  3678    science wrote:sci_oxy4_oxygen(uM) 218.221
+  3678    science wrote:sci_oxy4_rawtemp(mV) 136.4
+  3678    science wrote:sci_oxy4_saturation(%) 97.591
+  3678    science wrote:sci_oxy4_tcphase(deg) 29.808
+  3678    science wrote:sci_oxy4_temp(degC) 21.764
+  3678    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3678    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3678    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3678    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3678    science wrote:sci_flbbcd_cdom_sig(nodim) 386
+  3678    science wrote:sci_flbbcd_cdom_units(ppb) 30.7812
+  3678    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3678    science wrote:sci_flbbcd_chlor_sig(nodim) 1988
+  3678    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9968
+  3678    science wrote:sci_flbbcd_therm(nodim) 534
+  3678    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350513.995
+  3678    science wrote:sci_water_cond(S/m) -0.00014
+  3678    science wrote:sci_water_pressure(bar) -0.025
+  3678    science wrote:sci_water_temp(degC) 21.7996
+  3679    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3679    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3679    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3679    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3679    science wrote:sci_flbbcd_cdom_sig(nodim) 388
+  3679    science wrote:sci_flbbcd_cdom_units(ppb) 30.9628
+  3679    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3679    science wrote:sci_flbbcd_chlor_sig(nodim) 1987
+  3679    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9896
+  3679    science wrote:sci_flbbcd_therm(nodim) 533
+  3679    science wrote:sci_m_present_secs_into_mission(sec) 3681.26300001144
+  3679    science wrote:sci_m_present_time(timestamp) 1785350515.369
+  3680    science wrote:sci_oxy4_c1amp(mV) 904.5
+  3680    science wrote:sci_oxy4_c1rph(deg) 38.445
+  3680    science wrote:sci_oxy4_c2amp(mV) 788.4
+  3680    science wrote:sci_oxy4_c2rph(deg) 8.64
+  3680    science wrote:sci_oxy4_calphase(deg) 28.106
+  3680    science wrote:sci_oxy4_oxygen(uM) 218.252
+  3680    science wrote:sci_oxy4_rawtemp(mV) 136.4
+  3680    science wrote:sci_oxy4_saturation(%) 97.609
+  3680    science wrote:sci_oxy4_tcphase(deg) 29.805
+  3680    science wrote:sci_oxy4_temp(degC) 21.766
+  3680    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350515.995
+  3680    science wrote:sci_water_cond(S/m) 7.99999988409076E-05
+  3680    science wrote:sci_water_pressure(bar) -0.025
+  3680    science wrote:sci_water_temp(degC) 21.7998
+  3680    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3680    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3680    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3680    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3680    science wrote:sci_flbbcd_cdom_sig(nodim) 390
+  3680    science wrote:sci_flbbcd_cdom_units(ppb) 31.1444
+  3680    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3680    science wrote:sci_flbbcd_chlor_sig(nodim) 1988
+  3680    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9968
+  3680    science wrote:sci_flbbcd_therm(nodim) 533
+  3681    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3681    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3681    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3681    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3681    science wrote:sci_flbbcd_cdom_sig(nodim) 389
+  3681    science wrote:sci_flbbcd_cdom_units(ppb) 31.0536
+  3681    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3681    science wrote:sci_flbbcd_chlor_sig(nodim) 1987
+  3681    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9896
+  3681    science wrote:sci_flbbcd_therm(nodim) 533
+  3681 63 Sent science:s:m_cycle_number(nodim) 963-
+  3682    science wrote:sci_oxy4_c1amp(mV) 904.4
+  3682    science wrote:sci_oxy4_c1rph(deg) 38.447
+  3682    science wrote:sci_oxy4_c2amp(mV) 788.3
+  3682    science wrote:sci_oxy4_c2rph(deg) 8.641
+  3682    science wrote:sci_oxy4_calphase(deg) 28.106
+  3682    science wrote:sci_oxy4_oxygen(uM) 218.224
+  3682    science wrote:sci_oxy4_rawtemp(mV) 136.3
+  3682    science wrote:sci_oxy4_saturation(%) 97.602
+  3682    science wrote:sci_oxy4_tcphase(deg) 29.805
+  3682    science wrote:sci_oxy4_temp(degC) 21.769
+  3682    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350517.995
+  3682    science wrote:sci_water_cond(S/m) 0.00016
+  3682    science wrote:sci_water_pressure(bar) -0.025
+  3682    science wrote:sci_water_temp(degC) 21.8006
+  3682    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3682    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3682    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3682    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3682    science wrote:sci_flbbcd_cdom_sig(nodim) 388
+  3682    science wrote:sci_flbbcd_cdom_units(ppb) 30.9628
+  3682    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3682    science wrote:sci_flbbcd_chlor_sig(nodim) 1987
+  3682    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9896
+  3682    science wrote:sci_flbbcd_therm(nodim) 533
+  3683    science wrote:sci_m_present_secs_into_mission(sec) 3685.26600003242
+  3683    science wrote:sci_m_present_time(timestamp) 1785350519.372
+  3683    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3683    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3683    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3683    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3683    science wrote:sci_flbbcd_cdom_sig(nodim) 389
+  3683    science wrote:sci_flbbcd_cdom_units(ppb) 31.0536
+  3683    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3683    science wrote:sci_flbbcd_chlor_sig(nodim) 1989
+  3683    science wrote:sci_flbbcd_chlor_units(ug/l) 14.004
+  3683    science wrote:sci_flbbcd_therm(nodim) 533
+  3684    science wrote:sci_oxy4_c1amp(mV) 904.4
+  3684    science wrote:sci_oxy4_c1rph(deg) 38.447
+  3684    science wrote:sci_oxy4_c2amp(mV) 788.2
+  3684    science wrote:sci_oxy4_c2rph(deg) 8.642
+  3684    science wrote:sci_oxy4_calphase(deg) 28.105
+  3684    science wrote:sci_oxy4_oxygen(uM) 218.223
+  3684    science wrote:sci_oxy4_rawtemp(mV) 136.2
+  3684    science wrote:sci_oxy4_saturation(%) 97.607
+  3684    science wrote:sci_oxy4_tcphase(deg) 29.804
+  3684    science wrote:sci_oxy4_temp(degC) 21.772
+  3684    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350519.995
+  3684    science wrote:sci_water_cond(S/m) 0.00016
+  3684    science wrote:sci_water_pressure(bar) -0.025
+  3684    science wrote:sci_water_temp(degC) 21.8008
+  3684    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3684    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3684    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3684    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3684    science wrote:sci_flbbcd_cdom_sig(nodim) 389
+  3684    science wrote:sci_flbbcd_cdom_units(ppb) 31.0536
+  3684    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3684    science wrote:sci_flbbcd_chlor_sig(nodim) 1986
+  3684    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9824
+  3684    science wrote:sci_flbbcd_therm(nodim) 533
+  3686 64 science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3686    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3686    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3686    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3686    science wrote:sci_flbbcd_cdom_sig(nodim) 387
+  3686    science wrote:sci_flbbcd_cdom_units(ppb) 30.872
+  3686    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3686    science wrote:sci_flbbcd_chlor_sig(nodim) 1987
+  3686    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9896
+  3686    science wrote:sci_flbbcd_therm(nodim) 533
+  3686    science wrote:sci_oxy4_c1amp(mV) 904.4
+  3686    science wrote:sci_oxy4_c1rph(deg) 38.446
+  3686    science wrote:sci_oxy4_c2amp(mV) 788.1
+  3686    science wrote:sci_oxy4_c2rph(deg) 8.644
+  3686    science wrote:sci_oxy4_calphase(deg) 28.104
+  3686    science wrote:sci_oxy4_oxygen(uM) 218.228
+  3686    science wrote:sci_oxy4_rawtemp(mV) 136.1
+  3686    science wrote:sci_oxy4_saturation(%) 97.614
+  3686    science wrote:sci_oxy4_tcphase(deg) 29.803
+  3686    science wrote:sci_oxy4_temp(degC) 21.775
+  3686    Sent science:s:m_cycle_number(nodim) 964-
+  3686    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350521.995
+  3686    science wrote:sci_water_cond(S/m) 8.9999998696021E-05
+  3686    science wrote:sci_water_pressure(bar) -0.025
+  3686    science wrote:sci_water_temp(degC) 21.8005
+  3687    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3687    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3687    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3687    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3687    science wrote:sci_flbbcd_cdom_sig(nodim) 386
+  3687    science wrote:sci_flbbcd_cdom_units(ppb) 30.7812
+  3687    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3687    science wrote:sci_flbbcd_chlor_sig(nodim) 1987
+  3687    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9896
+  3687    science wrote:sci_flbbcd_therm(nodim) 533
+  3687    science wrote:sci_m_present_secs_into_mission(sec) 3689.26800012589
+  3687    science wrote:sci_m_present_time(timestamp) 1785350523.374
+  3688    science wrote:sci_oxy4_c1amp(mV) 904.3
+  3688    science wrote:sci_oxy4_c1rph(deg) 38.449
+  3688    science wrote:sci_oxy4_c2amp(mV) 788
+  3688    science wrote:sci_oxy4_c2rph(deg) 8.646
+  3688    science wrote:sci_oxy4_calphase(deg) 28.103
+  3688    science wrote:sci_oxy4_oxygen(uM) 218.214
+  3688    science wrote:sci_oxy4_rawtemp(mV) 136
+  3688    science wrote:sci_oxy4_saturation(%) 97.613
+  3688    science wrote:sci_oxy4_tcphase(deg) 29.802
+  3688    science wrote:sci_oxy4_temp(degC) 21.778
+  3688    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350523.995
+  3688    science wrote:sci_water_cond(S/m) -5.99999991306807E-05
+  3688    science wrote:sci_water_pressure(bar) -0.025
+  3688    science wrote:sci_water_temp(degC) 21.8012
+  3688    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3688    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3688    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3688    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3688    science wrote:sci_flbbcd_cdom_sig(nodim) 383
+  3688    science wrote:sci_flbbcd_cdom_units(ppb) 30.5088
+  3688    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3688    science wrote:sci_flbbcd_chlor_sig(nodim) 1986
+  3688    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9824
+  3688    science wrote:sci_flbbcd_therm(nodim) 533
+  3689    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3689    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3689    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3689    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3689    science wrote:sci_flbbcd_cdom_sig(nodim) 383
+  3689    science wrote:sci_flbbcd_cdom_units(ppb) 30.5088
+  3689    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3689    science wrote:sci_flbbcd_chlor_sig(nodim) 1986
+  3689    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9824
+  3689    science wrote:sci_flbbcd_therm(nodim) 533
+  3690    science wrote:sci_oxy4_c1amp(mV) 904.3
+  3690    science wrote:sci_oxy4_c1rph(deg) 38.449
+  3690    science wrote:sci_oxy4_c2amp(mV) 787.9
+  3690    science wrote:sci_oxy4_c2rph(deg) 8.646
+  3690    science wrote:sci_oxy4_calphase(deg) 28.104
+  3690    science wrote:sci_oxy4_oxygen(uM) 218.183
+  3690    science wrote:sci_oxy4_rawtemp(mV) 135.9
+  3690    science wrote:sci_oxy4_saturation(%) 97.605
+  3690    science wrote:sci_oxy4_tcphase(deg) 29.803
+  3690    science wrote:sci_oxy4_temp(degC) 21.781
+  3690 65 Sent science:s:m_cycle_number(nodim) 965-
+  3690    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350525.995
+  3690    science wrote:sci_water_cond(S/m) 0.00016
+  3690    science wrote:sci_water_pressure(bar) -0.024
+  3690    science wrote:sci_water_temp(degC) 21.8017
+  3690    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3690    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3690    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3690    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3690    science wrote:sci_flbbcd_cdom_sig(nodim) 382
+  3690    science wrote:sci_flbbcd_cdom_units(ppb) 30.418
+  3690    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3690    science wrote:sci_flbbcd_chlor_sig(nodim) 1987
+  3690    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9896
+  3690    science wrote:sci_flbbcd_therm(nodim) 533
+  3691    science wrote:sci_m_present_secs_into_mission(sec) 3693.26900005341
+  3691    science wrote:sci_m_present_time(timestamp) 1785350527.375
+  3691    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3691    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3691    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3691    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3691    science wrote:sci_flbbcd_cdom_sig(nodim) 386
+  3691    science wrote:sci_flbbcd_cdom_units(ppb) 30.7812
+  3691    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3691    science wrote:sci_flbbcd_chlor_sig(nodim) 1986
+  3691    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9824
+  3691    science wrote:sci_flbbcd_therm(nodim) 533
+  3692    science wrote:sci_oxy4_c1amp(mV) 904.3
+  3692    science wrote:sci_oxy4_c1rph(deg) 38.448
+  3692    science wrote:sci_oxy4_c2amp(mV) 787.8
+  3692    science wrote:sci_oxy4_c2rph(deg) 8.648
+  3692    science wrote:sci_oxy4_calphase(deg) 28.102
+  3692    science wrote:sci_oxy4_oxygen(uM) 218.197
+  3692    science wrote:sci_oxy4_rawtemp(mV) 135.8
+  3692    science wrote:sci_oxy4_saturation(%) 97.617
+  3692    science wrote:sci_oxy4_tcphase(deg) 29.801
+  3692    science wrote:sci_oxy4_temp(degC) 21.785
+  3692    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350527.995
+  3692    science wrote:sci_water_cond(S/m) 4.99999992755672E-05
+  3692    science wrote:sci_water_pressure(bar) -0.025
+  3692    science wrote:sci_water_temp(degC) 21.8007
+  3692    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3692    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3692    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3692    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3692    science wrote:sci_flbbcd_cdom_sig(nodim) 387
+  3692    science wrote:sci_flbbcd_cdom_units(ppb) 30.872
+  3692    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3692    science wrote:sci_flbbcd_chlor_sig(nodim) 1984
+  3692    science wrote:sci_flbbcd_chlor_units(ug/l) 13.968
+  3692    science wrote:sci_flbbcd_therm(nodim) 533
+  3693    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3693    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3693    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3693    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3693    science wrote:sci_flbbcd_cdom_sig(nodim) 390
+  3693    science wrote:sci_flbbcd_cdom_units(ppb) 31.1444
+  3693    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3693    science wrote:sci_flbbcd_chlor_sig(nodim) 1985
+  3693    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9752
+  3693    science wrote:sci_flbbcd_therm(nodim) 533
+  3694    science wrote:sci_oxy4_c1amp(mV) 904.2
+  3694    science wrote:sci_oxy4_c1rph(deg) 38.45
+  3694    science wrote:sci_oxy4_c2amp(mV) 787.7
+  3694    science wrote:sci_oxy4_c2rph(deg) 8.649
+  3694    science wrote:sci_oxy4_calphase(deg) 28.102
+  3694    science wrote:sci_oxy4_oxygen(uM) 218.159
+  3694    science wrote:sci_oxy4_rawtemp(mV) 135.7
+  3694    science wrote:sci_oxy4_saturation(%) 97.605
+  3694    science wrote:sci_oxy4_tcphase(deg) 29.801
+  3694    science wrote:sci_oxy4_temp(degC) 21.788
+  3694    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350529.995
+  3694    science wrote:sci_water_cond(S/m) 8.9999998696021E-05
+  3694    science wrote:sci_water_pressure(bar) -0.025
+  3694    science wrote:sci_water_temp(degC) 21.8018
+  3694 66 Sent science:s:m_cycle_number(nodim) 966-
+  3695    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3695    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3695    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3695    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3695    science wrote:sci_flbbcd_cdom_sig(nodim) 391
+  3695    science wrote:sci_flbbcd_cdom_units(ppb) 31.2352
+  3695    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3695    science wrote:sci_flbbcd_chlor_sig(nodim) 1984
+  3695    science wrote:sci_flbbcd_chlor_units(ug/l) 13.968
+  3695    science wrote:sci_flbbcd_therm(nodim) 533
+  3695    science wrote:sci_m_present_secs_into_mission(sec) 3697.27200007439
+  3695    science wrote:sci_m_present_time(timestamp) 1785350531.378
+  3696    science wrote:sci_oxy4_c1amp(mV) 904.1
+  3696    science wrote:sci_oxy4_c1rph(deg) 38.451
+  3696    science wrote:sci_oxy4_c2amp(mV) 787.6
+  3696    science wrote:sci_oxy4_c2rph(deg) 8.65
+  3696    science wrote:sci_oxy4_calphase(deg) 28.102
+  3696    science wrote:sci_oxy4_oxygen(uM) 218.147
+  3696    science wrote:sci_oxy4_rawtemp(mV) 135.6
+  3696    science wrote:sci_oxy4_saturation(%) 97.606
+  3696    science wrote:sci_oxy4_tcphase(deg) 29.801
+  3696    science wrote:sci_oxy4_temp(degC) 21.791
+  3696    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350531.995
+  3696    science wrote:sci_water_cond(S/m) -0.00016
+  3696    science wrote:sci_water_pressure(bar) -0.026
+  3696    science wrote:sci_water_temp(degC) 21.8021
+  3696    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3696    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3696    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3696    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3696    science wrote:sci_flbbcd_cdom_sig(nodim) 387
+  3696    science wrote:sci_flbbcd_cdom_units(ppb) 30.872
+  3696    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3696    science wrote:sci_flbbcd_chlor_sig(nodim) 1984
+  3696    science wrote:sci_flbbcd_chlor_units(ug/l) 13.968
+  3696    science wrote:sci_flbbcd_therm(nodim) 533
+  3697    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3697    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3697    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3697    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3697    science wrote:sci_flbbcd_cdom_sig(nodim) 391
+  3697    science wrote:sci_flbbcd_cdom_units(ppb) 31.2352
+  3697    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3697    science wrote:sci_flbbcd_chlor_sig(nodim) 1984
+  3697    science wrote:sci_flbbcd_chlor_units(ug/l) 13.968
+  3697    science wrote:sci_flbbcd_therm(nodim) 533
+  3698    science wrote:sci_oxy4_c1amp(mV) 904.1
+  3698    science wrote:sci_oxy4_c1rph(deg) 38.452
+  3698    science wrote:sci_oxy4_c2amp(mV) 787.5
+  3698    science wrote:sci_oxy4_c2rph(deg) 8.65
+  3698    science wrote:sci_oxy4_calphase(deg) 28.102
+  3698    science wrote:sci_oxy4_oxygen(uM) 218.108
+  3698    science wrote:sci_oxy4_rawtemp(mV) 135.5
+  3698    science wrote:sci_oxy4_saturation(%) 97.594
+  3698    science wrote:sci_oxy4_tcphase(deg) 29.801
+  3698    science wrote:sci_oxy4_temp(degC) 21.794
+  3698    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350533.995
+  3698    science wrote:sci_water_cond(S/m) 0.00014
+  3698    science wrote:sci_water_pressure(bar) -0.025
+  3698    science wrote:sci_water_temp(degC) 21.8028
+  3698 67 Sent science:s:m_cycle_number(nodim) 967-
+  3699    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3699    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3699    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3699    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3699    science wrote:sci_flbbcd_cdom_sig(nodim) 391
+  3699    science wrote:sci_flbbcd_cdom_units(ppb) 31.2352
+  3699    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3699    science wrote:sci_flbbcd_chlor_sig(nodim) 1984
+  3699    science wrote:sci_flbbcd_chlor_units(ug/l) 13.968
+  3699    science wrote:sci_flbbcd_therm(nodim) 533
+  3699    science wrote:sci_m_present_secs_into_mission(sec) 3701.27400016785
+  3699    science wrote:sci_m_present_time(timestamp) 1785350535.38
+  3699    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3699    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3699    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3699    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3699    science wrote:sci_flbbcd_cdom_sig(nodim) 389
+  3699    science wrote:sci_flbbcd_cdom_units(ppb) 31.0536
+  3699    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3699    science wrote:sci_flbbcd_chlor_sig(nodim) 1982
+  3699    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9536
+  3699    science wrote:sci_flbbcd_therm(nodim) 533
+  3700    science wrote:sci_oxy4_c1amp(mV) 904.1
+  3700    science wrote:sci_oxy4_c1rph(deg) 38.453
+  3700    science wrote:sci_oxy4_c2amp(mV) 787.4
+  3700    science wrote:sci_oxy4_c2rph(deg) 8.651
+  3700    science wrote:sci_oxy4_calphase(deg) 28.103
+  3700    science wrote:sci_oxy4_oxygen(uM) 218.077
+  3700    science wrote:sci_oxy4_rawtemp(mV) 135.3
+  3700    science wrote:sci_oxy4_saturation(%) 97.586
+  3700    science wrote:sci_oxy4_tcphase(deg) 29.802
+  3700    science wrote:sci_oxy4_temp(degC) 21.798
+  3700    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350535.995
+  3700    science wrote:sci_water_cond(S/m) -8.9999998696021E-05
+  3700    science wrote:sci_water_pressure(bar) -0.025
+  3700    science wrote:sci_water_temp(degC) 21.8024
+  3700    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3700    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3700    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3700    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3700    science wrote:sci_flbbcd_cdom_sig(nodim) 387
+  3700    science wrote:sci_flbbcd_cdom_units(ppb) 30.872
+  3700    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3700    science wrote:sci_flbbcd_chlor_sig(nodim) 1985
+  3700    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9752
+  3700    science wrote:sci_flbbcd_therm(nodim) 533
+  3701    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3701    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3701    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3701    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3701    science wrote:sci_flbbcd_cdom_sig(nodim) 386
+  3701    science wrote:sci_flbbcd_cdom_units(ppb) 30.7812
+  3701    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3701    science wrote:sci_flbbcd_chlor_sig(nodim) 1983
+  3701    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9608
+  3701    science wrote:sci_flbbcd_therm(nodim) 533
+  3702    science wrote:sci_oxy4_c1amp(mV) 904
+  3702    science wrote:sci_oxy4_c1rph(deg) 38.451
+  3702    science wrote:sci_oxy4_c2amp(mV) 787.4
+  3702    science wrote:sci_oxy4_c2rph(deg) 8.653
+  3702    science wrote:sci_oxy4_calphase(deg) 28.099
+  3702    science wrote:sci_oxy4_oxygen(uM) 218.119
+  3702    science wrote:sci_oxy4_rawtemp(mV) 135.2
+  3702    science wrote:sci_oxy4_saturation(%) 97.61
+  3702    science wrote:sci_oxy4_tcphase(deg) 29.798
+  3702    science wrote:sci_oxy4_temp(degC) 21.801
+  3702    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350537.995
+  3702    science wrote:sci_water_cond(S/m) -7.99999988409076E-05
+  3702    science wrote:sci_water_pressure(bar) -0.026
+  3702    science wrote:sci_water_temp(degC) 21.8026
+  3702 68 Sent science:s:m_cycle_number(nodim) 968-
+  3703    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3703    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3703    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3703    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3703    science wrote:sci_flbbcd_cdom_sig(nodim) 385
+  3703    science wrote:sci_flbbcd_cdom_units(ppb) 30.6904
+  3703    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3703    science wrote:sci_flbbcd_chlor_sig(nodim) 1982
+  3703    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9536
+  3703    science wrote:sci_flbbcd_therm(nodim) 533
+  3703 69 Sent science:s:m_cycle_number(nodim) 969-
+  3704    science wrote:sci_m_present_secs_into_mission(sec) 3705.27600002289
+  3704    science wrote:sci_m_present_time(timestamp) 1785350539.382
+  3704    science wrote:sci_oxy4_c1amp(mV) 903.9
+  3704    science wrote:sci_oxy4_c1rph(deg) 38.453
+  3704    science wrote:sci_oxy4_c2amp(mV) 787.2
+  3704    science wrote:sci_oxy4_c2rph(deg) 8.653
+  3704    science wrote:sci_oxy4_calphase(deg) 28.101
+  3704    science wrote:sci_oxy4_oxygen(uM) 218.054
+  3704    science wrote:sci_oxy4_rawtemp(mV) 135.1
+  3704    science wrote:sci_oxy4_saturation(%) 97.588
+  3704    science wrote:sci_oxy4_tcphase(deg) 29.8
+  3704    science wrote:sci_oxy4_temp(degC) 21.805
+  3704    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3704    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3704    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3704    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3704    science wrote:sci_flbbcd_cdom_sig(nodim) 386
+  3704    science wrote:sci_flbbcd_cdom_units(ppb) 30.7812
+  3704    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3704    science wrote:sci_flbbcd_chlor_sig(nodim) 1981
+  3704    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9464
+  3704    science wrote:sci_flbbcd_therm(nodim) 533
+  3704    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350539.995
+  3704    science wrote:sci_water_cond(S/m) 7.99999988409076E-05
+  3704    science wrote:sci_water_pressure(bar) -0.025
+  3704    science wrote:sci_water_temp(degC) 21.8032
+  3704 70 Sent science:s:m_cycle_number(nodim) 970-
+  3705    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3705    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3705    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3705    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3705    science wrote:sci_flbbcd_cdom_sig(nodim) 384
+  3705    science wrote:sci_flbbcd_cdom_units(ppb) 30.5996
+  3705    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3705    science wrote:sci_flbbcd_chlor_sig(nodim) 1982
+  3705    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9536
+  3705    science wrote:sci_flbbcd_therm(nodim) 533
+  3705 71 Sent science:s:m_cycle_number(nodim) 971-
+  3706    science wrote:sci_oxy4_c1amp(mV) 904
+  3706    science wrote:sci_oxy4_c1rph(deg) 38.455
+  3706    science wrote:sci_oxy4_c2amp(mV) 787.1
+  3706    science wrote:sci_oxy4_c2rph(deg) 8.654
+  3706    science wrote:sci_oxy4_calphase(deg) 28.102
+  3706    science wrote:sci_oxy4_oxygen(uM) 218.02
+  3706    science wrote:sci_oxy4_rawtemp(mV) 135
+  3706    science wrote:sci_oxy4_saturation(%) 97.578
+  3706    science wrote:sci_oxy4_tcphase(deg) 29.801
+  3706    science wrote:sci_oxy4_temp(degC) 21.808
+  3706    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350541.995
+  3706    science wrote:sci_water_cond(S/m) -3.99999994204538E-05
+  3706    science wrote:sci_water_pressure(bar) -0.025
+  3706    science wrote:sci_water_temp(degC) 21.8038
+  3706    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3706    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3706    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3706    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3706    science wrote:sci_flbbcd_cdom_sig(nodim) 384
+  3706    science wrote:sci_flbbcd_cdom_units(ppb) 30.5996
+  3706    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3706    science wrote:sci_flbbcd_chlor_sig(nodim) 1981
+  3706    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9464
+  3706    science wrote:sci_flbbcd_therm(nodim) 533
+  3707 72 Sent science:s:m_cycle_number(nodim) 972-
+  3707    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3707    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3707    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3707    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3707    science wrote:sci_flbbcd_cdom_sig(nodim) 385
+  3707    science wrote:sci_flbbcd_cdom_units(ppb) 30.6904
+  3707    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3707    science wrote:sci_flbbcd_chlor_sig(nodim) 1982
+  3707    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9536
+  3707    science wrote:sci_flbbcd_therm(nodim) 533
+  3707    science wrote:sci_m_present_secs_into_mission(sec) 3709.27900004387
+  3707    science wrote:sci_m_present_time(timestamp) 1785350543.385
+  3708    science wrote:sci_oxy4_c1amp(mV) 903.9
+  3708    science wrote:sci_oxy4_c1rph(deg) 38.454
+  3708    science wrote:sci_oxy4_c2amp(mV) 787
+  3708    science wrote:sci_oxy4_c2rph(deg) 8.655
+  3708    science wrote:sci_oxy4_calphase(deg) 28.1
+  3708    science wrote:sci_oxy4_oxygen(uM) 218.029
+  3708    science wrote:sci_oxy4_rawtemp(mV) 134.9
+  3708    science wrote:sci_oxy4_saturation(%) 97.589
+  3708    science wrote:sci_oxy4_tcphase(deg) 29.799
+  3708    science wrote:sci_oxy4_temp(degC) 21.812
+  3708    science wrote:sci_ctd41cp_timestamp(timestamp) 1785350543.995
+  3708    science wrote:sci_water_cond(S/m) 0.00014
+  3708    science wrote:sci_water_pressure(bar) -0.025
+  3708    science wrote:sci_water_temp(degC) 21.803
+  3708    science wrote:sci_flbbcd_bb_ref(nodim) 700
+  3708    science wrote:sci_flbbcd_bb_sig(nodim) 4130
+  3708    science wrote:sci_flbbcd_bb_units(nodim) 0.007204176
+  3708    science wrote:sci_flbbcd_cdom_ref(nodim) 460
+  3708    science wrote:sci_flbbcd_cdom_sig(nodim) 385
+  3708    science wrote:sci_flbbcd_cdom_units(ppb) 30.6904
+  3708    science wrote:sci_flbbcd_chlor_ref(nodim) 695
+  3708    science wrote:sci_flbbcd_chlor_sig(nodim) 1980
+  3708    science wrote:sci_flbbcd_chlor_units(ug/l) 13.9392
+  3708    science wrote:sci_flbbcd_therm(nodim) 532
+  3709 73 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: 0.000, delta bar: -0.031, delta meters: -0.313
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  3740 80 Iridium has been powered on for 4.1 secs
+  3740    Waking up Iridium... sending:ATE1
+  3740    Iridium driver dropped 1 chars
+  3740    Iridium, modem making attempt #3 at primary number (17818711614)
+  3744 81 Iridium modem matched: OK
+  3744    Waking up Iridium... sending:AT+cbst=6,0,1
+  3748 82 Iridium modem matched: OK
+  3748    Waking up Iridium... sending:AT+CSQ
+  3752 83 Iridium modem matched: +CSQ:0
+  3756 84 Iridium waiting for registration...
+  3769 87 Iridium dialing [ATD0017818711614]...........
+  3769    Iridium waiting for connection...
+  3773 88 Iridium modem matched: NO CARRIER
+  3777 89 DRIVER_ODDITY:iridium:1:retry due to Iridium reporting NO CARRIER
+  3777    DRIVER_ODDITY:iridium:2147483647:secs; cycling Iridium power
+  3783 91 Iridium has been powered on for 2.1 secs
+  3783    Iridium, waiting for 3.0 secs after power on
+  3784 92 Iridium has been powered on for 3.1 secs
+  3784    Waking up Iridium... sending:ATE1
+  3784    Iridium driver dropped 1 chars
+  3784    Iridium, modem making attempt #4 at primary number (17818711614)
+  3785 93 Iridium modem matched: OK
+  3785    Waking up Iridium... sending:AT+cbst=6,0,1
+  3787 94 Iridium modem matched: OK
+  3787    Waking up Iridium... sending:AT+CSQ
+  3892 23 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: -0.000, delta bar: 0.030, delta meters: 0.000
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  4110 76 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: 0.000, delta bar: -0.036, delta meters: -0.108
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  4118 79 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4122 80 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4126 81 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4130 82 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4146 86 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4151 87 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4151 88 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4152 89 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4157 90 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4161 91 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4165 92 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4169 93 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4173 94 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4177 95 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4181 96 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4194 99 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4198  0 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4202  1 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4206  2 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4210  3 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4214  4 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4218  5 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4222  6 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4226  7 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4238 10 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4242 11 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4247 12 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4251 13 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4255 14 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4259 15 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4263 16 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4267 17 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4271 18 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4275 19 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4287 22 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4291 23 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4292    Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: -0.000, delta bar: 0.036, delta meters: 0.000
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  4297 24 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4297    DRIVER_ODDITY:coulomb:1656:xxx_ctrl() ran too long
+  4307 25 DRIVER_ODDITY:digifin:8688:xxx_ctrl() ran too long
+  4308    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4308 26 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4313 27 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4317 28 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4321 29 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4333 32 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4337 33 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4341 34 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4343 35 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4344 36 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4346 37 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4350 38 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4352 39 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4354 40 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4355 41 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4357 42 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4358 43 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4362 44 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4367 45 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4378 49 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4380 50 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4383 51 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4385 52 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4386 53 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4387 54 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4388 55 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4389 56 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4391 57 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4393 58 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4394 59 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4395 60 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4396 61 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4401 62 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4403 63 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4406 64 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4407 65 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4409 66 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4410 67 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4424 71 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4425 72 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4427 73 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4428 74 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4428    sensor: m_ballast_pumped = -399.335728937729 cc
+  4428    sensor: m_ballast_pumped = -392.578481074481 cc
+  4428    sensor: m_ballast_pumped = -389.682517704518 cc
+  4428    sensor: m_ballast_pumped = -386.786554334554 cc
+  4428    sensor: m_ballast_pumped = -384.373251526252 cc
+  4428    sensor: m_ballast_pumped = -381.477288156288 cc
+  4428    sensor: m_ballast_pumped = -378.581324786325 cc
+  4429    sensor: m_ballast_pumped = -375.685361416361 cc
+  4429    sensor: m_ballast_pumped = -373.272058608059 cc
+  4429    sensor: m_ballast_pumped = -370.376095238095 cc
+  4429    sensor: m_ballast_pumped = -367.480131868132 cc
+  4429    sensor: m_ballast_pumped = -365.066829059829 cc
+  4429    sensor: m_ballast_pumped = -362.170865689866 cc
+  4429    sensor: m_ballast_pumped = -359.274902319902 cc
+  4429    sensor: m_ballast_pumped = -356.8615995116 cc
+  4429    sensor: m_ballast_pumped = -353.965636141636 cc
+  4429    sensor: m_ballast_pumped = -351.069672771673 cc
+  4430    sensor: m_ballast_pumped = -348.173709401709 cc
+  4430    sensor: m_ballast_pumped = -345.277746031746 cc
+  4430    sensor: m_ballast_pumped = -342.381782661783 cc
+  4430    sensor: m_ballast_pumped = -339.485819291819 cc
+  4430    sensor: m_ballast_pumped = -337.072516483516 cc
+  4430    sensor: m_ballast_pumped = -334.176553113553 cc
+  4430    sensor: m_ballast_pumped = -331.28058974359 cc
+  4430    sensor: m_ballast_pumped = -328.867286935287 cc
+  4430    sensor: m_ballast_pumped = -325.971323565324 cc
+  4431    sensor: m_ballast_pumped = -323.07536019536 cc
+  4431    sensor: m_ballast_pumped = -320.179396825397 cc
+  4431    sensor: m_ballast_pumped = -317.283433455433 cc
+  4431    sensor: m_ballast_pumped = -314.38747008547 cc
+  4431    sensor: m_ballast_pumped = -311.974167277167 cc
+  4431    sensor: m_ballast_pumped = -309.078203907204 cc
+  4432 75 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4432    sensor: m_ballast_pumped = -284.462515262515 cc
+  4432    sensor: m_ballast_pumped = -277.222606837607 cc
+  4432    sensor: m_ballast_pumped = -274.809304029304 cc
+  4432    sensor: m_ballast_pumped = -271.913340659341 cc
+  4433    sensor: m_ballast_pumped = -269.017377289377 cc
+  4433    sensor: m_ballast_pumped = -266.121413919414 cc
+  4433    sensor: m_ballast_pumped = -263.225450549451 cc
+  4433    sensor: m_ballast_pumped = -260.812147741148 cc
+  4433    sensor: m_ballast_pumped = -257.916184371184 cc
+  4433    sensor: m_ballast_pumped = -255.020221001221 cc
+  4433    sensor: m_ballast_pumped = -252.124257631258 cc
+  4433    sensor: m_ballast_pumped = -249.228294261294 cc
+  4433    sensor: m_ballast_pumped = -246.814991452991 cc
+  4434    sensor: m_ballast_pumped = -243.919028083028 cc
+  4434    sensor: m_ballast_pumped = -240.540404151404 cc
+  4434    sensor: m_ballast_pumped = -238.609761904762 cc
+  4434    sensor: m_ballast_pumped = -235.231137973138 cc
+  4434    sensor: m_ballast_pumped = -232.335174603175 cc
+  4434    sensor: m_ballast_pumped = -229.439211233211 cc
+  4434    sensor: m_ballast_pumped = -227.025908424908 cc
+  4434    sensor: m_ballast_pumped = -224.129945054945 cc
+  4434    sensor: m_ballast_pumped = -220.751321123321 cc
+  4434    sensor: m_ballast_pumped = -218.338018315018 cc
+  4435    sensor: m_ballast_pumped = -215.442054945055 cc
+  4435    sensor: m_ballast_pumped = -212.546091575092 cc
+  4435    sensor: m_ballast_pumped = -209.650128205128 cc
+  4435    sensor: m_ballast_pumped = -207.236825396825 cc
+  4435    sensor: m_ballast_pumped = -204.340862026862 cc
+  4435    sensor: m_ballast_pumped = -201.444898656899 cc
+  4435    sensor: m_ballast_pumped = -198.066274725275 cc
+  4436 76 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4436    sensor: m_ballast_pumped = -171.519943833944 cc
+  4437    sensor: m_ballast_pumped = -149.800218559219 cc
+  4437    sensor: m_ballast_pumped = -146.904255189255 cc
+  4437    sensor: m_ballast_pumped = -144.490952380952 cc
+  4437    sensor: m_ballast_pumped = -141.594989010989 cc
+  4437    sensor: m_ballast_pumped = -139.181686202686 cc
+  4438    sensor: m_ballast_pumped = -135.320401709402 cc
+  4438    sensor: m_ballast_pumped = -133.38975946276 cc
+  4438    sensor: m_ballast_pumped = -130.493796092796 cc
+  4438    sensor: m_ballast_pumped = -127.597832722833 cc
+  4438    sensor: m_ballast_pumped = -124.701869352869 cc
+  4438    sensor: m_ballast_pumped = -122.288566544567 cc
+  4438    sensor: m_ballast_pumped = -119.392603174603 cc
+  4438    sensor: m_ballast_pumped = -116.49663980464 cc
+  4438    sensor: m_ballast_pumped = -113.600676434676 cc
+  4438    sensor: m_ballast_pumped = -111.187373626374 cc
+  4439    sensor: m_ballast_pumped = -108.29141025641 cc
+  4439    sensor: m_ballast_pumped = -105.395446886447 cc
+  4439    sensor: m_ballast_pumped = -102.499483516483 cc
+  4439    sensor: m_ballast_pumped = -100.086180708181 cc
+  4439    sensor: m_ballast_pumped = -97.1902173382173 cc
+  4439    sensor: m_ballast_pumped = -94.294253968254 cc
+  4439    sensor: m_ballast_pumped = -91.3982905982906 cc
+  4439    sensor: m_ballast_pumped = -88.5023272283272 cc
+  4440 77 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4440    sensor: m_ballast_pumped = -61.4733357753358 cc
+  4441    sensor: m_ballast_pumped = -54.2334273504273 cc
+  4441    sensor: m_ballast_pumped = -51.8201245421245 cc
+  4441    sensor: m_ballast_pumped = -48.9241611721611 cc
+  4441    sensor: m_ballast_pumped = -46.0281978021978 cc
+  4441    sensor: m_ballast_pumped = -43.6148949938949 cc
+  4441    sensor: m_ballast_pumped = -40.7189316239317 cc
+  4441    sensor: m_ballast_pumped = -37.8229682539683 cc
+  4441    sensor: m_ballast_pumped = -35.4096654456655 cc
+  4441    sensor: m_ballast_pumped = -32.0310415140415 cc
+  4442    sensor: m_ballast_pumped = -29.1350781440781 cc
+  4442    sensor: m_ballast_pumped = -26.2391147741148 cc
+  4442    sensor: m_ballast_pumped = -23.8258119658119 cc
+  4442    sensor: m_ballast_pumped = -20.9298485958486 cc
+  4442    sensor: m_ballast_pumped = -18.0338852258852 cc
+  4442    sensor: m_ballast_pumped = -15.1379218559218 cc
+  4442    sensor: m_ballast_pumped = -12.2419584859585 cc
+  4442    sensor: m_ballast_pumped = -9.34599511599504 cc
+  4442    sensor: m_ballast_pumped = -6.93269230769226 cc
+  4442    sensor: m_ballast_pumped = -4.03672893772887 cc
+  4443    sensor: m_ballast_pumped = -1.14076556776558 cc
+  4443    sensor: m_ballast_pumped = 1.75519780219781 cc
+  4443    sensor: m_ballast_pumped = 4.16850061050059 cc
+  4443    sensor: m_ballast_pumped = 7.06446398046398 cc
+  4444 78 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4444    sensor: m_ballast_pumped = 47.1252905982907 cc
+  4445    sensor: m_ballast_pumped = 54.365199023199 cc
+  4445    sensor: m_ballast_pumped = 56.7785018315018 cc
+  4445    sensor: m_ballast_pumped = 59.6744652014652 cc
+  4445    sensor: m_ballast_pumped = 62.087768009768 cc
+  4445    sensor: m_ballast_pumped = 65.466391941392 cc
+  4445    sensor: m_ballast_pumped = 67.8796947496947 cc
+  4445    sensor: m_ballast_pumped = 71.2583186813188 cc
+  4445    sensor: m_ballast_pumped = 74.1542820512821 cc
+  4445    sensor: m_ballast_pumped = 76.5675848595849 cc
+  4446    sensor: m_ballast_pumped = 79.4635482295482 cc
+  4446    sensor: m_ballast_pumped = 82.3595115995116 cc
+  4446    sensor: m_ballast_pumped = 85.255474969475 cc
+  4446    sensor: m_ballast_pumped = 88.1514383394383 cc
+  4446    sensor: m_ballast_pumped = 90.5647411477412 cc
+  4446    sensor: m_ballast_pumped = 93.4607045177046 cc
+  4446    sensor: m_ballast_pumped = 96.356667887668 cc
+  4446    sensor: m_ballast_pumped = 99.2526312576313 cc
+  4446    sensor: m_ballast_pumped = 102.148594627595 cc
+  4446    sensor: m_ballast_pumped = 104.561897435897 cc
+  4447    sensor: m_ballast_pumped = 107.457860805861 cc
+  4447    sensor: m_ballast_pumped = 110.353824175824 cc
+  4447    sensor: m_ballast_pumped = 113.249787545788 cc
+  4447    sensor: m_ballast_pumped = 116.145750915751 cc
+  4447    sensor: m_ballast_pumped = 118.559053724054 cc
+  4447    sensor: m_ballast_pumped = 121.937677655678 cc
+  4447    sensor: m_ballast_pumped = 124.35098046398 cc
+  4447    sensor: m_ballast_pumped = 127.246943833944 cc
+  4447    sensor: m_ballast_pumped = 130.142907203907 cc
+  4448 79 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4448    sensor: m_ballast_pumped = 157.171898656899 cc
+  4449    sensor: m_ballast_pumped = 164.411807081807 cc
+  4449    sensor: m_ballast_pumped = 167.30777045177 cc
+  4449    sensor: m_ballast_pumped = 170.203733821734 cc
+  4449    sensor: m_ballast_pumped = 173.099697191697 cc
+  4449    sensor: m_ballast_pumped = 175.995660561661 cc
+  4449    sensor: m_ballast_pumped = 178.891623931624 cc
+  4449    sensor: m_ballast_pumped = 181.787587301587 cc
+  4449    sensor: m_ballast_pumped = 184.20089010989 cc
+  4449    sensor: m_ballast_pumped = 187.096853479854 cc
+  4450    sensor: m_ballast_pumped = 189.992816849817 cc
+  4450    sensor: m_ballast_pumped = 192.88878021978 cc
+  4450    sensor: m_ballast_pumped = 195.784743589744 cc
+  4450    sensor: m_ballast_pumped = 198.198046398046 cc
+  4450    sensor: m_ballast_pumped = 201.57667032967 cc
+  4450    sensor: m_ballast_pumped = 203.989973137973 cc
+  4450    sensor: m_ballast_pumped = 206.885936507937 cc
+  4450    sensor: m_ballast_pumped = 209.7818998779 cc
+  4450    sensor: m_ballast_pumped = 212.677863247863 cc
+  4451    sensor: m_ballast_pumped = 215.573826617827 cc
+  4451    sensor: m_ballast_pumped = 217.98712942613 cc
+  4451    sensor: m_ballast_pumped = 220.883092796093 cc
+  4451    sensor: m_ballast_pumped = 223.779056166056 cc
+  4451    sensor: m_ballast_pumped = 226.67501953602 cc
+  4451    sensor: m_ballast_pumped = 229.570982905983 cc
+  4451    sensor: m_ballast_pumped = 232.949606837607 cc
+  4451    sensor: m_ballast_pumped = 235.36290964591 cc
+  4451    sensor: m_ballast_pumped = 238.258873015873 cc
+  4451    sensor: m_ballast_pumped = 241.154836385836 cc
+  4452 80 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4452    sensor: m_ballast_pumped = 268.666488400488 cc
+  4453    sensor: m_ballast_pumped = 275.906396825397 cc
+  4453    sensor: m_ballast_pumped = 278.80236019536 cc
+  4453    sensor: m_ballast_pumped = 281.215663003663 cc
+  4453    sensor: m_ballast_pumped = 284.111626373626 cc
+  4453    sensor: m_ballast_pumped = 287.00758974359 cc
+  4453    sensor: m_ballast_pumped = 289.903553113553 cc
+  4453    sensor: m_ballast_pumped = 292.799516483516 cc
+  4453    sensor: m_ballast_pumped = 295.69547985348 cc
+  4454    sensor: m_ballast_pumped = 298.591443223443 cc
+  4454    sensor: m_ballast_pumped = 301.487406593407 cc
+  4454    sensor: m_ballast_pumped = 304.38336996337 cc
+  4454    sensor: m_ballast_pumped = 307.279333333333 cc
+  4454    sensor: m_ballast_pumped = 310.175296703297 cc
+  4454    sensor: m_ballast_pumped = 312.5885995116 cc
+  4454    sensor: m_ballast_pumped = 315.967223443223 cc
+  4454    sensor: m_ballast_pumped = 318.380526251526 cc
+  4454    sensor: m_ballast_pumped = 321.75915018315 cc
+  4455    sensor: m_ballast_pumped = 324.655113553114 cc
+  4455    sensor: m_ballast_pumped = 327.068416361416 cc
+  4455    sensor: m_ballast_pumped = 330.44704029304 cc
+  4455    sensor: m_ballast_pumped = 332.860343101343 cc
+  4455    sensor: m_ballast_pumped = 335.756306471307 cc
+  4455    sensor: m_ballast_pumped = 338.65226984127 cc
+  4455    sensor: m_ballast_pumped = 341.548233211233 cc
+  4455    sensor: m_ballast_pumped = 344.444196581197 cc
+  4455    sensor: m_ballast_pumped = 347.34015995116 cc
+  4455    sensor: m_ballast_pumped = 350.236123321124 cc
+  4456    sensor: m_ballast_pumped = 353.614747252747 cc
+  4457 81 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4457    sensor: m_ballast_pumped = 380.643738705739 cc
+  4457    sensor: m_ballast_pumped = 387.883647130647 cc
+  4457    sensor: m_ballast_pumped = 390.77961050061 cc
+  4457    sensor: m_ballast_pumped = 393.675573870574 cc
+  4457    sensor: m_ballast_pumped = 406.224748473749 cc
+  4458    sensor: m_ballast_pumped = 409.120711843712 cc
+  4458    sensor: m_ballast_pumped = 412.016675213675 cc
+  4458    sensor: m_ballast_pumped = 414.912638583639 cc
+  4458    sensor: m_ballast_pumped = 417.808601953602 cc
+  4458    sensor: m_ballast_pumped = 420.704565323565 cc
+  4458    sensor: m_ballast_pumped = 423.117868131868 cc
+  4458    sensor: m_ballast_pumped = 426.013831501832 cc
+  4458    sensor: m_ballast_pumped = 428.427134310134 cc
+  4458    sensor: m_ballast_pumped = 431.805758241758 cc
+  4459    sensor: m_ballast_pumped = 434.219061050061 cc
+  4459    sensor: m_ballast_pumped = 437.115024420024 cc
+  4459    sensor: m_ballast_pumped = 439.528327228327 cc
+  4459    sensor: m_ballast_pumped = 442.906951159951 cc
+  4459    sensor: m_ballast_pumped = 445.320253968254 cc
+  4459    sensor: m_ballast_pumped = 448.698877899878 cc
+  4459    sensor: m_ballast_pumped = 451.112180708181 cc
+  4459    sensor: m_ballast_pumped = 454.490804639805 cc
+  4459    sensor: m_ballast_pumped = 456.421446886447 cc
+  4459    sensor: m_ballast_pumped = 459.31741025641 cc
+  4460    sensor: m_ballast_pumped = 462.696034188034 cc
+  4460    sensor: m_ballast_pumped = 465.109336996337 cc
+  4461 82 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4461    sensor: m_ballast_pumped = 492.138328449328 cc
+  4461    sensor: m_ballast_pumped = 499.378236874237 cc
+  4461    sensor: m_ballast_pumped = 501.79153968254 cc
+  4461    sensor: m_ballast_pumped = 504.687503052503 cc
+  4461    sensor: m_ballast_pumped = 507.583466422466 cc
+  4461    sensor: m_ballast_pumped = 510.47942979243 cc
+  4461    sensor: m_ballast_pumped = 513.375393162393 cc
+  4462    sensor: m_ballast_pumped = 515.788695970696 cc
+  4462 83 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4462    sensor: m_ballast_pumped = 530.751173382173 cc
+  4462    sensor: m_ballast_pumped = 533.164476190476 cc
+  4466 84 sensor: m_ballast_pumped = 533.164476190476 cc
+  4471 85 sensor: m_ballast_pumped = 533.164476190476 cc
+  4471    sensor: m_ballast_pumped = 532.681815628816 cc
+  4471    sensor: m_ballast_pumped = 529.303191697192 cc
+  4471    sensor: m_ballast_pumped = 526.407228327228 cc
+  4471    sensor: m_ballast_pumped = 523.511264957265 cc
+  4471    sensor: m_ballast_pumped = 520.132641025641 cc
+  4471    sensor: m_ballast_pumped = 517.236677655678 cc
+  4471    sensor: m_ballast_pumped = 514.340714285714 cc
+  4472    sensor: m_ballast_pumped = 510.96209035409 cc
+  4472    sensor: m_ballast_pumped = 508.066126984127 cc
+  4472    sensor: m_ballast_pumped = 505.170163614164 cc
+  4472    sensor: m_ballast_pumped = 501.79153968254 cc
+  4472    sensor: m_ballast_pumped = 498.895576312576 cc
+  4472    sensor: m_ballast_pumped = 495.516952380952 cc
+  4472    sensor: m_ballast_pumped = 493.10364957265 cc
+  4472    sensor: m_ballast_pumped = 488.277043956044 cc
+  4472    sensor: m_ballast_pumped = 484.89842002442 cc
+  4473    sensor: m_ballast_pumped = 481.519796092796 cc
+  4473    sensor: m_ballast_pumped = 478.623832722833 cc
+  4473    sensor: m_ballast_pumped = 476.21052991453 cc
+  4473    sensor: m_ballast_pumped = 472.831905982906 cc
+  4473    sensor: m_ballast_pumped = 469.935942612943 cc
+  4473    sensor: m_ballast_pumped = 467.039979242979 cc
+  4473    sensor: m_ballast_pumped = 463.661355311355 cc
+  4473    sensor: m_ballast_pumped = 460.765391941392 cc
+  4473    sensor: m_ballast_pumped = 457.869428571429 cc
+  4474    sensor: m_ballast_pumped = 454.490804639805 cc
+  4474    sensor: m_ballast_pumped = 451.594841269841 cc
+  4475 86 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4475    sensor: m_ballast_pumped = 420.704565323565 cc
+  4475    sensor: m_ballast_pumped = 402.846124542125 cc
+  4475    sensor: m_ballast_pumped = 399.467500610501 cc
+  4476    sensor: m_ballast_pumped = 396.571537240537 cc
+  4476    sensor: m_ballast_pumped = 393.192913308913 cc
+  4476    sensor: m_ballast_pumped = 389.814289377289 cc
+  4476    sensor: m_ballast_pumped = 386.918326007326 cc
+  4476    sensor: m_ballast_pumped = 384.022362637363 cc
+  4476    sensor: m_ballast_pumped = 380.643738705739 cc
+  4476    sensor: m_ballast_pumped = 378.230435897436 cc
+  4476    sensor: m_ballast_pumped = 374.851811965812 cc
+  4476    sensor: m_ballast_pumped = 371.473188034188 cc
+  4476    sensor: m_ballast_pumped = 368.577224664225 cc
+  4477    sensor: m_ballast_pumped = 365.681261294261 cc
+  4477    sensor: m_ballast_pumped = 362.302637362637 cc
+  4477    sensor: m_ballast_pumped = 359.406673992674 cc
+  4477    sensor: m_ballast_pumped = 356.02805006105 cc
+  4477    sensor: m_ballast_pumped = 353.132086691087 cc
+  4477    sensor: m_ballast_pumped = 349.753462759463 cc
+  4477    sensor: m_ballast_pumped = 346.857499389499 cc
+  4477    sensor: m_ballast_pumped = 343.478875457875 cc
+  4477    sensor: m_ballast_pumped = 340.582912087912 cc
+  4478    sensor: m_ballast_pumped = 337.204288156288 cc
+  4478    sensor: m_ballast_pumped = 333.825664224664 cc
+  4478    sensor: m_ballast_pumped = 330.929700854701 cc
+  4479 87 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4479    sensor: m_ballast_pumped = 299.556764346764 cc
+  4479    sensor: m_ballast_pumped = 281.215663003663 cc
+  4480    sensor: m_ballast_pumped = 278.3196996337 cc
+  4480    sensor: m_ballast_pumped = 274.941075702076 cc
+  4480    sensor: m_ballast_pumped = 272.045112332112 cc
+  4480    sensor: m_ballast_pumped = 268.666488400488 cc
+  4480    sensor: m_ballast_pumped = 254.669332112332 cc
+  4480    sensor: m_ballast_pumped = 251.290708180708 cc
+  4481    sensor: m_ballast_pumped = 248.394744810745 cc
+  4481    sensor: m_ballast_pumped = 245.016120879121 cc
+  4481    sensor: m_ballast_pumped = 242.120157509157 cc
+  4481    sensor: m_ballast_pumped = 239.224194139194 cc
+  4481    sensor: m_ballast_pumped = 235.84557020757 cc
+  4481    sensor: m_ballast_pumped = 233.432267399267 cc
+  4481    sensor: m_ballast_pumped = 230.053643467643 cc
+  4481    sensor: m_ballast_pumped = 227.15768009768 cc
+  4481    sensor: m_ballast_pumped = 223.779056166056 cc
+  4481    sensor: m_ballast_pumped = 220.883092796093 cc
+  4482    sensor: m_ballast_pumped = 217.98712942613 cc
+  4482    sensor: m_ballast_pumped = 215.091166056166 cc
+  4482    sensor: m_ballast_pumped = 211.712542124542 cc
+  4483 88 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4483    sensor: m_ballast_pumped = 179.856945054945 cc
+  4484    sensor: m_ballast_pumped = 161.515843711844 cc
+  4484    sensor: m_ballast_pumped = 158.61988034188 cc
+  4484    sensor: m_ballast_pumped = 155.723916971917 cc
+  4484    sensor: m_ballast_pumped = 152.345293040293 cc
+  4484    sensor: m_ballast_pumped = 149.44932967033 cc
+  4484    sensor: m_ballast_pumped = 146.553366300366 cc
+  4484    sensor: m_ballast_pumped = 143.174742368742 cc
+  4484    sensor: m_ballast_pumped = 140.278778998779 cc
+  4484    sensor: m_ballast_pumped = 137.382815628816 cc
+  4484    sensor: m_ballast_pumped = 134.004191697192 cc
+  4485    sensor: m_ballast_pumped = 131.108228327228 cc
+  4485    sensor: m_ballast_pumped = 127.729604395604 cc
+  4485    sensor: m_ballast_pumped = 125.316301587302 cc
+  4485    sensor: m_ballast_pumped = 122.420338217338 cc
+  4485    sensor: m_ballast_pumped = 118.559053724054 cc
+  4485    sensor: m_ballast_pumped = 116.145750915751 cc
+  4485    sensor: m_ballast_pumped = 112.767126984127 cc
+  4485    sensor: m_ballast_pumped = 109.871163614164 cc
+  4485    sensor: m_ballast_pumped = 106.9752002442 cc
+  4485    sensor: m_ballast_pumped = 103.596576312576 cc
+  4486    sensor: m_ballast_pumped = 100.700612942613 cc
+  4486    sensor: m_ballast_pumped = 97.8046495726496 cc
+  4486    sensor: m_ballast_pumped = 94.9086862026862 cc
+  4486    sensor: m_ballast_pumped = 91.5300622710623 cc
+  4487 89 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4487    sensor: m_ballast_pumped = 60.6397863247863 cc
+  4488    sensor: m_ballast_pumped = 42.298684981685 cc
+  4488    sensor: m_ballast_pumped = 39.4027216117216 cc
+  4488    sensor: m_ballast_pumped = 36.5067582417582 cc
+  4488    sensor: m_ballast_pumped = 33.1281343101343 cc
+  4488    sensor: m_ballast_pumped = 30.2321709401709 cc
+  4488    sensor: m_ballast_pumped = 27.3362075702075 cc
+  4488    sensor: m_ballast_pumped = 23.9575836385836 cc
+  4488    sensor: m_ballast_pumped = 21.0616202686203 cc
+  4488    sensor: m_ballast_pumped = 18.1656568986569 cc
+  4489    sensor: m_ballast_pumped = 14.7870329670329 cc
+  4489    sensor: m_ballast_pumped = 11.8910695970695 cc
+  4489    sensor: m_ballast_pumped = 8.99510622710625 cc
+  4489    sensor: m_ballast_pumped = 5.61648229548234 cc
+  4489    sensor: m_ballast_pumped = 2.72051892551895 cc
+  4489    sensor: m_ballast_pumped = -0.658105006104961 cc
+  4489    sensor: m_ballast_pumped = -3.55406837606836 cc
+  4489    sensor: m_ballast_pumped = -6.45003174603164 cc
+  4489    sensor: m_ballast_pumped = -9.34599511599504 cc
+  4489    sensor: m_ballast_pumped = -12.7246190476191 cc
+  4490    sensor: m_ballast_pumped = -15.6205824175825 cc
+  4490    sensor: m_ballast_pumped = -18.5165457875457 cc
+  4490    sensor: m_ballast_pumped = -21.4125091575091 cc
+  4490    sensor: m_ballast_pumped = -24.791133089133 cc
+  4490    sensor: m_ballast_pumped = -27.6870964590964 cc
+  4491 90 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4491    sensor: m_ballast_pumped = -58.0947118437118 cc
+  4492    sensor: m_ballast_pumped = -75.9531526251526 cc
+  4492    sensor: m_ballast_pumped = -79.3317765567765 cc
+  4492    sensor: m_ballast_pumped = -82.7104004884004 cc
+  4492    sensor: m_ballast_pumped = -85.1237032967033 cc
+  4492    sensor: m_ballast_pumped = -88.5023272283272 cc
+  4492    sensor: m_ballast_pumped = -91.3982905982906 cc
+  4492    sensor: m_ballast_pumped = -94.294253968254 cc
+  4492    sensor: m_ballast_pumped = -97.1902173382173 cc
+  4493    sensor: m_ballast_pumped = -100.086180708181 cc
+  4493    sensor: m_ballast_pumped = -103.464804639805 cc
+  4493    sensor: m_ballast_pumped = -106.360768009768 cc
+  4493    sensor: m_ballast_pumped = -109.256731379731 cc
+  4493    sensor: m_ballast_pumped = -112.635355311355 cc
+  4493    sensor: m_ballast_pumped = -115.048658119658 cc
+  4493    sensor: m_ballast_pumped = -118.427282051282 cc
+  4493    sensor: m_ballast_pumped = -121.323245421245 cc
+  4493    sensor: m_ballast_pumped = -124.701869352869 cc
+  4493    sensor: m_ballast_pumped = -127.597832722833 cc
+  4494    sensor: m_ballast_pumped = -130.493796092796 cc
+  4494    sensor: m_ballast_pumped = -133.87242002442 cc
+  4494    sensor: m_ballast_pumped = -136.768383394383 cc
+  4494    sensor: m_ballast_pumped = -139.664346764347 cc
+  4494    sensor: m_ballast_pumped = -142.56031013431 cc
+  4494    sensor: m_ballast_pumped = -145.456273504273 cc
+  4495 91 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4495    sensor: m_ballast_pumped = -176.346549450549 cc
+  4496    sensor: m_ballast_pumped = -194.20499023199 cc
+  4496    sensor: m_ballast_pumped = -197.100953601954 cc
+  4496    sensor: m_ballast_pumped = -199.996916971917 cc
+  4496    sensor: m_ballast_pumped = -202.89288034188 cc
+  4496    sensor: m_ballast_pumped = -206.271504273504 cc
+  4496    sensor: m_ballast_pumped = -209.167467643468 cc
+  4496    sensor: m_ballast_pumped = -212.063431013431 cc
+  4496    sensor: m_ballast_pumped = -215.442054945055 cc
+  4497    sensor: m_ballast_pumped = -217.855357753358 cc
+  4497    sensor: m_ballast_pumped = -221.233981684982 cc
+  4497    sensor: m_ballast_pumped = -224.612605616606 cc
+  4497    sensor: m_ballast_pumped = -227.508568986569 cc
+  4497    sensor: m_ballast_pumped = -230.404532356532 cc
+  4497    sensor: m_ballast_pumped = -233.783156288156 cc
+  4497    sensor: m_ballast_pumped = -236.67911965812 cc
+  4497    sensor: m_ballast_pumped = -239.575083028083 cc
+  4497    sensor: m_ballast_pumped = -242.953706959707 cc
+  4498    sensor: m_ballast_pumped = -245.84967032967 cc
+  4498    sensor: m_ballast_pumped = -248.745633699634 cc
+  4498    sensor: m_ballast_pumped = -252.124257631258 cc
+  4498    sensor: m_ballast_pumped = -254.53756043956 cc
+  4498    sensor: m_ballast_pumped = -257.916184371184 cc
+  4498    sensor: m_ballast_pumped = -260.812147741148 cc
+  4498    sensor: m_ballast_pumped = -263.708111111111 cc
+  4499 92 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4499    sensor: m_ballast_pumped = -293.150405372405 cc
+  4500    Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.100
+            delta volts: -0.000, delta bar: 0.025, delta meters: 0.000
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  4500    sensor: m_ballast_pumped = -325.971323565324 cc
+  4500    sensor: m_ballast_pumped = -328.867286935287 cc
+  4501    sensor: m_ballast_pumped = -331.76325030525 cc
+  4501    sensor: m_ballast_pumped = -334.659213675214 cc
+  4501    sensor: m_ballast_pumped = -338.037837606838 cc
+  4501    sensor: m_ballast_pumped = -340.933800976801 cc
+  4501    sensor: m_ballast_pumped = -343.829764346764 cc
+  4501    sensor: m_ballast_pumped = -346.725727716728 cc
+  4501    sensor: m_ballast_pumped = -349.621691086691 cc
+  4501    sensor: m_ballast_pumped = -352.517654456654 cc
+  4501    sensor: m_ballast_pumped = -355.896278388278 cc
+  4501    sensor: m_ballast_pumped = -358.792241758242 cc
+  4502    sensor: m_ballast_pumped = -361.688205128205 cc
+  4502    sensor: m_ballast_pumped = -364.584168498169 cc
+  4502    sensor: m_ballast_pumped = -367.480131868132 cc
+  4502    sensor: m_ballast_pumped = -370.376095238095 cc
+  4502    sensor: m_ballast_pumped = -373.754719169719 cc
+  4502    sensor: m_ballast_pumped = -376.650682539683 cc
+  4502    sensor: m_ballast_pumped = -379.063985347985 cc
+  4503 93 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4503    sensor: m_ballast_pumped = -410.919582417582 cc
+  4504    sensor: m_ballast_pumped = -417.67683028083 cc
+  4504    sensor: m_ballast_pumped = -420.572793650794 cc
+  4504    sensor: m_ballast_pumped = -423.468757020757 cc
+  4504    sensor: m_ballast_pumped = -426.36472039072 cc
+  4504    sensor: m_ballast_pumped = -429.260683760684 cc
+  4504    sensor: m_ballast_pumped = -432.156647130647 cc
+  4504    sensor: m_ballast_pumped = -435.052610500611 cc
+  4504    sensor: m_ballast_pumped = -437.948573870574 cc
+  4504    sensor: m_ballast_pumped = -441.327197802198 cc
+  4504    sensor: m_ballast_pumped = -443.740500610501 cc
+  4505    sensor: m_ballast_pumped = -447.119124542125 cc
+  4505    sensor: m_ballast_pumped = -450.015087912088 cc
+  4505    sensor: m_ballast_pumped = -452.911051282051 cc
+  4505    sensor: m_ballast_pumped = -456.289675213675 cc
+  4505    sensor: m_ballast_pumped = -458.702978021978 cc
+  4505    sensor: m_ballast_pumped = -461.598941391941 cc
+  4505    sensor: m_ballast_pumped = -464.494904761905 cc
+  4505    sensor: m_ballast_pumped = -467.873528693529 cc
+  4505    sensor: m_ballast_pumped = -470.286831501832 cc
+  4506    sensor: m_ballast_pumped = -473.665455433455 cc
+  4506    sensor: m_ballast_pumped = -476.561418803419 cc
+  4506    sensor: m_ballast_pumped = -479.940042735043 cc
+  4506    sensor: m_ballast_pumped = -482.836006105006 cc
+  4506    sensor: m_ballast_pumped = -485.73196947497 cc
+  4506    sensor: m_ballast_pumped = -488.627932844933 cc
+  4506    sensor: m_ballast_pumped = -492.006556776557 cc
+  4506    sensor: m_ballast_pumped = -494.90252014652 cc
+  4506    sensor: m_ballast_pumped = -497.798483516484 cc
+  4507 94 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4507    sensor: m_ballast_pumped = -527.723438339438 cc
+  4508    sensor: m_ballast_pumped = -533.998025641026 cc
+  4508    sensor: m_ballast_pumped = -534.963346764347 cc
+  4511 95 sensor: m_ballast_pumped = -534.963346764347 cc
+  4516 96 sensor: m_ballast_pumped = -534.963346764347 cc
+  4516    sensor: m_ballast_pumped = -533.998025641026 cc
+  4516    sensor: m_ballast_pumped = -532.067383394383 cc
+  4516    sensor: m_ballast_pumped = -528.206098901099 cc
+  4516    sensor: m_ballast_pumped = -525.792796092796 cc
+  4516    sensor: m_ballast_pumped = -522.896832722833 cc
+  4516    sensor: m_ballast_pumped = -520.000869352869 cc
+  4516    sensor: m_ballast_pumped = -517.104905982906 cc
+  4517    sensor: m_ballast_pumped = -514.208942612943 cc
+  4517    sensor: m_ballast_pumped = -511.79563980464 cc
+  4517    sensor: m_ballast_pumped = -508.417015873016 cc
+  4517    sensor: m_ballast_pumped = -506.003713064713 cc
+  4517    sensor: m_ballast_pumped = -503.10774969475 cc
+  4517    sensor: m_ballast_pumped = -500.211786324786 cc
+  4517    sensor: m_ballast_pumped = -497.798483516484 cc
+  4517    sensor: m_ballast_pumped = -494.90252014652 cc
+  4517    sensor: m_ballast_pumped = -492.006556776557 cc
+  4517    sensor: m_ballast_pumped = -489.110593406593 cc
+  4518    sensor: m_ballast_pumped = -486.21463003663 cc
+  4518    sensor: m_ballast_pumped = -483.318666666667 cc
+  4518    sensor: m_ballast_pumped = -480.905363858364 cc
+  4518    sensor: m_ballast_pumped = -477.52673992674 cc
+  4518    sensor: m_ballast_pumped = -475.113437118437 cc
+  4518    sensor: m_ballast_pumped = -472.217473748474 cc
+  4518    sensor: m_ballast_pumped = -469.32151037851 cc
+  4518    sensor: m_ballast_pumped = -466.425547008547 cc
+  4518    sensor: m_ballast_pumped = -464.012244200244 cc
+  4519    sensor: m_ballast_pumped = -461.116280830281 cc
+  4520 97 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4520    sensor: m_ballast_pumped = -433.121968253968 cc
+  4520    sensor: m_ballast_pumped = -425.88205982906 cc
+  4520    sensor: m_ballast_pumped = -423.468757020757 cc
+  4520    sensor: m_ballast_pumped = -410.436921855922 cc
+  4521    sensor: m_ballast_pumped = -407.540958485959 cc
+  4521    sensor: m_ballast_pumped = -405.127655677656 cc
+  4521    sensor: m_ballast_pumped = -401.749031746032 cc
+  4521    sensor: m_ballast_pumped = -399.335728937729 cc
+  4521    sensor: m_ballast_pumped = -396.922426129426 cc
+  4521    sensor: m_ballast_pumped = -394.026462759463 cc
+  4521    sensor: m_ballast_pumped = -391.130499389499 cc
+  4521    sensor: m_ballast_pumped = -388.234536019536 cc
+  4521    sensor: m_ballast_pumped = -385.338572649573 cc
+  4522    sensor: m_ballast_pumped = -382.92526984127 cc
+  4522    sensor: m_ballast_pumped = -380.029306471306 cc
+  4522    sensor: m_ballast_pumped = -377.616003663004 cc
+  4522    sensor: m_ballast_pumped = -374.72004029304 cc
+  4522    sensor: m_ballast_pumped = -371.824076923077 cc
+  4522    sensor: m_ballast_pumped = -368.928113553114 cc
+  4522    sensor: m_ballast_pumped = -366.514810744811 cc
+  4522    sensor: m_ballast_pumped = -363.618847374847 cc
+  4522    sensor: m_ballast_pumped = -360.722884004884 cc
+  4522    sensor: m_ballast_pumped = -358.309581196581 cc
+  4523    sensor: m_ballast_pumped = -355.413617826618 cc
+  4523    sensor: m_ballast_pumped = -352.517654456654 cc
+  4524 98 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4524    sensor: m_ballast_pumped = -325.971323565324 cc
+  4524    sensor: m_ballast_pumped = -317.283433455433 cc
+  4524    sensor: m_ballast_pumped = -314.870130647131 cc
+  4524    sensor: m_ballast_pumped = -312.456827838828 cc
+  4524    sensor: m_ballast_pumped = -309.560864468864 cc
+  4524    sensor: m_ballast_pumped = -306.664901098901 cc
+  4524    sensor: m_ballast_pumped = -303.768937728938 cc
+  4525    sensor: m_ballast_pumped = -300.872974358974 cc
+  4525    sensor: m_ballast_pumped = -298.459671550672 cc
+  4525    sensor: m_ballast_pumped = -295.563708180708 cc
+  4525    sensor: m_ballast_pumped = -292.667744810745 cc
+  4525    sensor: m_ballast_pumped = -290.254442002442 cc
+  4525    sensor: m_ballast_pumped = -287.358478632479 cc
+  4525    sensor: m_ballast_pumped = -284.945175824176 cc
+  4525    sensor: m_ballast_pumped = -282.049212454212 cc
+  4525    sensor: m_ballast_pumped = -279.153249084249 cc
+  4526    sensor: m_ballast_pumped = -276.739946275946 cc
+  4526    sensor: m_ballast_pumped = -273.843982905983 cc
+  4526    sensor: m_ballast_pumped = -270.94801953602 cc
+  4526    sensor: m_ballast_pumped = -268.534716727717 cc
+  4526    sensor: m_ballast_pumped = -265.638753357753 cc
+  4526    sensor: m_ballast_pumped = -262.74278998779 cc
+  4526    sensor: m_ballast_pumped = -259.846826617827 cc
+  4526    sensor: m_ballast_pumped = -257.433523809524 cc
+  4526    sensor: m_ballast_pumped = -254.53756043956 cc
+  4526    sensor: m_ballast_pumped = -251.641597069597 cc
+  4527    sensor: m_ballast_pumped = -248.745633699634 cc
+  4527    sensor: m_ballast_pumped = -246.332330891331 cc
+  4528 99 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4528    sensor: m_ballast_pumped = -217.372697191697 cc
+  4528    sensor: m_ballast_pumped = -210.132788766789 cc
+  4528    sensor: m_ballast_pumped = -207.719485958486 cc
+  4528    sensor: m_ballast_pumped = -204.823522588523 cc
+  4528    sensor: m_ballast_pumped = -201.927559218559 cc
+  4528    sensor: m_ballast_pumped = -199.031595848596 cc
+  4529    sensor: m_ballast_pumped = -196.135632478632 cc
+  4529    sensor: m_ballast_pumped = -193.72232967033 cc
+  4529    sensor: m_ballast_pumped = -190.826366300366 cc
+  4529    sensor: m_ballast_pumped = -187.930402930403 cc
+  4529    sensor: m_ballast_pumped = -185.03443956044 cc
+  4529    sensor: m_ballast_pumped = -182.621136752137 cc
+  4529    sensor: m_ballast_pumped = -179.725173382173 cc
+  4529    sensor: m_ballast_pumped = -176.82921001221 cc
+  4529    sensor: m_ballast_pumped = -173.933246642247 cc
+  4529    sensor: m_ballast_pumped = -171.037283272283 cc
+  4530    sensor: m_ballast_pumped = -168.14131990232 cc
+  4530    sensor: m_ballast_pumped = -165.728017094017 cc
+  4530    sensor: m_ballast_pumped = -162.832053724054 cc
+  4530    sensor: m_ballast_pumped = -159.93609035409 cc
+  4530    sensor: m_ballast_pumped = -157.040126984127 cc
+  4530    sensor: m_ballast_pumped = -154.144163614164 cc
+  4530    sensor: m_ballast_pumped = -151.2482002442 cc
+  4530    sensor: m_ballast_pumped = -148.352236874237 cc
+  4530    sensor: m_ballast_pumped = -145.938934065934 cc
+  4531    sensor: m_ballast_pumped = -143.042970695971 cc
+  4532  0 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4532    sensor: m_ballast_pumped = -102.016822954823 cc
+  4532    sensor: m_ballast_pumped = -94.7769145299145 cc
+  4533  1 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4533    sensor: m_ballast_pumped = -70.6438864468864 cc
+  4534    sensor: m_ballast_pumped = -63.403978021978 cc
+  4534    sensor: m_ballast_pumped = -60.5080146520147 cc
+  4534    sensor: m_ballast_pumped = -58.0947118437118 cc
+  4534    sensor: m_ballast_pumped = -52.302785103785 cc
+  4534    sensor: m_ballast_pumped = -52.302785103785 cc
+  4534    sensor: m_ballast_pumped = -49.4068217338217 cc
+  4534    sensor: m_ballast_pumped = -46.5108583638583 cc
+  4534    sensor: m_ballast_pumped = -44.0975555555556 cc
+  4534    sensor: m_ballast_pumped = -41.2015921855922 cc
+  4534    sensor: m_ballast_pumped = -38.3056288156288 cc
+  4535    sensor: m_ballast_pumped = -35.4096654456655 cc
+  4535    sensor: m_ballast_pumped = -32.513702075702 cc
+  4535    sensor: m_ballast_pumped = -29.6177387057387 cc
+  4535    sensor: m_ballast_pumped = -26.7217753357753 cc
+  4535    sensor: m_ballast_pumped = -23.8258119658119 cc
+  4535    sensor: m_ballast_pumped = -20.9298485958486 cc
+  4535    sensor: m_ballast_pumped = -18.5165457875457 cc
+  4535    sensor: m_ballast_pumped = -15.6205824175825 cc
+  4535    sensor: m_ballast_pumped = -12.7246190476191 cc
+  4536    sensor: m_ballast_pumped = -9.82865567765566 cc
+  4537  2 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4537    sensor: m_ballast_pumped = 22.509601953602 cc
+  4537    sensor: m_ballast_pumped = 29.7495103785104 cc
+  4538  3 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4543  4 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4545  5 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4546  6 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4548  7 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4550  8 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4551  9 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4552 10 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4555 11 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4555 12 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4556    sensor: m_battpos = 0.155148351648352 in
+  4556    sensor: m_battpos = 0.172752747252747 in
+  4556    sensor: m_battpos = 0.184489010989011 in
+  4556    sensor: m_battpos = 0.19915934065934 in
+  4556    sensor: m_battpos = 0.21382967032967 in
+  4556    sensor: m_battpos = 0.227032967032967 in
+  4556    sensor: m_battpos = 0.241703296703297 in
+  4556    sensor: m_battpos = 0.254906593406593 in
+  4556    sensor: m_battpos = 0.266642857142857 in
+  4557    sensor: m_battpos = 0.281313186813186 in
+  4557    sensor: m_battpos = 0.294516483516483 in
+  4557    sensor: m_battpos = 0.309186813186813 in
+  4557    sensor: m_battpos = 0.32239010989011 in
+  4557    sensor: m_battpos = 0.33706043956044 in
+  4557    sensor: m_battpos = 0.350263736263736 in
+  4557    sensor: m_battpos = 0.363467032967032 in
+  4557    sensor: m_battpos = 0.378137362637362 in
+  4557    sensor: m_battpos = 0.392807692307692 in
+  4557    sensor: m_battpos = 0.407478021978022 in
+  4558    sensor: m_battpos = 0.420681318681318 in
+  4558    sensor: m_battpos = 0.432417582417582 in
+  4558    sensor: m_battpos = 0.447087912087912 in
+  4558    sensor: m_battpos = 0.461758241758242 in
+  4558    sensor: m_battpos = 0.474961538461538 in
+  4558    sensor: m_battpos = 0.488164835164835 in
+  4558    sensor: m_battpos = 0.502835164835165 in
+  4558    sensor: m_battpos = 0.516038461538461 in
+  4558    sensor: m_battpos = 0.527774725274725 in
+  4559    sensor: m_battpos = 0.543912087912088 in
+  4559    sensor: m_battpos = 0.558582417582417 in
+  4559    sensor: m_battpos = 0.571785714285714 in
+  4559    sensor: m_battpos = 0.586456043956044 in
+  4559 13 sensor: m_battpos = 0.606994505494505 in
+  4560    sensor: m_battpos = 0.731692307692308 in
+  4560    sensor: m_battpos = 0.749296703296703 in
+  4560    sensor: m_battpos = 0.7625 in
+  4560    sensor: m_battpos = 0.775703296703296 in
+  4560    sensor: m_battpos = 0.790373626373626 in
+  4560    sensor: m_battpos = 0.805043956043956 in
+  4561    sensor: m_battpos = 0.818247252747252 in
+  4561    sensor: m_battpos = 0.834384615384615 in
+  4561    sensor: m_battpos = 0.847587912087912 in
+  4561    sensor: m_battpos = 0.860791208791209 in
+  4561    sensor: m_battpos = 0.876928571428571 in
+  4561    sensor: m_battpos = 0.890131868131868 in
+  4562    sensor: m_battpos = 0.907736263736264 in
+  4564 14 sensor: m_battpos = 0.909203296703297 in
+  4567 15 sensor: m_battpos = 0.907736263736264 in
+  4568    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4571 16 sensor: m_battpos = 0.907736263736264 in
+  4572    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4572    sensor: m_battpos = 0.785972527472527 in
+  4572    sensor: m_battpos = 0.768368131868132 in
+  4572    sensor: m_battpos = 0.753697802197802 in
+  4573    sensor: m_battpos = 0.739027472527473 in
+  4573    sensor: m_battpos = 0.725824175824176 in
+  4573    sensor: m_battpos = 0.711153846153846 in
+  4573    sensor: m_battpos = 0.697950549450549 in
+  4573    sensor: m_battpos = 0.68328021978022 in
+  4573    sensor: m_battpos = 0.670076923076923 in
+  4573    sensor: m_battpos = 0.655406593406593 in
+  4573    sensor: m_battpos = 0.642203296703296 in
+  4573    sensor: m_battpos = 0.629 in
+  4574    sensor: m_battpos = 0.61432967032967 in
+  4574    sensor: m_battpos = 0.59965934065934 in
+  4574    sensor: m_battpos = 0.584989010989011 in
+  4574    sensor: m_battpos = 0.571785714285714 in
+  4574    sensor: m_battpos = 0.557115384615384 in
+  4574    sensor: m_battpos = 0.543912087912088 in
+  4574    sensor: m_battpos = 0.530708791208791 in
+  4574    sensor: m_battpos = 0.514571428571428 in
+  4574    sensor: m_battpos = 0.501368131868132 in
+  4574    sensor: m_battpos = 0.486697802197802 in
+  4575    sensor: m_battpos = 0.473494505494505 in
+  4575    sensor: m_battpos = 0.460291208791209 in
+  4575    sensor: m_battpos = 0.445620879120879 in
+  4575    sensor: m_battpos = 0.432417582417582 in
+  4575    sensor: m_battpos = 0.419214285714286 in
+  4575    sensor: m_battpos = 0.404543956043956 in
+  4575 17 sensor: m_battpos = 0.378137362637362 in
+  4576    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4576    sensor: m_battpos = 0.244637362637363 in
+  4576    sensor: m_battpos = 0.229967032967033 in
+  4577    sensor: m_battpos = 0.215296703296703 in
+  4577    sensor: m_battpos = 0.202093406593406 in
+  4577    sensor: m_battpos = 0.187423076923077 in
+  4577    sensor: m_battpos = 0.17421978021978 in
+  4577    sensor: m_battpos = 0.15954945054945 in
+  4577    sensor: m_battpos = 0.144879120879121 in
+  4577    sensor: m_battpos = 0.131675824175824 in
+  4577    sensor: m_battpos = 0.11993956043956 in
+  4577    sensor: m_battpos = 0.103802197802198 in
+  4578    sensor: m_battpos = 0.090598901098901 in
+  4578    sensor: m_battpos = 0.077395604395604 in
+  4578    sensor: m_battpos = 0.062725274725274 in
+  4578    sensor: m_battpos = 0.049521978021978 in
+  4578    sensor: m_battpos = 0.034851648351648 in
+  4578    sensor: m_battpos = 0.021648351648351 in
+  4578    sensor: m_battpos = 0.006978021978022 in
+  4578    sensor: m_battpos = -0.007692307692308 in
+  4578    sensor: m_battpos = -0.020895604395605 in
+  4578    sensor: m_battpos = -0.034098901098901 in
+  4579    sensor: m_battpos = -0.048769230769231 in
+  4579    sensor: m_battpos = -0.063439560439561 in
+  4579    sensor: m_battpos = -0.07810989010989 in
+  4579    sensor: m_battpos = -0.091313186813187 in
+  4579    sensor: m_battpos = -0.104516483516484 in
+  4579    sensor: m_battpos = -0.119186813186813 in
+  4579    sensor: m_battpos = -0.13239010989011 in
+  4579 18 sensor: m_battpos = -0.158796703296703 in
+  4580    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4580    sensor: m_battpos = -0.289362637362637 in
+  4581    sensor: m_battpos = -0.306967032967033 in
+  4581    sensor: m_battpos = -0.32017032967033 in
+  4581    sensor: m_battpos = -0.333373626373627 in
+  4581    sensor: m_battpos = -0.348043956043956 in
+  4581    sensor: m_battpos = -0.361247252747253 in
+  4581    sensor: m_battpos = -0.37445054945055 in
+  4581    sensor: m_battpos = -0.38912087912088 in
+  4581    sensor: m_battpos = -0.403791208791209 in
+  4581    sensor: m_battpos = -0.418461538461539 in
+  4581    sensor: m_battpos = -0.431664835164835 in
+  4582    sensor: m_battpos = -0.444868131868132 in
+  4582    sensor: m_battpos = -0.458071428571429 in
+  4582    sensor: m_battpos = -0.472741758241759 in
+  4582    sensor: m_battpos = -0.487412087912088 in
+  4582    sensor: m_battpos = -0.500615384615385 in
+  4582    sensor: m_battpos = -0.513818681318682 in
+  4582    sensor: m_battpos = -0.528489010989011 in
+  4582    sensor: m_battpos = -0.541692307692308 in
+  4582    sensor: m_battpos = -0.554895604395605 in
+  4583    sensor: m_battpos = -0.571032967032967 in
+  4583    sensor: m_battpos = -0.584236263736264 in
+  4583    sensor: m_battpos = -0.597439560439561 in
+  4583    sensor: m_battpos = -0.61210989010989 in
+  4583    sensor: m_battpos = -0.625313186813187 in
+  4583    sensor: m_battpos = -0.639983516483517 in
+  4583    sensor: m_battpos = -0.653186813186814 in
+  4583    sensor: m_battpos = -0.667857142857143 in
+  4583 19 sensor: m_battpos = -0.694263736263736 in
+  4584    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4584    sensor: m_battpos = -0.826296703296704 in
+  4585    sensor: m_battpos = -0.842434065934066 in
+  4585    sensor: m_battpos = -0.855637362637363 in
+  4585    sensor: m_battpos = -0.86884065934066 in
+  4585    sensor: m_battpos = -0.882043956043956 in
+  4585    sensor: m_battpos = -0.895247252747253 in
+  4586    sensor: m_battpos = -0.901115384615385 in
+  4588 20 sensor: m_battpos = -0.899648351648352 in
+  4588    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4592 21 sensor: m_battpos = -0.899648351648352 in
+  4592    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4593    sensor: m_battpos = -0.767615384615385 in
+  4593    sensor: m_battpos = -0.751478021978022 in
+  4593    sensor: m_battpos = -0.736807692307692 in
+  4593    sensor: m_battpos = -0.725071428571429 in
+  4593    sensor: m_battpos = -0.710401098901099 in
+  4593    sensor: m_battpos = -0.694263736263736 in
+  4593    sensor: m_battpos = -0.679593406593407 in
+  4593    sensor: m_battpos = -0.664923076923077 in
+  4593    sensor: m_battpos = -0.65171978021978 in
+  4594    sensor: m_battpos = -0.638516483516484 in
+  4594    sensor: m_battpos = -0.623846153846154 in
+  4594    sensor: m_battpos = -0.609175824175824 in
+  4594    sensor: m_battpos = -0.594505494505495 in
+  4594    sensor: m_battpos = -0.581302197802198 in
+  4594    sensor: m_battpos = -0.568098901098901 in
+  4594    sensor: m_battpos = -0.553428571428572 in
+  4594    sensor: m_battpos = -0.538758241758242 in
+  4594    sensor: m_battpos = -0.524087912087912 in
+  4595    sensor: m_battpos = -0.509417582417583 in
+  4595    sensor: m_battpos = -0.496214285714286 in
+  4595    sensor: m_battpos = -0.481543956043956 in
+  4595    sensor: m_battpos = -0.46834065934066 in
+  4595    sensor: m_battpos = -0.45367032967033 in
+  4595    sensor: m_battpos = -0.439 in
+  4595    sensor: m_battpos = -0.424329670329671 in
+  4595    sensor: m_battpos = -0.409659340659341 in
+  4595    sensor: m_battpos = -0.396456043956044 in
+  4595    sensor: m_battpos = -0.381785714285714 in
+  4596 22 sensor: m_battpos = -0.355379120879121 in
+  4597    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4597    sensor: m_battpos = -0.221879120879121 in
+  4597    sensor: m_battpos = -0.204274725274725 in
+  4597    sensor: m_battpos = -0.189604395604396 in
+  4597    sensor: m_battpos = -0.176401098901099 in
+  4597    sensor: m_battpos = -0.163197802197802 in
+  4597    sensor: m_battpos = -0.149994505494506 in
+  4597    sensor: m_battpos = -0.135324175824176 in
+  4597    sensor: m_battpos = -0.120653846153846 in
+  4598    sensor: m_battpos = -0.105983516483517 in
+  4598    sensor: m_battpos = -0.091313186813187 in
+  4598    sensor: m_battpos = -0.076642857142857 in
+  4598    sensor: m_battpos = -0.063439560439561 in
+  4598    sensor: m_battpos = -0.048769230769231 in
+  4598    sensor: m_battpos = -0.034098901098901 in
+  4598    sensor: m_battpos = -0.019428571428572 in
+  4598    sensor: m_battpos = -0.004758241758242 in
+  4598    sensor: m_battpos = 0.009912087912088 in
+  4598    sensor: m_battpos = 0.021648351648351 in
+  4599    sensor: m_battpos = 0.036318681318681 in
+  4599    sensor: m_battpos = 0.050989010989011 in
+  4599    sensor: m_battpos = 0.06565934065934 in
+  4599    sensor: m_battpos = 0.08032967032967 in
+  4599    sensor: m_battpos = 0.093532967032967 in
+  4599    sensor: m_battpos = 0.108203296703296 in
+  4599    sensor: m_battpos = 0.131675824175824 in
+  4599    sensor: m_battpos = 0.144879120879121 in
+  4599    sensor: m_battpos = 0.15954945054945 in
+  4600    sensor: m_battpos = 0.17421978021978 in
+  4600 23 sensor: m_battpos = 0.191824175824176 in
+  4601    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4601    sensor: m_battpos = 0.326791208791209 in
+  4601    sensor: m_battpos = 0.344395604395604 in
+  4601    sensor: m_battpos = 0.357598901098901 in
+  4601    sensor: m_battpos = 0.372269230769231 in
+  4601    sensor: m_battpos = 0.385472527472527 in
+  4601    sensor: m_battpos = 0.400142857142857 in
+  4601    sensor: m_battpos = 0.414813186813187 in
+  4601    sensor: m_battpos = 0.428016483516483 in
+  4602    sensor: m_battpos = 0.439752747252747 in
+  4602    sensor: m_battpos = 0.45589010989011 in
+  4602    sensor: m_battpos = 0.469093406593406 in
+  4602    sensor: m_battpos = 0.483763736263736 in
+  4602    sensor: m_battpos = 0.496967032967033 in
+  4602    sensor: m_battpos = 0.51017032967033 in
+  4602    sensor: m_battpos = 0.524840659340659 in
+  4602    sensor: m_battpos = 0.539510989010989 in
+  4602    sensor: m_battpos = 0.552714285714286 in
+  4603    sensor: m_battpos = 0.567384615384615 in
+  4603    sensor: m_battpos = 0.582054945054945 in
+  4603    sensor: m_battpos = 0.595258241758242 in
+  4603    sensor: m_battpos = 0.608461538461538 in
+  4603    sensor: m_battpos = 0.623131868131868 in
+  4603    sensor: m_battpos = 0.637802197802198 in
+  4603    sensor: m_battpos = 0.652472527472527 in
+  4603    sensor: m_battpos = 0.665675824175824 in
+  4603    sensor: m_battpos = 0.67887912087912 in
+  4603    sensor: m_battpos = 0.692082417582417 in
+  4604    sensor: m_battpos = 0.705285714285714 in
+  4604    sensor: m_battpos = 0.721423076923077 in
+  4604 24 sensor: m_battpos = 0.73756043956044 in
+  4605    sensor: m_battpos = 0.876928571428571 in
+  4605    sensor: m_battpos = 0.894532967032967 in
+  4606    sensor: m_battpos = 0.91067032967033 in
+  4609 25 sensor: m_battpos = 0.91067032967033 in
+  4612 26 sensor: m_battpos = 0.91067032967033 in
+  4613    Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4613    sensor: m_battpos = 0.783038461538461 in
+  4614    sensor: m_battpos = 0.766901098901099 in
+  4614 27 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4616 28 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4617 29 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4618 30 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4619 31 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4623 32 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4628 33 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4632 34 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4636 35 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4640 36 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4644 37 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4648 38 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4658 43 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4660 44 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4661 45 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4662 46 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4664 47 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4666 48 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4667 49 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4668 50 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4671 51 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4673 52 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4674 53 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4675 54 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4676 55 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4677 56 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4679 57 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4681 58 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4681    Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.100 ==> 0.101
+            delta volts: 0.000, delta bar: -0.028, delta meters: 0.000
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  4685 59 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4689 60 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4693 61 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4706 67 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4710 68 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4711 69 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4712 70 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4713 71 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4717 72 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4722 73 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4726 74 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4727 75 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4728 76 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4732 77 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4736 78 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  4740 79 Battery Pack anomaly detected: while pumping, high_current 0.000000
+  5481 60 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: 0.000, delta bar: -0.037, delta meters: -0.368
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  5592 89 Iridium has been powered on for 4.1 secs
+  5592    Waking up Iridium... sending:ATE1
+  5592    Iridium driver dropped 1 chars
+  5592    Iridium, modem making attempt #5 at primary number (17818711614)
+  5596 90 Iridium modem matched: OK
+  5596    Waking up Iridium... sending:AT+cbst=6,0,1
+  5597 91 Iridium modem matched: OK
+  5597    Waking up Iridium... sending:AT+CSQ
+  5663  8 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: -0.000, delta bar: 0.033, delta meters: 0.000
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  6682 52 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: 0.000, delta bar: -0.044, delta meters: -0.282
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+  6865 97 Pressure sensor has been re-calibrated, i.e. ZEROed
+            F_OCEAN_PRESSURE_MIN: 0.101 ==> 0.101
+            delta volts: -0.000, delta bar: 0.035, delta meters: 0.000
+            auto deadband(bar)+-: 0.025(bar) max allowed+-(bar): 0.200
+Preparing to exit GliderDos
+Motors are idle
+In -lab...
+       Turned off the air pump
+  6887  6 write_segment_closing_diag_info():
+             name in ALLCAPS means CRITICAL device (* => SUPERCRITICAL)
+                  [I Installed] [- Not_Installed]
+                    [u In_use] [- Not_In_use] [X Out_of_Service]
+             name       limits     stats (#total/#mission/#segment)
+                        os w/s w/m os       errors      warnings      oddities
+ 0        simdrvr  -
+ 1    test_driver  -
+ 2          ARGOS* I u  -1  20   5  0
+ 3       WATCHDOG  I u  -1  -1  -1  0
+ 4        DEADMAN  I u  -1  20   5  0
+ 5        CONSOLE* I u  -1  20   5  0
+ 6            GPS  I u  -1  20   5  0
+ 7   attitude_rev  I u   3  20   5  0
+ 8 ocean_pressure  I u   3  20   5  0
+ 9         vacuum  I u   3  20   5  0
+10        battery  I u   3  20   5  0
+11       air_pump  I u   3  20   5  0
+12    pitch_motor  I u   3  20   5  0
+13  science_super  I u   3  20   5  0
+14        digifin  I u   3  20   5  0 [   0   0  0] [   0   0  0] [   1   1  1]
+15      altimeter  I u   3  20   5  0
+16  altimeter_232  -
+17        IRIDIUM* I u  -1  20   5  0 [   0   0  0] [   0   0  0] [   2   2  2]
+18     leakdetect  I u   3  20   5  0
+19       recovery  -
+20        coulomb  I u   3  20   5  0 [   0   0  0] [   0   0  0] [   1   1  1]
+21       veh_temp  I u   3  20   5  0
+22  BUOYANCY_PUMP  I u   3  20   3  0
+23        DE_PUMP  -
+24        HD_PUMP  -
+25       thruster  I u   3  20   5  0
+devices:(t/m/s) errs:   0/   0/   0 warn:   0/   0/   0 odd:   4/   4/   4
+  6887    print_device_queue():
+   0 argos
+   1 gps
+  6887    print_all_devices():
+  Time since device sched start this cycle(ms) = 2048703
+  device scheduler total allowable run time(ms)= 2084621
+  device drivers called normally               = yes
+
+                                    call 
+                           last  # again recal      run(ms)            allow 
+ #         NAME         S -DTms       ms +DTms last  min  avg  max Rmax   ms
+ 0        simdrvr _ _ _ 2
+ 1    test_driver _ _ _ 2
+ 2          ARGOS I U _ 0     0  6   500    35    0    0    0 4727    0 6000 
+ 3       WATCHDOG I U _ 0     0  1 DONE  DONE     0    0    0    1    0  500 
+ 4        DEADMAN I U _ 0     0  1 DONE  DONE     0    0    0    1    0  500 
+ 5        CONSOLE I U _ 0     0  1 DONE  DONE     0    0    0    1    0  500 
+ 6            GPS I U _ 0     0  3  1000   127    0    0    1    5    0 6000 
+ 7   attitude_rev I U _ 0     0  2 DONE  DONE     1    0    1    2    0 1000 
+ 8 ocean_pressure I U _ 0     0  2 DONE  DONE    50    0  268  456   51 2000 
+ 9         vacuum I U _ 0     0  2 DONE  DONE    50    0   44   50    0  500 
+10        battery I U _ 0     0  2 DONE  DONE    40    0   37   41    0  500 
+11       air_pump I U _ 0     0  1 DONE  DONE     0    0    0    2    0  500 
+12    pitch_motor I U _ 0     0  2 DONE  DONE     1    0    1 1010 1012 2000 
+13  science_super I U _ 0     0 60     1   -56    0    0    0 1054    0 5000 
+14        digifin I U _ 0     0  1 DONE  DONE   627  271 384110039    0 1000*
+15      altimeter I U _ 0     0  1 DONE  DONE     0    0    0   50   52  500 
+16  altimeter_232 _ _ _ 2
+17        IRIDIUM I U _ 0     0  1 DONE  DONE     1    0    1  305    0 1500 
+18     leakdetect I U _ 0     0  2 DONE  DONE   120    0  116  121    0 1000 
+19       recovery _ _ _ 2
+20        coulomb I U _ 0     0  1 DONE  DONE   214  214  214 1656    0 1000*
+21       veh_temp I U _ 0     0  1 DONE  DONE    51   50   50   51    0  500 
+22  BUOYANCY_PUMP I U _ 0     0  1 DONE  DONE     1    0    1    3   57 2000 
+23        DE_PUMP _ _ _ 2
+24        HD_PUMP _ _ _ 2
+25       thruster I U _ 0     0  1 DONE  DONE     0    0    0    0    0  500 
+>>>>SOME DEVICES xxx_ctrl() RAN TOO LONG<<<<<
+  6887    Done:print_all_devices()
+  6887    Done:write_segment_closing_diag_info():
+  6887    00450000.mlg LOG FILE CLOSED

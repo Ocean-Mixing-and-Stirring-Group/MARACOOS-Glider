@@ -1,0 +1,8 @@
+#clrabort.mi
+#
+#type loadmission clrabort.mi to reset critical abort sensors after triggered (x_critical_abort_active>0)
+
+sensor: x_critical_abort_active(int) 0 # Reset to 0 to clear critical abort response
+sensor: x_critical_mission_fail(bool) 0 # Reset to 0
+sensor: x_critical_abort_update_status(int) 0 # Reset to 0 to no longer report critical abort in Abort status msg
+sensor: u_max_time_in_gliderdos(sec) 600.0 # Reset this value as critical abort response will extend this
