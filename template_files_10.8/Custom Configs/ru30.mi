@@ -1,0 +1,31 @@
+# ru30 Custom Config
+# 2021/5/4		dkaragon	based off ru28
+
+
+# Low density abort stuff
+sensor: u_abort_min_burn_time(sec)    600   # Never drop the weight before this time
+sensor: u_abort_max_burn_time(sec)    28800 # 8 hrs, at least a tidal cycle, Always drop the weight after this time
+
+
+# ALTIMETER
+sensor: u_alt_reduced_usage_mode(bool)		1
+sensor: u_alt_reqd_good_in_a_row(nodim)  	2
+sensor: u_alt_filter_enabled(bool)       	0
+# Avoid old bug
+sensor: m_altitude_rate(m/s)        		-1
+
+sensor: u_min_altimeter(m)   				3.0
+sensor: u_max_altimeter(m) 					11
+sensor: u_alt_min_depth(m)					2
+
+
+# STEERING
+sensor: u_hd_fin_ap_gain(1/rad)      		1.50
+sensor: u_hd_fin_ap_igain(1/rad-sec)		0.02
+sensor: u_hd_fin_ap_dgain(sec/rad)			5.00
+
+#sensor: u_heading_deadband(rad)				0.087
+#sensor: u_heading_rate_deadband(rad/s) 		0.0087
+
+sensor: u_hd_fin_ap_deadband_reset(bool)  	0  # true - reset integrator, false hold integrator
+sensor: u_hd_fin_ap_hardover_holdoff(sec)  	45.0

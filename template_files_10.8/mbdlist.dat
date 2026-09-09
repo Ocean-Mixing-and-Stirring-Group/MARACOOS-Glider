@@ -1,0 +1,221 @@
+###############
+## MBD V 2.3 ##
+###############
+# 2009_02_17	cleaned up, organized, added coulomb and heading
+# 2009-04-23: kerfoot,aragon,haskins - ru27 initial mbdlist.dat
+# 2009_06_04: dkaragon; turned mdblist back into a normal glider's config, rather than ru27
+# 2009_12_21: dkaragon; added gps, uncommented couloumb, added all science data
+# 2010_01_21: dkaragon; added DE sensors to unify mbdlists, added m_gps_full_status, added in section for altimeter data
+# 2010_02_22: dkaragon; added a couple new SDL control variables
+# 2010_09_10: dkaragon; m_gps_status
+# 2010_10_01: dkaragon; m_coulomb_amphr_total
+# 2011_02_28: dkaragon; 2.3; stripped out science sensors as well as some autopilot sensors; goal was to get MBD files smaller to combat glider overload
+# 2011_09_19: dkaragon:	added some LMC variables, and m_avg_speed as a result of ru16 loss, more knowledge on where vehicle is and where it is going
+# 2011_11_28: dkaragon: added cycle_overrun
+# 2012_06_00: dkaragon: added m_thermal_valve
+# 2012_07_09: dkaragon: incorporated new software heading variables
+# 2014_06_19: dkaragon: added thruster variables
+# 2014_10_21: dkaragon	added m_gps_mag_var, vehicle temp, some is_moving variables
+# 2015_02_26: dkaragon	added m_altimeter_voltage
+# 2015/05/14	dkaragon	added low power sensors
+# 2016/09/01    dkaragon    added c_gps_on and c_iridium_on
+# 2017/07/17	dkaragon	added c_wpt_lat,lon
+# 2017/12/30	dkaragon	added some compass fields m_dip_angle, m_magnetic_field; u_science_low_power
+# 2018/7/31		dkaragon	added some bms variables and science leakdetect
+# 2018/10/24	dkaragon	added m_comms_tickle_timestamp, m_veh_temp
+# 2019/1/9		dkaragon	added x_current_target_altitude
+# 2019/11/21	dkaragon	u_reqd_depth_at_surface!  you idiot; added m_science_clothesline_lag
+# 2020/1/22		dkaragon	u_min_water_depth
+# 2019/07/17	dkaragon	added x_software_ver
+# 2020/09/14	dkaragon	m_water_vx,vy not here!  Critical change!
+# 2021/04/13	dkaragon	added c_climb,dive_target_depth
+# 2021/5/4		dkaragon	m_altitude_rate was missing
+
+
+##################
+# TIME VARIABLES #
+##################
+m_present_time
+m_present_secs_into_mission
+x_software_ver
+
+
+#################
+# GLIDER STATUS #
+#################
+m_gps_lat
+m_gps_lon
+m_lat
+m_lon
+m_x_lmc
+m_y_lmc
+x_lmc_xy_source
+c_wpt_x_lmc
+c_wpt_y_lmc
+c_wpt_lat
+c_wpt_lon
+m_gps_full_status
+m_gps_status
+m_gps_mag_var
+m_water_vx
+m_water_vy
+m_depth_rate
+m_depth_rate_avg_final
+m_speed
+m_avg_speed
+cc_final_depth_state_mode
+m_depth_state
+x_cycle_overrun_in_ms
+u_low_power_cycle_time
+u_science_low_power
+x_low_power_status
+c_iridium_on
+c_gps_on
+
+
+#############
+# ACTUATORS #
+#############
+c_ballast_pumped
+m_ballast_pumped
+m_is_ballast_pump_moving
+m_is_battpos_moving
+m_is_de_pump_moving
+c_battpos
+m_battpos
+c_fin
+m_fin
+c_air_pump
+m_air_pump
+x_fin_max
+
+# DE Pump Variables
+c_de_oil_vol
+m_de_oil_vol
+m_is_de_pump_moving
+m_thermal_valve
+
+# Thruster
+c_thruster_on
+m_thruster_current
+m_thruster_voltage
+m_thruster_power
+m_thruster_power_spike
+x_thruster_state
+
+
+##################
+# FLIGHT SENSORS #
+##################
+m_pitch
+c_pitch
+m_roll
+c_pitch
+c_heading
+m_heading
+m_dip_angle
+m_magnetic_field
+m_depth
+m_pressure
+m_pressure_voltage
+u_angle_of_attack
+f_ocean_pressure_min
+f_ocean_pressure_max
+u_reqd_depth_at_surface
+c_dive_target_depth
+c_climb_target_depth
+
+# Altimeter
+c_alt_time
+u_alt_filter_enabled
+u_alt_reduced_usage_mode
+m_water_depth
+m_altitude
+m_raw_altitude
+m_altimeter_voltage
+m_altimeter_status
+m_altitude_rate
+m_aground_water_depth
+u_min_water_depth
+u_alt_min_depth
+u_min_altimeter
+u_max_altimeter
+x_current_target_altitude
+
+# Ejection weight
+c_weight_drop
+m_weight_drop
+x_hardware_cop_timeout
+m_cop_tickle_timestamp
+
+
+######################
+# INTERNAL VARIABLES #
+######################
+m_battery_inst
+m_vacuum
+m_leakdetect_voltage
+m_leakdetect_voltage_forward
+m_leakdetect_voltage_science
+m_digifin_leakdetect_reading
+m_vehicle_temp
+m_veh_temp
+m_bms_pitch_current
+m_bms_ebay_current
+m_bms_aft_current
+m_bms_main_battery_voltage
+m_bms_emergency_battery_voltage
+
+
+#########################
+# SCIENCE CONTROL (SDL) #
+#########################
+x_science_logging_state
+u_sci_cycle_time
+c_science_send_all
+m_science_clothesline_lag
+
+
+#####################
+# COULOMB VARIABLES #
+#####################
+m_coulomb_amphr
+m_coulomb_current
+m_coulomb_amphr_total
+
+
+##################
+# FIN/HEADING AP #
+##################
+m_hdg_error
+m_hdg_ierror
+m_hdg_derror
+u_hd_fin_ap_gain
+u_hd_fin_ap_igain
+u_hd_fin_ap_dgain
+u_low_power_hd_fin_ap_gain
+u_low_power_hd_fin_ap_igain
+u_low_power_hd_fin_ap_dgain
+u_use_current_correction
+u_hd_fin_ap_inflection_holdoff
+u_heading_deadband
+u_heading_rate_deadband
+f_fin_offset
+x_fin_deadband
+
+
+############
+# PITCH AP #
+############
+m_pitch_error
+m_pitch_derror
+u_pitch_max_delta_battpos
+u_pitch_ap_gain
+u_pitch_ap_dgain
+u_pitch_ap_gain_thruster
+u_pitch_ap_dgain_thruster
+x_pitch_ap_gain
+x_pitch_ap_dgain
+x_pitch_ap_period
+u_use_pitch_servo_memory
+x_battpos_achieved

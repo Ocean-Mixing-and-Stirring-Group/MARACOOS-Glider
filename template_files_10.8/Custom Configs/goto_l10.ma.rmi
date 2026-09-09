@@ -1,0 +1,39 @@
+# https://marine.rutgers.edu/~dkaragon/kml_routes/ru39/20240215T160115_retask/ru39_20240215T160115.kmz
+behavior_name=goto_list
+
+<start:b_arg>
+    b_arg:  num_legs_to_run(nodim)  -1 # -1 loop, -2 run once, > 0 = this many waypoints
+    b_arg:  start_when(enum)        0  # 0 baw_immediately
+    b_arg:  list_stop_when(enum)    7  # 7 baw_when_wpt_dist
+
+    # SATISFYING RADIUS
+        b_arg:  list_when_wpt_dist(m)    500
+    # LIST PARAMETERS
+        b_arg:  initial_wpt(enum)       -1 # 0 to n-1, -1 first after last, -2 closest
+        b_arg:  num_waypoints(nodim)   20   # num of waypoints in list
+<end:b_arg>
+
+<start:waypoints>
+# LONGITUDE LATITUDE
+    -7343.3047    4018.4588    #    0
+    -7341.9775    4012.6669    #    1
+    -7336.5488    4004.7578    #    2
+    -7316.3818    3948.7809    #    3
+    -7310.2699    3944.2089    #    4
+    -7306.3960    3943.5320    #    5
+    -7305.3889    3940.7613    #    6
+    -7245.9957    3929.0386    #    7
+    -7304.8544    3932.0118    #    8
+    -7321.0128    3934.1085    #    9
+    -7335.4234    3934.7923    #    10
+    -7333.6181    3924.1916    #    11
+    -7319.6766    3913.5895    #    12
+    -7300.1406    3850.4035    #    13
+    -7329.0818    3903.9913    #    14
+    -7352.0374    3915.0033    #    15
+    -7409.6741    3923.4591    #    16
+    -7408.6604    3910.5019    #    17
+    -7355.4693    3924.7498    #    18
+    -7408.8961    3924.9305    #    19
+<end:waypoints>
+

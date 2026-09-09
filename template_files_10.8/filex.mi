@@ -1,0 +1,10 @@
+# Post-deployment file transfer
+
+sensor: u_sci_cmd_max_consci_time(s)                        21600.	#! visible = True
+																	# in, maximum time in consci
+sensor: u_science_send_time_limit_adjustment_factor(nodim)  .8		# in, fudge factor to used with u_sci_cmd_max_consci_time
+																	#     to compute time limit on science send command
+sensor: u_max_num_files_to_xmit_at_once(nodim) 				250		#! visible = True; min = 1.0; max = 60.0
+																	# in, max files batched in sending
+																	#     files from glider to shore
+sensor: u_freewave_data_rate(KBps)   						3.0  	# Nominal data throughput on Freewave kilobytes per second

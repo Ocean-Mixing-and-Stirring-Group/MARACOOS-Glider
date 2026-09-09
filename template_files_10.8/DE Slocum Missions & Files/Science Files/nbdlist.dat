@@ -1,0 +1,156 @@
+# INTERVAL              Seconds since last stored value, 0 is store every value
+# STATE                 State of glider (dive, hover, climb), 15 is always store
+# HALFYOS               # of dive/climbs in this segment to record for, -1 store for all
+# YO_DUTY_CYCLE         Store data every n'th yo in this segment, -1 is every dive/climb
+
+# --------------------------------------------------------------------
+# SENSOR NAME           INTERVAL  STATE     HALFYOS   YO_DUTY_CYCLE
+# (Defaults)            0         15        -1        -1
+# --------------------------------------------------------------------
+
+# 2010_02_22 dkaragon; SDL initial default; nbdlist.dat
+
+# Basic Data
+  sci_m_present_time
+  sci_m_disk_free
+
+
+# CTD41CP Sea-bird  CTD(SBE-41)
+# proglet = ctd41cp
+# -----------------------------
+  sci_ctd41cp_timestamp
+  sci_water_cond
+  sci_water_temp
+  sci_water_pressure
+  
+# RBR CTD
+# proglet rbrctd: RBR logger CTD, when installed is primary CTD
+# -----------------------------
+# sci_rbrctd_conductivity_00
+# sci_rbrctd_temperature_00
+# sci_rbrctd_pressure_00
+# sci_rbrctd_seapressure_00
+# sci_rbrctd_depth_00
+# sci_rbrctd_salinity_00
+# sci_rbrctd_count_00
+# sci_rbrctd_cond_cell_temp_00
+# sci_rbrctd_timestamp
+
+# SBE41N pH
+# ---------------
+# sci_sbe41n_ph_ref_voltage
+# sci_sbe41n_ph_electrode_voltage
+# sci_sbe41n_ph_substrate_current
+# sci_sbe41n_ph_electrode_current
+# sci_sbe41n_ph_timestamp
+
+
+# Wet Labs BB2FLSV2: bb2flslk scatter meter and fluorometer sensor, 2nd configuration 
+# proglet = bb2flsV2
+# ------------------------------------------------
+# sci_bb2flsV2_b470_scaled
+# sci_bb2flsV2_b532_scaled
+# sci_bb2flsV2_chl_scaled
+# sci_bb2flsV2_b470_sig
+# sci_bb2flsV2_b532_sig
+# sci_bb2flsV2_chl_sig
+# sci_bb2flsV2_b470_ref
+# sci_bb2flsV2_b532_ref
+# sci_bb2flsV2_chl_ref
+# sci_bb2flsV2_therm
+
+# Wetlabs ECO-Puck
+# proglet flbbcd: Wet Labs flbbcd fluorometer
+# -------------------------
+# sci_flbbcd_chlor_units
+# sci_flbbcd_bb_units
+# sci_flbbcd_cdom_units
+# sci_flbbcd_chlor_sig
+# sci_flbbcd_bb_sig
+# sci_flbbcd_cdom_sig
+# sci_flbbcd_chlor_ref
+# sci_flbbcd_bb_ref
+# sci_flbbcd_cdom_ref
+# sci_flbbcd_therm
+# sci_flbbcd_timestamp
+
+# Anderra Oxygen Optode 3835 wphase
+# proglet = ?
+# --------------------------
+# sci_oxy3835_wphase_oxygen
+# sci_oxy3835_wphase_saturation
+# sci_oxy3835_wphase_temp
+# sci_oxy3835_wphase_dphase
+# sci_oxy3835_wphase_bphase
+# sci_oxy3835_wphase_rphase
+# sci_oxy3835_wphase_bamp
+# sci_oxy3835_wphase_bpot
+# sci_oxy3835_wphase_ramp
+# sci_oxy3835_wphase_rawtemp
+# sci_oxy3835_wphase_timestamp
+
+# Anderaa Oxygen Optode
+# proglet : Aanderaa Oxygen Optode 4330F or 4831
+# --------------------------
+# sci_oxy4_oxygen
+# sci_oxy4_saturation
+# sci_oxy4_temp
+# sci_oxy4_calphase
+# sci_oxy4_tcphase
+# sci_oxy4_c1rph
+# sci_oxy4_c2rph
+# sci_oxy4_c1amp
+# sci_oxy4_c2amp
+# sci_oxy4_rawtemp
+# sci_oxy4_timestamp
+
+# Wetlabs FLNTUSLK Fluorometer, CHL, Turb, BS
+# proglet flntu: wet labs flntu fluorometer and turbidity sensor
+# --------------------------
+# sci_flntu_chlor_units
+# sci_flntu_turb_units
+# sci_flntu_chlor_sig
+# sci_flntu_turb_sig
+# sci_flntu_chlor_ref
+# sci_flntu_turb_ref
+# sci_flntu_temp
+# sci_flntu_timestamp
+
+
+# DVL
+# ----
+# sci_dvl_ensemble_offset
+
+
+# AD2CP
+# -----
+# sci_ad2cp_run_state
+# sci_ad2cp_surface_state
+# sci_ad2cp_bottom_track_signal
+# sci_ad2cp_file_state
+
+
+# SUNA
+# -----
+# sci_suna_record_offset
+# sci_suna_nitrate_um
+# sci_suna_nitrate_mg
+# sci_suna_timestamp
+
+
+# AZFP
+# ----
+#  sci_azfp_file_offset
+#  sci_azfp_run_state
+#  sci_azfp_pause_signal
+
+
+# DVL RDI PATHFINDER
+# -------------------
+# sci_dvl_error					
+# sci_dvl_ensemble_offset		
+
+
+# DMON
+# -------------------
+# sci_dmon_msg_byte_count	

@@ -1,0 +1,30 @@
+# status.mi
+
+sensor: u_dbd_sensor_list_xmit_control(enum)    	3   # 3  = never transmit header
+sensor: u_sci_dbd_sensor_list_xmit_control(enum)  	2 	# -1 = always transmit heade
+
+behavior: abend
+    b_arg: overdepth(m)						10.0 	# <0 disables,
+    b_arg: overdepth_sample_time(s)			10.0 	# how often to check
+    b_arg: overtime(s)                   	360.0 	# < 0 disables
+	b_arg: use_thruster_for_ascent(bool)	1
+
+
+behavior: surface
+    b_arg: start_when(enum) 			0     # 0-immediately, 1-stack idle 2-depth idle
+    b_arg: end_action(enum) 			0     # 0-quit, 1 wait for ^C quit/resume, 2 resume
+    b_arg: report_all(bool) 			1     # T->report all sensors once, F->just gps
+    b_arg: gps_wait_time(s)   			180     # how long to wait for gps and/or ^C
+    b_arg: sensor_input_wait_time(sec) 	60  # how long to wait for input sensors
+	b_arg: thruster_burst(bool)         0
+
+behavior: sensors_in
+
+behavior: nop_cmds
+    b_arg: nop_pitch(bool)   1   # t-> cmd pitch   to _IGNORE to keep stack busy
+    b_arg: nop_bpump(bool)   1   # t-> cmd bpump   to _IGNORE to keep stack busy
+    b_arg: nop_heading(bool) 1   # t-> cmd heading to _IGNORE to keep stack busy
+    b_arg: nop_threng(bool)  1   # t-> cmd threng  to _IGNORE to keep stack busy
+
+    # Turn the pinger on
+behavior: pinger_on

@@ -1,0 +1,15 @@
+
+# 2017/8/1 9:26 EST - trying gains a little lower, from 1 to .75
+
+sensor: u_hover_bpump_ap_gain_shallow(cc/m)     .75 #proportional gain, shallow bpump
+sensor: u_hover_bpump_ap_dgain_shallow(cc-s/m)  .75 #derivative gain, shallow bpump
+
+
+# BALLAST PUMP CC
+sensor: f_neutral_ballast(cc) 		  100		
+sensor: x_hover_ballast_shallow(cc) 25		
+sensor: x_hover_ballast_deep(cc)    0
+
+# DEPTH
+sensor: x_hover_depth_shallow(m)    10  # the shallowest target drift depth
+sensor: x_hover_depth_deep(m)       20  # the deepest target drift depth

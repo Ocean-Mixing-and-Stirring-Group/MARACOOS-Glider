@@ -1,0 +1,27 @@
+# 2015624	dkaragon	initial
+# 2015722 dkaragon	iridium problems, set failover to 5
+# 20160114	dkaragon	updated, fin offset to 0; pitch db back to 3; steering params; fin deadband
+# 2021/5/25	dkaragon	cleaned up, refurbished
+
+# Critical Settings
+sensor u_reqd_depth_at_surface(m) 			3.5
+sensor u_iridium_failover_retries(nodim) 	7
+sensor u_abort_max_burn_time(sec) 			43200 	# 12 hours (default 4)
+
+# Low Power
+# sensor u_low_power_cycle_time(sec) 		30
+# sensor u_science_low_power(sec) 		0
+# sensor u_alt_min_depth(m)     			1050
+
+# Flight Parameters
+# sensor f_fin_deadzone_width(rad) 			0.040 		# .04 vs .02 
+# sensor x_fin_deadband(rad)					0.04 		# vs .02
+sensor u_pitch_ap_deadband(rad)				0.0524 		# 3
+sensor u_thruster_burst_freq(hours) 		24
+
+# Steering
+# sensor f_fin_offset(rad) 						0
+#sensor u_low_power_hd_fin_ap_gain(1rad)      	0.5
+#sensor u_low_power_hd_fin_ap_igain(1rad-sec) 	0.001
+#sensor u_low_power_hd_fin_ap_dgain(secrad) 	0.0
+#sensor u_heading_deadband(rad) 				0.045 	# 2.6 deg

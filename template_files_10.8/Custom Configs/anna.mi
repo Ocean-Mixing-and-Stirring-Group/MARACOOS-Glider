@@ -1,0 +1,13 @@
+# 2016_02_05	dkaragon@marine		BIOS_anna initial custom config
+
+# General Settings
+sensor: u_alt_min_depth(m)     		1100
+sensor: u_reqd_depth_at_surface(m)	4.5		# more science data, less GPS, etc...
+
+# Low power settings
+sensor: u_low_power_cycle_time(sec) 30  # seconds
+sensor: u_science_low_power(sec)	0	# power down when not sampling
+
+# Flight Parameters
+sensor: f_fin_deadzone_width(rad)   .04
+sensor: x_fin_deadband(rad)         .04		# prevent surface fin slop, default .02

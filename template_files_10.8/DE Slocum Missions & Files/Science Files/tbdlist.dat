@@ -1,0 +1,110 @@
+# INTERVAL              Seconds since last stored value, 0 is store every value
+# STATE                 State of glider (dive, hover, climb), 15 is always store
+# HALFYOS               # of dive/climbs in this segment to record for, -1 store for all
+# YO_DUTY_CYCLE         Store data every n'th yo in this segment, -1 is every dive/climb
+
+# --------------------------------------------------------------------
+# SENSOR NAME           INTERVAL  STATE     HALFYOS   YO_DUTY_CYCLE
+# (Defaults)            0         15        -1        -1
+# --------------------------------------------------------------------
+
+# 2010_02_22 dkaragon; SDL initial default, tbdlist.dat
+
+# Basic Data
+  sci_m_present_time
+  sci_m_disk_free			600
+
+
+# CTD41CP Sea-bird  CTD(SBE-41)
+# proglet = ctd41cp
+# -----------------------------
+  sci_ctd41cp_timestamp		12		7
+  sci_water_cond			12   	7 
+  sci_water_pressure		12  	7 
+  sci_water_temp			12  	7
+# RBR CTD
+# proglet rbrctd: RBR logger CTD, when installed is primary CTD
+# -----------------------------
+# sci_rbrctd_count_00			24	7
+# sci_rbrctd_cond_cell_temp_00	24	7		
+# sci_rbrctd_timestamp			12	7
+
+  
+# Anderra Oxygen Optode 3835
+# proglet = ?
+# --------------------------
+# sci_oxy3835_wphase_oxygen        12  	7
+# sci_oxy3835_wphase_saturation    12  	7
+# sci_oxy3835_wphase_temp          12  	7
+# sci_oxy3835_wphase_dphase        12  	7
+
+  
+# Anderaa Oxygen Optode
+# proglet : Aanderaa Oxygen Optode 4330F or 4831
+# --------------------------
+# sci_oxy4_oxygen			12  	7
+# sci_oxy4_saturation		12  	7
+# sci_oxy4_temp				12  	7
+# sci_oxy4_calphase			12		7
+  
+  
+# Wetlabs FLNTUSLK Fluorometer, CHL, Turb, BS
+# proglet flntu: wet labs flntu fluorometer and turbidity sensor
+# --------------------------
+# sci_flntu_chlor_units		12  	7
+# sci_flntu_turb_units		12  	7
+# sci_flntu_chlor_sig		12  	7
+  
+  
+# Wetlabs ECO-Puck
+# proglet flbbcd: Wet Labs flbbcd fluorometer
+# -------------------------
+# sci_flbbcd_chlor_units	12  	7
+# sci_flbbcd_bb_units		12  	7
+# sci_flbbcd_cdom_units		12  	7
+# sci_flbbcd_timestamp		12  	7
+
+
+# Wetlabs Puck
+# BBFLSV2
+# --------------------------
+# sci_bb2flsV2_b470_scaled	12  	7
+# sci_bb2flsV2_b532_scaled	12  	7
+# sci_bb2flsV2_chl_scaled	12  	7
+
+
+# DVL
+# ----
+# sci_dvl_ensemble_offset	12		7
+
+
+# AD2CP
+# -----
+# sci_ad2cp_run_state			60	7
+# sci_ad2cp_surface_state		60	7
+# sci_ad2cp_bottom_track_signal	60	7
+# sci_ad2cp_file_state			60	7
+
+
+# SUNA
+# -----
+# sci_suna_record_offset	12		7
+# sci_suna_nitrate_um		12		7
+
+
+# AZFP
+# ----
+#  sci_azfp_file_offset		12		7
+#  sci_azfp_run_state		12		7
+#  sci_azfp_pause_signal	12		7
+
+
+# DVL RDI PATHFINDER
+# -------------------
+# sci_dvl_error					60	7
+# sci_dvl_ensemble_offset		60	7
+
+
+# DMON
+# -------------------
+# sci_dmon_msg_byte_count		60	7

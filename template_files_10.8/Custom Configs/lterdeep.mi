@@ -1,0 +1,6 @@
+# 2017/12/18	dkaragon	initial
+
+# Altimeter settings: avoid krill, avoid turning early for old bottom
+sensor: u_min_water_depth(m)    			80
+sensor: u_max_water_depth_lifetime(yos)		0
+sensor: u_alt_reqd_good_in_a_row(nodim)		1

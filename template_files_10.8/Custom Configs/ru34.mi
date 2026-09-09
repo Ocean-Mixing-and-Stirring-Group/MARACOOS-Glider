@@ -1,0 +1,41 @@
+# ru34
+# 2020/8/5		dkaragon	initial
+# 2020/10/2		dkaragon	removed fin safety max, maxed, preloaded pitch deadband
+# 2020/10/5		dkaragon	trying 4 deg instead of 4 pitch deadband
+# 2020/10/15	dkaragon	seems to be flying OK u_hd_fin_ap_run_time 12 but needs more fin so db back to .04 from .06, need more SBD to see how its doing on diff error needs more dgain it appears
+# 2020/10/24	dkaragon	1.5,.01,7 running great maybe just a touch more integrated .15 or .125
+# 2020/12/11	dkaragon	flying very well this last mission, leave heading deadband on, works well when its flying well.
+# 2021/2/15		dkaragon	updated altimeter settings for 2 bottom collisions, 12/2020 and 2/2021.  Not sure why but could be altimeter_rate > 0 from late returns.  Upping lower limit may help, also disabling filter but don't want to do that yet.
+# 2021/11/22	dkaragon	disabled altimeter filter.  only thing i can see without raw data it was hitting bottom in < 15 m.  1-4 m inaccruacy in altimeter to figure out.  Added abort timers
+# 2021/12/14	dkaragon	added battery DB and increased it from .1 to .125.  Getting some BP ood for the last 2 missions.  Increasing bp deadband, also important to increase pitch DB.  Maybe 4.5 deg better than 4?
+
+
+# Low density abort stuff
+sensor: u_abort_min_burn_time(sec)    		600   # Never drop the weight before this time
+sensor: u_abort_max_burn_time(sec)    		28800 # 8 hrs, at least a tidal cycle, Always drop the weight after this time
+
+sensor: u_reqd_depth_at_surface(m)			2
+
+# Steering gains
+sensor: u_hd_fin_ap_run_time(secs)  		12
+sensor: u_hd_fin_ap_gain(1/rad)      		1.50
+sensor: u_hd_fin_ap_igain(1/rad-sec) 		0.015
+sensor: u_hd_fin_ap_dgain(sec/rad) 			6.00
+sensor: u_hd_fin_ap_hardover_holdoff(sec)  	30.0
+
+# Altimeter settings:
+sensor: u_min_altimeter(m)					3.7   # in, altimeter reading must be between these(inclusive)
+sensor: u_max_altimeter(m)					12.0   # the maximum range of the altimeter
+sensor: u_alt_reqd_good_in_a_row(nodim)		2
+sensor: u_alt_filter_enabled(bool)       	0
+
+# Deadbands
+#sensor: u_heading_deadband(rad) 			-1
+sensor: u_pitch_ap_deadband(rad) 			0.07 	# .07 = 4 deg
+sensor: f_battpos_deadzone_width(inches)	0.2		# .2 default
+sensor: f_battpos_db_frac_dz(nodim)			0.625	# .5 default
+
+
+# Slowing the pitch down - 10/7/20 took a quick look at ru34 dbd and it looks like defaults do well, it runs hot until about 6 m down and then starts doubling
+sensor: u_min_pitch_ap_period(sec)  		2	# runs no faster
+sensor: u_max_pitch_ap_period(sec) 			60  # runs at least this often

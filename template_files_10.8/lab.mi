@@ -1,0 +1,8 @@
+# 4/4/2014	dkaragon@marine		initial: mission for ballasting, lab work to save power if on battery, also helps in ballasting by lessening device erros which move pumps
+	
+sensor: c_gps_on(enum)		-1
+sensor: c_alt_time(sec) 	-1
+sensor: c_att_time(sec)		-1
+sensor: c_iridium_on(enum) 	-1
+	
+sensor: c_air_pump(enum)	-1

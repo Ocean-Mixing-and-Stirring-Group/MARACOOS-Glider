@@ -1,0 +1,26 @@
+# ru31 config
+
+# 2016/03/17	dkaragon@marine		initial GOM thruster
+
+
+# Abort params
+sensor: u_abort_max_burn_time(sec) 				14400 # Always drop the weight after this time
+
+
+# For depth/rate thrusting
+sensor: u_ap_thruster_delta_cmd(%) 				10		# how much to increment thruster command to maintain depth rate
+sensor: u_ap_thruster_depth_rate_deadband(m/s) 	0.02	# Allow depth rate between +/- this amount
+sensor: u_thruster_ap_period(s) 				30		# How often to run immediately after each command
+
+
+# For power feedback thrusting
+sensor: u_ap_thruster_power_deadband(watt) 		0.5
+
+
+# Surface burst for clearing fouling
+sensor: u_thruster_burst_volts(volts) 	6 	# In, command voltage for thruster
+sensor: u_thruster_burst_secs(sec) 		10 	# In, turn on thruster for this long
+sensor: u_thruster_burst_freq(hours) 	12 	# In, how often we need to run the surface burst behavior
+
+# Abort behavior
+sensor: u_min_thruster_abort_ascent_rate(m/s) 	-0.05	# In, minimum ascent rate before thruster kicks in.  Must be < 0

@@ -1,0 +1,39 @@
+# ru28 Custom Config
+# 8/14/2014		initial based on 2014 NJDEP 1
+# 8/15/2015		disabled the filter; I don't think it does anything useful
+# 2018/9/20   added lengthened abort timers
+# 2021/8/12		raritan bay
+
+
+# Important
+sensor: u_reqd_depth_at_surface(m)		1.5
+
+# Low density abort stuff
+sensor: u_abort_min_burn_time(sec)    600   # Never drop the weight before this time
+#sensor: u_abort_max_burn_time(sec)    28800 # 8 hrs, at least a tidal cycle, Always drop the weight after this time
+
+# ALTIMETER
+sensor: u_alt_reduced_usage_mode(bool)		0
+sensor: u_alt_reqd_good_in_a_row(nodim)  	1
+sensor: u_alt_filter_enabled(bool)       	0
+
+sensor: u_min_altimeter(m)   				2.5
+sensor: u_max_altimeter(m) 					5
+
+sensor: u_alt_min_depth(m)					1
+
+# Avoid old bug
+sensor: m_altitude_rate(m/s)        -1
+
+
+# STEERING
+sensor: u_hd_fin_ap_gain(1/rad)      		1.50
+sensor: u_hd_fin_ap_igain(1/rad-sec)		0.01
+sensor: u_hd_fin_ap_dgain(sec/rad)			5.00
+
+sensor: u_heading_deadband(rad) 			    0.087
+sensor: u_heading_rate_deadband(rad/s) 		0.0087
+
+sensor: u_hd_fin_ap_deadband_reset(bool)  	0  # true - reset integrator, false hold integrator
+sensor: u_hd_fin_ap_hardover_holdoff(sec)  	60.0
+
