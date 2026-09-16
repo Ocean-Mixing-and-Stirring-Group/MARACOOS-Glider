@@ -74,56 +74,12 @@ behavior: yo
 # SAMPLE : CTD
 behavior: sample
     b_arg: args_from_file(enum)     01
-# SAMPLE : pH
-behavior: sample
-    b_arg: args_from_file(enum)     75
-# SAMPLE : MICRORIDER
-behavior: sample
-    b_arg: args_from_file(enum)     73
-# SAMPLE : DVL
-behavior: sample
-    b_arg: args_from_file(enum)     43
 # SAMPLE : FLBBCD
 behavior: sample
     b_arg: args_from_file(enum)     48
-# SAMPLE : BBFL2S
-behavior: sample
-    b_arg: args_from_file(enum)     10
-# SAMPLE : FL3
-behavior: sample
-    b_arg: args_from_file(enum)     11
-# SAMPLE : BB3
-behavior: sample
-    b_arg: args_from_file(enum)     12
-# SAMPLE : LISST
-behavior: sample
-    b_arg: args_from_file(enum)     70	
 # SAMPLE : OPTODE OXY4
 behavior: sample
     b_arg: args_from_file(enum)     54
-# SAMPLE : OPTODE WPHASE
-behavior: sample
-    b_arg: args_from_file(enum)     27
-# SAMPLE : AD2CP
-behavior: sample
-	b_arg: args_from_file(enum)		64	# c_ad2cp_on
-# SAMPLE : VR2C
-behavior: sample
-    b_arg: args_from_file(enum)     58
-# SAMPLE : AZFP
-behavior: sample
-	b_arg: args_from_file(enum)		68	# c_azfp_on
-# SAMPLE : DMON
-behavior: sample
-    b_arg: args_from_file(enum)     49
-# SAMPLE : MRI
-behavior: sample
-    b_arg: args_from_file(enum)     73
-# SAMPLE : OBSVR
-behavior: sample
-    b_arg: args_from_file(enum)     79
-
-
 
     
 # PREPARE TO DIVE : wait 12 min for GPS
