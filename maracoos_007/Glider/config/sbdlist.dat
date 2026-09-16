@@ -1,52 +1,174 @@
-# Written by load_data.c::save_sensors_to_file()
-# Sat Nov  5 20:11:22 2011
-m_present_secs_into_mission
-m_present_time
-m_water_vx
-m_water_vy      
-m_de_oil_vol    60
-c_de_oil_vol    60
-m_ballast_pumped 60
-c_ballast_pumped 60
-m_gps_lat 30
-m_gps_lon 30                 
-m_heading    60
-m_lat    30
-m_lon    30
-m_pitch  30
-m_roll   30
-c_wpt_lat
-c_wpt_lon
-m_battery  60
-m_battpos  30
-m_depth    16
-m_altitude      30
-m_avg_thruster_power 600
-m_thruster_current 600
-c_thruster_on 600
-m_thruster_voltage 600
-m_thruster_power 600
-c_climb_bpump 300
-c_dive_bpump 300
-m_leakdetect_voltage 1800
-m_leakdetect_voltage_forward 1800
-m_digifin_leakdetect_reading 1800
-m_coulomb_amphr_total 1800
-m_coulomb_current 180
-x_surface_active 1800
+# INTERVAL              Seconds since last stored value, 0 is store every value
+# STATE                 State of glider (dive, hover, climb), 15 is always store
+# HALFYOS               # of dive/climbs in this segment to record for, -1 store for all
+# YO_DUTY_CYCLE         Store data every n'th yo in this segment, -1 is every dive/climb
+
+# --------------------------------------------------------------------
+# SENSOR NAME           INTERVAL  STATE     HALFYOS   YO_DUTY_CYCLE
+# (Defaults)            0         15        -1        -1
+# --------------------------------------------------------------------
+
+# 2010_01_21 	dkaragon		added m_gps_full_status, removed @ surface requirement for GPS and water velocities
+# 2010_02_22 	dkaragon		changed sampling arguments to just sample 0   7   -1  2, the up/down and everyother sampling regime for thermal lag
+# 2010_09_10 	dkaragon   		m_gps_status
+# 2010_10_22	dkaragon		cleaned up a little, adjusted some values
+# 2011_09_19	dkaragon		added sensors after ru16 loss, mostly LMC items, plus glider speed. Also more c_heading data, underwater data too m_lat,lon
+# 2011_11_10	dkaragon		added x_cycle_overrun_in_ms, at low rate to monitor if glider is overloaded
+# 2012_01_02	dkaragon		added CTD record for test mission
+# 2012_03_14	dkaragon		added m_gps_mag_var to SBD
+# 2012_03_24	dkaragon		removed CTD data except delimited pressure, it was making SBD's huge and we no longer need it for test mission since we merge
+# 2012_07_09	dkaragon:		removed m_heading and replaced with m_hdg_error, deliminted c_heading a bit more
+# 2012_08_13	dkaragon:		added x_inflecting, m_altitude
+# 2012_10_12	dkaragon		added m_ballast_pumped; cleaned up timing on sensors to try and eliminate events of m_present_time with only 2 data points
+# 2013_03_05	dkaragon:		added m_heading
+# 2013_04_30	dkaragon:		added c_wpt_lat and c_wpt_lon
+# 2013_09_16	dkaragon:		m_pressure now 30 seconds, m_water_depth 30 seconds.  Hopefully increase in file size offset by syncing benefits
+# 2014_07_16	dkaragon:		made lots of changes, raw_altitude, increased heading measurements, made denser; added some parameters for the yo
+# 2014_12_30	dkaragon		added m_battery_inst, u_low_power_cycle_time, synced with deep SBD a bit more
+# 2015_07_08	dkaragon		sbd was too large on a coastal.  reported less on some steering sensors; added c_weight_drop
+# 2016_03_17	dkaragon		added digifin leak; thruster
+# 2016_04_28	dkaragon		added m_battery_inst
+# 2016/08/26    dkaragon        added m_depth for surface monitoring.  ru32 drifting sensor; check file size
+# 2016/10/25	dkaragon		ru22 coastal mission files were large'ish for 3 hour missions, > 20 KB, tried to lower pressure, m_water_depth sampling rates.
+# 2017/2/21		dkaragon		added f_ocean_pressure_min,max
+# 2017/12/30	dkaragon		added some compass fields m_dip_angle, m_magnetic_field; u_science_low_power
+# 2018/7/31		dkaragon		added some bms variables and science leakdetect
+# 2018/9/27		dkaragon		added some longer, slow record m_heading
+# 2018/10/24	dkaragon		added m_comms_tickle_timestamp, m_vehicle_temp
+# 2019/1/9		dkaragon		added x_current_target_altitude
+# 2019/01/31	dkaragon		some cop  tickle timestamp and m_weight_drop
+# 2019/07/17	dkaragon		added x_software_ver
+# 2019/12/16	dkaragon		added m_science_clothesline_lag
+# 2020/1/10		dkaragon		added c_fin; u_alt_min_depth
+# 2020/3/5		dkaragon		added iridium call/dialed
 
 
-#new hand entered by BA 2/5/2020 satifies all SFMC loaded plots
-m_raw_altitude 		15
-m_water_depth 		30
-m_argos_on 		3600
-m_argos_is_xmitting 	3600
-c_battpos		1200
-m_iridium_on 		3600
-m_iridium_status	3600
-c_pitch     3600
-c_fin       1800
-m_fin       1800
-m_vacuum	   1800
-# 2020-02-18 RC Get vehicle temperature from an active sensor.
-m_veh_temp  1800
+# Basic Data
+  m_present_time
+  
+  m_tot_num_inflections			900	8
+  
+  x_software_ver				900	8	1
+  
+  m_leakdetect_voltage  		900
+  m_leakdetect_voltage_forward	900
+  m_leakdetect_voltage_science	900
+  m_digifin_leakdetect_reading	900
+  
+  m_veh_temp            		900
+  m_vehicle_temp				900
+  
+  m_coulomb_amphr       		900
+  m_coulomb_amphr_total			900
+  
+  m_vacuum              		900
+  m_comms_tickle_timestamp		1800
+  m_battery_inst				60		7	2
+  m_bms_emergency_battery_voltage	900	15	-1	2
+  m_bms_pitch_current			900		15	-1	2
+  m_bms_ebay_current			900		15	-1	2
+  m_bms_aft_current				900		15	-1	2
+  
+  c_science_send_all
+  x_cycle_overrun_in_ms			900		15	2
+  x_low_power_status			900		7	2
+  c_weight_drop					900
+  m_weight_drop					900
+  m_cop_tickle_timestamp		900
+  m_science_clothesline_lag		900
+  
+  m_iridium_call_num			0		8
+  m_iridium_dialed_num			0		8
+  m_iridium_attempt_num			0		8
+  
+  
+# Positioning and Waypoint
+  m_gps_lon
+  m_gps_lat
+  m_lat							900
+  m_lon							900
+  m_gps_status					30
+  m_gps_mag_var
+
+  m_water_vx
+  m_water_vy
+  m_final_water_vx
+  m_final_water_vy
+  m_x_lmc						60	8
+  m_y_lmc						60	8
+  x_lmc_xy_source				60	8
+  c_wpt_x_lmc					60	8
+  c_wpt_y_lmc					60	8
+  c_wpt_lat
+  c_wpt_lon
+  m_avg_speed					900
+
+
+# Flight Parameters
+  u_reqd_depth_at_surface
+  f_ocean_pressure_min
+  f_ocean_pressure_max
+  u_low_power_cycle_time
+  u_alt_filter_enabled
+  u_min_water_depth
+  u_alt_min_depth
+  f_fin_offset
+  x_fin_deadband
+  x_fin_max
+  u_hd_fin_ap_gain
+  u_hd_fin_ap_igain
+  u_hd_fin_ap_dgain
+  u_heading_deadband
+  u_heading_rate_deadband
+  u_hd_fin_ap_deadband_reset
+  u_hd_fin_ap_inflection_holdoff
+  u_hd_fin_ap_hardover_holdoff
+  u_pitch_ap_gain
+  u_pitch_ap_dgain
+  u_pitch_ap_deadband
+  u_pitch_max_delta_battpos
+  u_low_power_cycle_time
+  u_science_low_power
+  u_low_power_hd_fin_ap_gain
+  u_low_power_hd_fin_ap_igain
+  u_low_power_hd_fin_ap_dgain
+  
+# Yo params
+  c_climb_target_depth			30	7	2
+  c_dive_target_depth			30	7	2
+  x_current_target_altitude		60	7	1
+
+# Engineering Data
+  m_pitch               	40 	7	-1	2
+  m_roll                	60  7   4	2
+
+  c_heading             	900 7
+  m_heading					360	7	-1	2
+  m_hdg_error				20	7	4
+  m_hdg_derror				20	7	4	2
+  m_hdg_ierror				20	7	4	2
+  m_fin                 	20  7   4
+  c_fin						40	7	4	
+  m_dip_angle				900	7	2
+  m_magnetic_field			900 7	2
+
+  c_ballast_pumped			360	7	4
+  m_ballast_pumped			60	7	8	2
+  m_battpos             	60  7   2
+  
+  c_thruster_on				60	7	2
+  m_thruster_power			60	7	2
+  x_thruster_state			60	7	2
+
+  m_pressure            	45
+  m_depth                   30  8
+  m_depth_rate_avg_final	120	7	4
+  
+  c_alt_time				60	7	2
+  m_raw_altitude			45	3	3
+  m_water_depth				45
+  
+  
+# CTD Data
+  sci_water_pressure		720
+  

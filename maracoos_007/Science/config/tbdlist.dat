@@ -1,25 +1,175 @@
-# tbdlist.dat
-# A small subset of a dbd file intended to be transmitted in real time.
-#
-# 2009-10-06 fnj@omegatech.hatchescreek.com  Initial.
-#
-SCI_M_PRESENT_TIME
-SCI_M_PRESENT_SECS_INTO_MISSION
-SCI_WATER_COND
-SCI_WATER_TEMP
-SCI_WATER_PRESSURE	
-SCI_FLBBCD_CHLOR_UNITS	30
-SCI_FLBBCD_BB_UNITS	30
-SCI_FLBBCD_CDOM_UNITS	30	
-SCI_OXY4_OXYGEN
-SCI_OXY4_SATURATION
-SCI_OXY4_TEMP
+# INTERVAL              Seconds since last stored value, 0 is store every value
+# STATE                 State of glider (dive, hover, climb), 15 is always store
+# HALFYOS               # of dive/climbs in this segment to record for, -1 store for all
+# YO_DUTY_CYCLE         Store data every n'th yo in this segment, -1 is every dive/climb
+
+# --------------------------------------------------------------------
+# SENSOR NAME           INTERVAL  STATE     HALFYOS   YO_DUTY_CYCLE
+# (Defaults)            0         15        -1        -1
+# --------------------------------------------------------------------
+
+# 2022/12/13	dkaragon	added observer, DMON
+# 2024/12/12	brianbuckingham	added RBR ctd
+
+# Basic Data
+  sci_m_present_time
 
 
+# CTD41CP Sea-bird  CTD(SBE-41)
+# proglet = ctd41cp
+# -----------------------------
+  sci_ctd41cp_timestamp 	    4   7   -1  2
+  sci_water_cond		        4   7   -1  2
+  sci_water_pressure    	    4   7   -1  2
+  sci_water_temp		        4   7   -1  2
+
+  
+# RBR CTD 
+# proglet = rbrctd
+#sci_rbrctd_count_00 	4   7   -1  2
+#sci_rbrctd_cond_cell_temp_00  	4   7   -1  2
+#sci_rbrctd_timestamp 	4   7   -1  2
 
 
+# SBE41n pH
+# -------------------------
+# sci_sbe41n_ph_ref_voltage			4   15   	-1  2
+# sci_sbe41n_ph_electrode_voltage	36	15		4	2
+# sci_sbe41n_ph_substrate_current	36	15		4	2
+# sci_sbe41n_ph_electrode_current	64	15		4	2
+# sci_sbe41n_ph_timestamp			64	15		6	2
 
 
+# Wet Labs BBFL2SLO custom 3-param fluorescence/scattering meter
+# proglet = bbfl2s						 
+# --------------------------------------------------------------
+# sci_bbfl2s_bb_scaled      4   7   -1  2
+# sci_bbfl2s_chlor_scaled	4   7   -1  2
+# sci_bbfl2s_cdom_scaled	4   7   -1  2
 
 
+# Wet Labs BB3SLO custom 3-param backscatter meter 
+# proglet = bb3slo
+# ------------------------------------------------
+# sci_bb3slo_b470_scaled    4   7   -1  2
+# sci_bb3slo_b532_scaled    4   7   -1  2
+# sci_bb3slo_b660_scaled	4   7   -1  2
 
+
+# Wet Labs FL3SLO custom 3-param fluorescence meter
+# proglet = fl3slo
+# --------------------------------------------------
+# sci_fl3slo_chlor_units	4   7   -1  2
+# sci_fl3slo_phyco_units    4   7   -1  2
+# sci_fl3slo_cdom_units     4   7   -1  2
+
+
+# Satlantic OCR504I Irradiance Sensor
+# proglet = ocr504I
+# -----------------------------------
+# sci_ocr504i_irrad1       4   7   -1  2
+# sci_ocr504i_irrad2	   4   7   -1  2
+# sci_ocr504i_irrad3	   4   7   -1  2
+# sci_ocr504i_irrad4	   4   7   -1  2
+
+
+# Anderra Oxygen Optode 3835
+# proglet = ?
+# --------------------------
+# sci_oxy3835_wphase_oxygen        4   7   -1  2
+# sci_oxy3835_wphase_saturation    4   7   -1  2
+# sci_oxy3835_wphase_temp          4   7   -1  2
+# sci_oxy3835_wphase_dphase        4   7   -1  2
+
+
+# Anderaa Oxygen Optode
+# proglet : Aanderaa Oxygen Optode 4330F or 4831
+# --------------------------
+  sci_oxy4_oxygen			4		7   -1  2
+  sci_oxy4_saturation		4		7   -1  2
+  sci_oxy4_temp				24		7   -1  2
+  sci_oxy4_calphase			12		7   -1  2
+
+
+# Wetlabs BAM beam attenuation meter
+# proglet = bbam
+# ----------------------------------        
+# sci_bbam_beam_c       4   7   -1  2
+# sci_bbam_corr_sig     4   7   -1  2
+# sci_bbam_raw_sig      4   7   -1  2
+# sci_bbam_raw_ref      4   7   -1  2
+# sci_bbam_therm        4   7   -1  2
+# sci_bbam_timestamp    4   7   -1  2
+
+
+# Wet Labs FLNTU Flourometer & Turbidity
+# proglet = flntu
+# --------------------------------------
+# sci_flntu_chlor_units 	4   7   -1  2
+
+
+# Wetlabs ECO-Puck
+# proglet flbbcd: Wet Labs flbbcd fluorometer
+# -------------------------
+  sci_flbbcd_chlor_units	4   7   -1  2
+  sci_flbbcd_bb_units		4   7   -1  2
+  sci_flbbcd_cdom_units		4   7   -1  2
+  sci_flbbcd_timestamp		4   7   -1  2
+
+
+# Wet Labs Volume Scattering Function meter
+# proglet vsf: Wet Labs vsf
+# -------------------------
+# sci_vsf_100_scaled    4   7   -1  2
+# sci_vsf_125_scaled    4   7   -1  2
+# sci_vsf_150_scaled    4   7   -1  2
+# sci_vsf_timestamp		4   7   -1  2
+
+
+# FIRe: Satlantic Fluorescence Induction and Relaxation electronics
+# proglet = fire
+# sci_FIRe_timestamp	4   7   -1  2
+# sci_FIRe_Fo			4   7   -1  2
+# sci_FIRe_Fm			4   7   -1  2
+# sci_FIRe_FvFm			4   7   -1  2
+# sci_FIRe_s			4   7   -1  2
+# sci_FIRe_p			4   7   -1  2
+# sci_FIRe_par			4   7   -1  2
+# sci_FIRe_battery		4   7   -1  2
+# sci_FIRe_temp			4   7   -1  2
+# sci_FIRe_frame_count	4   7   -1  2
+# sci_FIRe_error		4   7   -1  2
+# sci_FIRe_error		4   7   -1  2
+
+
+# Sequoia Laser In-Situ Scattering and Transmissometry (LISST)
+# -------------------------
+# sci_lisst_totvol				4   7   -1  
+# sci_lisst_meansize			4   7   -1  
+# sci_lisst_beamc				4   7   -1  
+# sci_lisst_raw_lref      		4   7   -1  
+
+
+# AZFP
+# ----
+#  sci_azfp_file_offset			30   7
+#  sci_azfp_run_state			30   7
+#  sci_azfp_pause_signal		30   7
+
+
+# DVL RDI PATHFINDER
+# -------------------
+# sci_dvl_error					60	7
+# sci_dvl_ensemble_offset		60	7
+
+
+# DMON
+# -------------------
+# sci_dmon_msg_byte_count		60	7
+
+
+# JASCO Observer
+# -------------------
+# sci_obsvr_processing_mode		60	7
+# sci_obsvr_storage_capacity	360	7
+# sci_obsvr_file_offset			60	7
